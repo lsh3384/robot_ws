@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000563] (-) JobUnselected: {'identifier': 'my_first_ros_rclpy_pkg'}
+[0.000828] (my_first_ros_rclcpp_pkg) JobQueued: {'identifier': 'my_first_ros_rclcpp_pkg', 'dependencies': OrderedDict()}
+[0.000871] (my_first_ros_rclcpp_pkg) JobStarted: {'identifier': 'my_first_ros_rclcpp_pkg'}
+[0.014855] (my_first_ros_rclcpp_pkg) JobProgress: {'identifier': 'my_first_ros_rclcpp_pkg', 'progress': 'cmake'}
+[0.015009] (my_first_ros_rclcpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/lee/robot_ws/src/my_first_ros_rclcpp_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/lee/robot_ws/install/my_first_ros_rclcpp_pkg'], 'cwd': '/home/lee/robot_ws/build/my_first_ros_rclcpp_pkg', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lee'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1305'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lee'), ('OLDPWD', '/home/lee/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/lee/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lee/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lee'), ('JOURNAL_STREAM', '8:37264'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lee'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lee:@/tmp/.ICE-unix/1358,unix/lee:/tmp/.ICE-unix/1358'), ('INVOCATION_ID', 'cf2987fc070d4d2cae8d2838a188a2d7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ba23ba34_c981_4a9a_a1f4_d17b4964db7d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/lee/robot_ws/build/my_first_ros_rclcpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lee/robot_ws/build/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.099831] (-) TimerEvent: {}
+[0.154864] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199941] (-) TimerEvent: {}
+[0.244570] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.252913] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.300050] (-) TimerEvent: {}
+[0.331205] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.332617] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400182] (-) TimerEvent: {}
+[0.408844] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.419396] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.420025] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.423105] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500294] (-) TimerEvent: {}
+[0.506485] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.507833] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.595395] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.600397] (-) TimerEvent: {}
+[0.607386] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.607809] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.611141] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.644197] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.644451] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.700490] (-) TimerEvent: {}
+[0.800756] (-) TimerEvent: {}
+[0.817539] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.848533] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.900865] (-) TimerEvent: {}
+[0.905556] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.913281] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.000983] (-) TimerEvent: {}
+[1.004148] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.032708] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.101084] (-) TimerEvent: {}
+[1.108116] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.163937] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.165918] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.167379] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.201199] (-) TimerEvent: {}
+[1.235841] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.236092] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.301324] (-) TimerEvent: {}
+[1.306828] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.307162] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.368601] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.369053] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.401461] (-) TimerEvent: {}
+[1.437956] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.439138] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.501549] (-) TimerEvent: {}
+[1.587036] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.601651] (-) TimerEvent: {}
+[1.662023] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.663446] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.663612] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.663709] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.664660] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.664757] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.665675] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.666998] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.667092] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.667616] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.671873] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.680772] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.681949] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/lee/robot_ws/build/my_first_ros_rclcpp_pkg\n'}
+[1.690239] (my_first_ros_rclcpp_pkg) CommandEnded: {'returncode': 0}
+[1.693187] (my_first_ros_rclcpp_pkg) JobProgress: {'identifier': 'my_first_ros_rclcpp_pkg', 'progress': 'build'}
+[1.693240] (my_first_ros_rclcpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lee/robot_ws/build/my_first_ros_rclcpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/lee/robot_ws/build/my_first_ros_rclcpp_pkg', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lee'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1305'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lee'), ('OLDPWD', '/home/lee/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/lee/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lee/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lee'), ('JOURNAL_STREAM', '8:37264'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lee'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lee:@/tmp/.ICE-unix/1358,unix/lee:/tmp/.ICE-unix/1358'), ('INVOCATION_ID', 'cf2987fc070d4d2cae8d2838a188a2d7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ba23ba34_c981_4a9a_a1f4_d17b4964db7d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/lee/robot_ws/build/my_first_ros_rclcpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lee/robot_ws/build/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy')]), 'shell': False}
+[1.701792] (-) TimerEvent: {}
+[1.742318] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target helloworld_publisher\x1b[0m\n'}
+[1.742550] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target helloworld_subscriber\x1b[0m\n'}
+[1.774438] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/helloworld_publisher.dir/src/helloworld_publisher.cpp.o\x1b[0m\n'}
+[1.774913] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/helloworld_subscriber.dir/src/helloworld_subscriber.cpp.o\x1b[0m\n'}
+[1.801920] (-) TimerEvent: {}
+[1.902648] (-) TimerEvent: {}
+[2.003172] (-) TimerEvent: {}
+[2.103453] (-) TimerEvent: {}
+[2.203736] (-) TimerEvent: {}
+[2.304075] (-) TimerEvent: {}
+[2.404402] (-) TimerEvent: {}
+[2.504710] (-) TimerEvent: {}
+[2.605023] (-) TimerEvent: {}
+[2.705345] (-) TimerEvent: {}
+[2.805662] (-) TimerEvent: {}
+[2.905957] (-) TimerEvent: {}
+[3.006266] (-) TimerEvent: {}
+[3.106585] (-) TimerEvent: {}
+[3.206899] (-) TimerEvent: {}
+[3.307190] (-) TimerEvent: {}
+[3.407456] (-) TimerEvent: {}
+[3.507757] (-) TimerEvent: {}
+[3.608089] (-) TimerEvent: {}
+[3.708422] (-) TimerEvent: {}
+[3.808717] (-) TimerEvent: {}
+[3.909031] (-) TimerEvent: {}
+[4.009330] (-) TimerEvent: {}
+[4.109635] (-) TimerEvent: {}
+[4.209915] (-) TimerEvent: {}
+[4.280160] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable helloworld_publisher\x1b[0m\n'}
+[4.310049] (-) TimerEvent: {}
+[4.410363] (-) TimerEvent: {}
+[4.430883] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[ 75%] Built target helloworld_publisher\n'}
+[4.510480] (-) TimerEvent: {}
+[4.610804] (-) TimerEvent: {}
+[4.711078] (-) TimerEvent: {}
+[4.811364] (-) TimerEvent: {}
+[4.911645] (-) TimerEvent: {}
+[5.011940] (-) TimerEvent: {}
+[5.112235] (-) TimerEvent: {}
+[5.212525] (-) TimerEvent: {}
+[5.312797] (-) TimerEvent: {}
+[5.413107] (-) TimerEvent: {}
+[5.513401] (-) TimerEvent: {}
+[5.613761] (-) TimerEvent: {}
+[5.632752] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable helloworld_subscriber\x1b[0m\n'}
+[5.713875] (-) TimerEvent: {}
+[5.814175] (-) TimerEvent: {}
+[5.818633] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'[100%] Built target helloworld_subscriber\n'}
+[5.832558] (my_first_ros_rclcpp_pkg) CommandEnded: {'returncode': 0}
+[5.857131] (my_first_ros_rclcpp_pkg) JobProgress: {'identifier': 'my_first_ros_rclcpp_pkg', 'progress': 'install'}
+[5.870107] (my_first_ros_rclcpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lee/robot_ws/build/my_first_ros_rclcpp_pkg'], 'cwd': '/home/lee/robot_ws/build/my_first_ros_rclcpp_pkg', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lee'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1305'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lee'), ('OLDPWD', '/home/lee/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/lee/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lee/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lee'), ('JOURNAL_STREAM', '8:37264'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lee'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lee:@/tmp/.ICE-unix/1358,unix/lee:/tmp/.ICE-unix/1358'), ('INVOCATION_ID', 'cf2987fc070d4d2cae8d2838a188a2d7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ba23ba34_c981_4a9a_a1f4_d17b4964db7d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/lee/robot_ws/build/my_first_ros_rclcpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lee/robot_ws/build/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy')]), 'shell': False}
+[5.878948] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.879432] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.879952] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lee/robot_ws/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/helloworld_publisher\n'}
+[5.890629] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lee/robot_ws/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/helloworld_subscriber\n'}
+[5.898099] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lee/robot_ws/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_ros_rclcpp_pkg\n'}
+[5.905785] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lee/robot_ws/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_ros_rclcpp_pkg\n'}
+[5.913629] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lee/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.sh\n'}
+[5.914248] (-) TimerEvent: {}
+[5.921238] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lee/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.dsv\n'}
+[5.928787] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lee/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.sh\n'}
+[5.936158] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lee/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.dsv\n'}
+[5.943935] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lee/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.bash\n'}
+[5.951823] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lee/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.sh\n'}
+[5.959251] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lee/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.zsh\n'}
+[5.966502] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lee/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.dsv\n'}
+[5.973873] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lee/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.dsv\n'}
+[5.981108] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lee/robot_ws/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/packages/my_first_ros_rclcpp_pkg\n'}
+[5.988274] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lee/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig.cmake\n'}
+[5.995332] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lee/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig-version.cmake\n'}
+[6.002430] (my_first_ros_rclcpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lee/robot_ws/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.xml\n'}
+[6.011270] (my_first_ros_rclcpp_pkg) CommandEnded: {'returncode': 0}
+[6.014334] (-) TimerEvent: {}
+[6.070587] (my_first_ros_rclcpp_pkg) JobEnded: {'identifier': 'my_first_ros_rclcpp_pkg', 'rc': 0}
+[6.071273] (-) EventReactorShutdown: {}
