@@ -1,0 +1,108 @@
+[0.011s] Invoking command in '/home/lee/robot_ws/build/msg_srv_interface_py_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/test_lee_rclpy:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/lee/robot_ws/build/msg_srv_interface_py_test -- -j12 -l12
+[0.045s] [  5%] Built target msg_srv_interface_py_test__cpp
+[0.045s] [ 12%] Built target msg_srv_interface_py_test__rosidl_generator_c
+[0.059s] [ 35%] Built target msg_srv_interface_py_test__rosidl_typesupport_introspection_c
+[0.059s] [ 35%] Built target msg_srv_interface_py_test__rosidl_typesupport_c
+[0.059s] [ 43%] Built target msg_srv_interface_py_test__rosidl_typesupport_cpp
+[0.061s] [ 53%] Built target msg_srv_interface_py_test__rosidl_typesupport_fastrtps_cpp
+[0.073s] [ 64%] Built target msg_srv_interface_py_test__rosidl_typesupport_introspection_cpp
+[0.076s] [ 74%] Built target msg_srv_interface_py_test__rosidl_typesupport_fastrtps_c
+[0.088s] [ 74%] Built target msg_srv_interface_py_test
+[0.105s] [ 76%] Built target msg_srv_interface_py_test__py
+[0.125s] [ 84%] Built target msg_srv_interface_py_test__python
+[0.142s] [100%] Built target msg_srv_interface_py_test__rosidl_typesupport_fastrtps_c__pyext
+[0.142s] [100%] Built target msg_srv_interface_py_test__rosidl_typesupport_c__pyext
+[0.142s] [100%] Built target msg_srv_interface_py_test__rosidl_typesupport_introspection_c__pyext
+[0.149s] Invoked command in '/home/lee/robot_ws/build/msg_srv_interface_py_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/test_lee_rclpy:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/lee/robot_ws/build/msg_srv_interface_py_test -- -j12 -l12
+[0.192s] Invoking command in '/home/lee/robot_ws/build/msg_srv_interface_py_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/test_lee_rclpy:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /home/lee/robot_ws/build/msg_srv_interface_py_test
+[0.198s] -- Install configuration: ""
+[0.198s] -- Execute custom install script
+[0.199s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/ament_index/resource_index/rosidl_interfaces/msg_srv_interface_py_test
+[0.199s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/msg/coordinates.h
+[0.199s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/msg/detail/coordinates__functions.h
+[0.199s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/msg/detail/coordinates__struct.h
+[0.199s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/msg/detail/coordinates__type_support.h
+[0.199s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/msg/rosidl_generator_c__visibility_control.h
+[0.199s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/srv/conversion.h
+[0.200s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/srv/detail/conversion__functions.h
+[0.200s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/srv/detail/conversion__struct.h
+[0.200s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/srv/detail/conversion__type_support.h
+[0.200s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/environment/library_path.sh
+[0.200s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/environment/library_path.dsv
+[0.201s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/msg/detail/coordinates__rosidl_typesupport_fastrtps_c.h
+[0.201s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.201s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/srv/detail/conversion__rosidl_typesupport_fastrtps_c.h
+[0.201s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/lib/libmsg_srv_interface_py_test__rosidl_typesupport_fastrtps_c.so
+[0.201s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/msg/detail/coordinates__rosidl_typesupport_fastrtps_cpp.hpp
+[0.202s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.202s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/srv/detail/conversion__rosidl_typesupport_fastrtps_cpp.hpp
+[0.202s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/lib/libmsg_srv_interface_py_test__rosidl_typesupport_fastrtps_cpp.so
+[0.202s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/msg/detail/coordinates__rosidl_typesupport_introspection_c.h
+[0.202s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.202s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/srv/detail/conversion__rosidl_typesupport_introspection_c.h
+[0.203s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/msg/coordinates.hpp
+[0.203s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/msg/detail/coordinates__builder.hpp
+[0.203s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/msg/detail/coordinates__struct.hpp
+[0.203s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/msg/detail/coordinates__traits.hpp
+[0.203s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/srv/conversion.hpp
+[0.203s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/srv/detail/conversion__builder.hpp
+[0.203s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/srv/detail/conversion__struct.hpp
+[0.203s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/srv/detail/conversion__traits.hpp
+[0.203s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/msg/detail/coordinates__rosidl_typesupport_introspection_cpp.hpp
+[0.204s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/include/msg_srv_interface_py_test/srv/detail/conversion__rosidl_typesupport_introspection_cpp.hpp
+[0.204s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/environment/pythonpath.sh
+[0.204s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/environment/pythonpath.dsv
+[0.204s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/lib/python3.8/site-packages/msg_srv_interface_py_test/__init__.py
+[0.204s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/lib/python3.8/site-packages/msg_srv_interface_py_test/msg/__init__.py
+[0.204s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/lib/python3.8/site-packages/msg_srv_interface_py_test/msg/_coordinates.py
+[0.205s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/lib/python3.8/site-packages/msg_srv_interface_py_test/srv/__init__.py
+[0.205s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/lib/python3.8/site-packages/msg_srv_interface_py_test/srv/_conversion.py
+[0.205s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/lib/python3.8/site-packages/msg_srv_interface_py_test/msg_srv_interface_py_test_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.205s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/lib/python3.8/site-packages/msg_srv_interface_py_test/msg_srv_interface_py_test_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.205s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/lib/python3.8/site-packages/msg_srv_interface_py_test/msg_srv_interface_py_test_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.206s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/lib/libmsg_srv_interface_py_test__python.so
+[0.206s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/msg/Coordinates.idl
+[0.206s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/srv/Conversion.idl
+[0.206s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/msg/Coordinates.msg
+[0.206s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/srv/Conversion.srv
+[0.206s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/srv/Conversion_Request.msg
+[0.206s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/srv/Conversion_Response.msg
+[0.207s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/ament_index/resource_index/package_run_dependencies/msg_srv_interface_py_test
+[0.207s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/ament_index/resource_index/parent_prefix_path/msg_srv_interface_py_test
+[0.207s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/environment/ament_prefix_path.sh
+[0.207s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/environment/ament_prefix_path.dsv
+[0.207s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/environment/path.sh
+[0.207s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/environment/path.dsv
+[0.207s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/local_setup.bash
+[0.208s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/local_setup.sh
+[0.208s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/local_setup.zsh
+[0.208s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/local_setup.dsv
+[0.208s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/package.dsv
+[0.214s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/ament_index/resource_index/packages/msg_srv_interface_py_test
+[0.214s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/rosidl_cmake-extras.cmake
+[0.214s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.214s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/ament_cmake_export_libraries-extras.cmake
+[0.214s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/ament_cmake_export_targets-extras.cmake
+[0.214s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.214s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.214s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.215s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/msg_srv_interface_py_testConfig.cmake
+[0.215s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/msg_srv_interface_py_testConfig-version.cmake
+[0.215s] -- Up-to-date symlink: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/package.xml
+[0.215s] -- Up-to-date: /home/lee/robot_ws/install/msg_srv_interface_py_test/lib/libmsg_srv_interface_py_test__rosidl_generator_c.so
+[0.215s] -- Up-to-date: /home/lee/robot_ws/install/msg_srv_interface_py_test/lib/libmsg_srv_interface_py_test__rosidl_typesupport_introspection_c.so
+[0.215s] -- Up-to-date: /home/lee/robot_ws/install/msg_srv_interface_py_test/lib/libmsg_srv_interface_py_test__rosidl_typesupport_c.so
+[0.216s] -- Up-to-date: /home/lee/robot_ws/install/msg_srv_interface_py_test/lib/libmsg_srv_interface_py_test__rosidl_typesupport_introspection_cpp.so
+[0.216s] -- Up-to-date: /home/lee/robot_ws/install/msg_srv_interface_py_test/lib/libmsg_srv_interface_py_test__rosidl_typesupport_cpp.so
+[0.244s] -- Up-to-date: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/msg_srv_interface_py_test__rosidl_generator_cExport.cmake
+[0.244s] -- Up-to-date: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/msg_srv_interface_py_test__rosidl_generator_cExport-noconfig.cmake
+[0.244s] -- Up-to-date: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/msg_srv_interface_py_test__rosidl_typesupport_introspection_cExport.cmake
+[0.244s] -- Up-to-date: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/msg_srv_interface_py_test__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.244s] -- Up-to-date: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/msg_srv_interface_py_test__rosidl_typesupport_cExport.cmake
+[0.244s] -- Up-to-date: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/msg_srv_interface_py_test__rosidl_typesupport_cExport-noconfig.cmake
+[0.244s] -- Up-to-date: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/msg_srv_interface_py_test__rosidl_generator_cppExport.cmake
+[0.244s] -- Up-to-date: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/msg_srv_interface_py_test__rosidl_typesupport_introspection_cppExport.cmake
+[0.244s] -- Up-to-date: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/msg_srv_interface_py_test__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.245s] -- Up-to-date: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/msg_srv_interface_py_test__rosidl_typesupport_cppExport.cmake
+[0.245s] -- Up-to-date: /home/lee/robot_ws/install/msg_srv_interface_py_test/share/msg_srv_interface_py_test/cmake/msg_srv_interface_py_test__rosidl_typesupport_cppExport-noconfig.cmake
+[0.247s] Invoked command in '/home/lee/robot_ws/build/msg_srv_interface_py_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/test_lee_rclpy:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /home/lee/robot_ws/build/msg_srv_interface_py_test

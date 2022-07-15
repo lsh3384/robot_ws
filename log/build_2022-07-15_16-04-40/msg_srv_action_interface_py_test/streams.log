@@ -1,0 +1,37 @@
+[0.012s] Invoking command in '/home/lee/robot_ws/build/msg_srv_action_interface_py_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/test_lee_rclpy:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake /home/lee/robot_ws/src/msg_srv_action_interface_py_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lee/robot_ws/install/msg_srv_action_interface_py_test
+[0.051s] -- The C compiler identification is GNU 9.4.0
+[0.099s] -- The CXX compiler identification is GNU 9.4.0
+[0.102s] -- Check for working C compiler: /usr/bin/cc
+[0.149s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.150s] -- Detecting C compiler ABI info
+[0.216s] -- Detecting C compiler ABI info - done
+[0.223s] -- Detecting C compile features
+[0.223s] -- Detecting C compile features - done
+[0.224s] -- Check for working CXX compiler: /usr/bin/c++
+[0.289s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.289s] -- Detecting CXX compiler ABI info
+[0.357s] -- Detecting CXX compiler ABI info - done
+[0.364s] -- Detecting CXX compile features
+[0.364s] -- Detecting CXX compile features - done
+[0.367s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.393s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.393s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.509s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.528s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.547s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.552s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.598s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.616s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.665s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.683s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.691s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.691s]   rosidl_generate_interfaces() the passed file 'srv/Conversion.srv' doesn't
+[0.691s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.691s]   '/home/lee/robot_ws/src/msg_srv_action_interface_py_test'
+[0.691s] Call Stack (most recent call first):
+[0.691s]   CMakeLists.txt:37 (rosidl_generate_interfaces)
+[0.692s] 
+[0.692s] 
+[0.692s] -- Configuring incomplete, errors occurred!
+[0.692s] See also "/home/lee/robot_ws/build/msg_srv_action_interface_py_test/CMakeFiles/CMakeOutput.log".
+[0.696s] Invoked command in '/home/lee/robot_ws/build/msg_srv_action_interface_py_test' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/test_lee_rclpy:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake /home/lee/robot_ws/src/msg_srv_action_interface_py_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lee/robot_ws/install/msg_srv_action_interface_py_test

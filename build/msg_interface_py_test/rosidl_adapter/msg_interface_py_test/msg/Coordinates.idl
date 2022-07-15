@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msg_interface_py_test/msg/Coordinates.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module msg_interface_py_test {
+  module msg {
+    @verbatim (language="comment", text=
+      " Messages")
+    struct Coordinates {
+      builtin_interfaces::msg::Time stamp;
+
+      int8 coordinate_x;
+
+      int8 coordinate_y;
+    };
+  };
+};

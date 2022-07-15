@@ -1,0 +1,166 @@
+[0.012s] Invoking command in '/home/lee/robot_ws/build/msg_interface_py_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake /home/lee/robot_ws/src/msg_interface_py_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lee/robot_ws/install/msg_interface_py_test
+[0.020s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.040s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.040s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.152s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.156s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.168s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.170s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.242s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.257s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.283s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.369s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.441s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.451s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.472s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.473s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.497s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[0.497s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.497s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.497s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.516s] -- Found PythonExtra: .so  
+[0.561s] -- Configuring done
+[0.581s] -- Generating done
+[0.582s] -- Build files have been written to: /home/lee/robot_ws/build/msg_interface_py_test
+[0.588s] Invoked command in '/home/lee/robot_ws/build/msg_interface_py_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake /home/lee/robot_ws/src/msg_interface_py_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lee/robot_ws/install/msg_interface_py_test
+[0.589s] Invoking command in '/home/lee/robot_ws/build/msg_interface_py_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/lee/robot_ws/build/msg_interface_py_test -- -j12 -l12
+[0.611s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.611s] [35m[1mScanning dependencies of target msg_interface_py_test__cpp[0m
+[0.617s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.766s] [  6%] Built target msg_interface_py_test__cpp
+[0.766s] [35m[1mScanning dependencies of target msg_interface_py_test__rosidl_generator_c[0m
+[0.772s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.772s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.772s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.772s] [ 19%] [32mBuilding C object CMakeFiles/msg_interface_py_test__rosidl_generator_c.dir/rosidl_generator_c/msg_interface_py_test/msg/detail/coordinates__functions.c.o[0m
+[0.797s] [ 22%] [32m[1mLinking C shared library libmsg_interface_py_test__rosidl_generator_c.so[0m
+[0.821s] [ 22%] Built target msg_interface_py_test__rosidl_generator_c
+[0.828s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.828s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.910s] [35m[1mScanning dependencies of target msg_interface_py_test__rosidl_typesupport_cpp[0m
+[0.919s] [ 32%] [32mBuilding CXX object CMakeFiles/msg_interface_py_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interface_py_test/msg/coordinates__type_support.cpp.o[0m
+[0.923s] [35m[1mScanning dependencies of target msg_interface_py_test__rosidl_typesupport_introspection_cpp[0m
+[0.928s] [35m[1mScanning dependencies of target msg_interface_py_test__rosidl_typesupport_fastrtps_cpp[0m
+[0.930s] [ 35%] [32mBuilding CXX object CMakeFiles/msg_interface_py_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interface_py_test/msg/detail/coordinates__type_support.cpp.o[0m
+[0.938s] [ 38%] [32mBuilding CXX object CMakeFiles/msg_interface_py_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interface_py_test/msg/detail/dds_fastrtps/coordinates__type_support.cpp.o[0m
+[0.969s] [35m[1mScanning dependencies of target msg_interface_py_test__rosidl_typesupport_c[0m
+[0.977s] [ 41%] [32mBuilding CXX object CMakeFiles/msg_interface_py_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interface_py_test/msg/coordinates__type_support.cpp.o[0m
+[0.983s] [35m[1mScanning dependencies of target msg_interface_py_test__rosidl_typesupport_introspection_c[0m
+[0.991s] [ 45%] [32mBuilding C object CMakeFiles/msg_interface_py_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interface_py_test/msg/detail/coordinates__type_support.c.o[0m
+[0.996s] [ 48%] [32m[1mLinking CXX shared library libmsg_interface_py_test__rosidl_typesupport_c.so[0m
+[1.011s] [ 51%] [32m[1mLinking C shared library libmsg_interface_py_test__rosidl_typesupport_introspection_c.so[0m
+[1.021s] [ 51%] Built target msg_interface_py_test__rosidl_typesupport_c
+[1.030s] [ 51%] Built target msg_interface_py_test__rosidl_typesupport_introspection_c
+[1.094s] [ 54%] [32m[1mLinking CXX shared library libmsg_interface_py_test__rosidl_typesupport_cpp.so[0m
+[1.107s] [ 58%] [32m[1mLinking CXX shared library libmsg_interface_py_test__rosidl_typesupport_introspection_cpp.so[0m
+[1.119s] [ 58%] Built target msg_interface_py_test__rosidl_typesupport_cpp
+[1.144s] [ 58%] Built target msg_interface_py_test__rosidl_typesupport_introspection_cpp
+[1.192s] [ 61%] [32m[1mLinking CXX shared library libmsg_interface_py_test__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.245s] [ 61%] Built target msg_interface_py_test__rosidl_typesupport_fastrtps_cpp
+[1.251s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.390s] [35m[1mScanning dependencies of target msg_interface_py_test__rosidl_typesupport_fastrtps_c[0m
+[1.398s] [ 67%] [32mBuilding CXX object CMakeFiles/msg_interface_py_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interface_py_test/msg/detail/coordinates__type_support_c.cpp.o[0m
+[1.598s] [ 70%] [32m[1mLinking CXX shared library libmsg_interface_py_test__rosidl_typesupport_fastrtps_c.so[0m
+[1.647s] [ 70%] Built target msg_interface_py_test__rosidl_typesupport_fastrtps_c
+[1.652s] [35m[1mScanning dependencies of target msg_interface_py_test[0m
+[1.658s] [ 70%] Built target msg_interface_py_test
+[1.664s] [35m[1mScanning dependencies of target msg_interface_py_test__py[0m
+[1.670s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.942s] [ 74%] Built target msg_interface_py_test__py
+[1.948s] [35m[1mScanning dependencies of target msg_interface_py_test__python[0m
+[1.974s] [ 77%] [32mBuilding C object CMakeFiles/msg_interface_py_test__python.dir/rosidl_generator_py/msg_interface_py_test/msg/_coordinates_s.c.o[0m
+[2.029s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/msg_interface_py_test/libmsg_interface_py_test__python.so[0m
+[2.055s] [ 80%] Built target msg_interface_py_test__python
+[2.062s] [35m[1mScanning dependencies of target msg_interface_py_test__rosidl_typesupport_c__pyext[0m
+[2.062s] [35m[1mScanning dependencies of target msg_interface_py_test__rosidl_typesupport_introspection_c__pyext[0m
+[2.062s] [35m[1mScanning dependencies of target msg_interface_py_test__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.073s] [ 90%] [32mBuilding C object CMakeFiles/msg_interface_py_test__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msg_interface_py_test/_msg_interface_py_test_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.073s] [ 90%] [32mBuilding C object CMakeFiles/msg_interface_py_test__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msg_interface_py_test/_msg_interface_py_test_s.ep.rosidl_typesupport_c.c.o[0m
+[2.073s] [ 90%] [32mBuilding C object CMakeFiles/msg_interface_py_test__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msg_interface_py_test/_msg_interface_py_test_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.121s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/msg_interface_py_test/msg_interface_py_test_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.121s] [100%] [32m[1mLinking C shared library rosidl_generator_py/msg_interface_py_test/msg_interface_py_test_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.121s] [100%] [32m[1mLinking C shared library rosidl_generator_py/msg_interface_py_test/msg_interface_py_test_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.144s] [100%] Built target msg_interface_py_test__rosidl_typesupport_c__pyext
+[2.144s] [100%] Built target msg_interface_py_test__rosidl_typesupport_introspection_c__pyext
+[2.160s] [100%] Built target msg_interface_py_test__rosidl_typesupport_fastrtps_c__pyext
+[2.167s] Invoked command in '/home/lee/robot_ws/build/msg_interface_py_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/lee/robot_ws/build/msg_interface_py_test -- -j12 -l12
+[2.215s] Invoking command in '/home/lee/robot_ws/build/msg_interface_py_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /home/lee/robot_ws/build/msg_interface_py_test
+[2.220s] -- Install configuration: ""
+[2.220s] -- Execute custom install script
+[2.221s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/ament_index/resource_index/rosidl_interfaces/msg_interface_py_test
+[2.229s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/include/msg_interface_py_test/msg/coordinates.h
+[2.240s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/include/msg_interface_py_test/msg/detail/coordinates__functions.h
+[2.246s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/include/msg_interface_py_test/msg/detail/coordinates__struct.h
+[2.251s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/include/msg_interface_py_test/msg/detail/coordinates__type_support.h
+[2.256s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/include/msg_interface_py_test/msg/rosidl_generator_c__visibility_control.h
+[2.261s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/environment/library_path.sh
+[2.266s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/environment/library_path.dsv
+[2.271s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/include/msg_interface_py_test/msg/detail/coordinates__rosidl_typesupport_fastrtps_c.h
+[2.275s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/include/msg_interface_py_test/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.280s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/lib/libmsg_interface_py_test__rosidl_typesupport_fastrtps_c.so
+[2.285s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/include/msg_interface_py_test/msg/detail/coordinates__rosidl_typesupport_fastrtps_cpp.hpp
+[2.290s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/include/msg_interface_py_test/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.295s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/lib/libmsg_interface_py_test__rosidl_typesupport_fastrtps_cpp.so
+[2.300s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/include/msg_interface_py_test/msg/detail/coordinates__rosidl_typesupport_introspection_c.h
+[2.305s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/include/msg_interface_py_test/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.310s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/include/msg_interface_py_test/msg/coordinates.hpp
+[2.316s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/include/msg_interface_py_test/msg/detail/coordinates__builder.hpp
+[2.321s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/include/msg_interface_py_test/msg/detail/coordinates__struct.hpp
+[2.326s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/include/msg_interface_py_test/msg/detail/coordinates__traits.hpp
+[2.331s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/include/msg_interface_py_test/msg/detail/coordinates__rosidl_typesupport_introspection_cpp.hpp
+[2.336s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/environment/pythonpath.sh
+[2.341s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/environment/pythonpath.dsv
+[2.346s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/lib/python3.8/site-packages/msg_interface_py_test/__init__.py
+[2.351s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/lib/python3.8/site-packages/msg_interface_py_test/msg/__init__.py
+[2.356s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/lib/python3.8/site-packages/msg_interface_py_test/msg/_coordinates.py
+[2.361s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/lib/python3.8/site-packages/msg_interface_py_test/msg_interface_py_test_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.366s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/lib/python3.8/site-packages/msg_interface_py_test/msg_interface_py_test_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.371s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/lib/python3.8/site-packages/msg_interface_py_test/msg_interface_py_test_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.375s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/lib/libmsg_interface_py_test__python.so
+[2.381s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/msg/Coordinates.idl
+[2.385s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/msg/Coordinates.msg
+[2.390s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/ament_index/resource_index/package_run_dependencies/msg_interface_py_test
+[2.395s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/ament_index/resource_index/parent_prefix_path/msg_interface_py_test
+[2.400s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/environment/ament_prefix_path.sh
+[2.405s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/environment/ament_prefix_path.dsv
+[2.410s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/environment/path.sh
+[2.415s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/environment/path.dsv
+[2.420s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/local_setup.bash
+[2.424s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/local_setup.sh
+[2.429s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/local_setup.zsh
+[2.434s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/local_setup.dsv
+[2.439s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/package.dsv
+[2.444s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/ament_index/resource_index/packages/msg_interface_py_test
+[2.449s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/rosidl_cmake-extras.cmake
+[2.454s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.459s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/ament_cmake_export_libraries-extras.cmake
+[2.464s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/ament_cmake_export_targets-extras.cmake
+[2.469s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.474s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.479s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.484s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/msg_interface_py_testConfig.cmake
+[2.488s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/msg_interface_py_testConfig-version.cmake
+[2.493s] -- Symlinking: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/package.xml
+[2.498s] -- Installing: /home/lee/robot_ws/install/msg_interface_py_test/lib/libmsg_interface_py_test__rosidl_generator_c.so
+[2.498s] -- Set runtime path of "/home/lee/robot_ws/install/msg_interface_py_test/lib/libmsg_interface_py_test__rosidl_generator_c.so" to ""
+[2.498s] -- Installing: /home/lee/robot_ws/install/msg_interface_py_test/lib/libmsg_interface_py_test__rosidl_typesupport_introspection_c.so
+[2.498s] -- Set runtime path of "/home/lee/robot_ws/install/msg_interface_py_test/lib/libmsg_interface_py_test__rosidl_typesupport_introspection_c.so" to ""
+[2.498s] -- Installing: /home/lee/robot_ws/install/msg_interface_py_test/lib/libmsg_interface_py_test__rosidl_typesupport_c.so
+[2.499s] -- Set runtime path of "/home/lee/robot_ws/install/msg_interface_py_test/lib/libmsg_interface_py_test__rosidl_typesupport_c.so" to ""
+[2.499s] -- Installing: /home/lee/robot_ws/install/msg_interface_py_test/lib/libmsg_interface_py_test__rosidl_typesupport_introspection_cpp.so
+[2.499s] -- Set runtime path of "/home/lee/robot_ws/install/msg_interface_py_test/lib/libmsg_interface_py_test__rosidl_typesupport_introspection_cpp.so" to ""
+[2.499s] -- Installing: /home/lee/robot_ws/install/msg_interface_py_test/lib/libmsg_interface_py_test__rosidl_typesupport_cpp.so
+[2.499s] -- Set runtime path of "/home/lee/robot_ws/install/msg_interface_py_test/lib/libmsg_interface_py_test__rosidl_typesupport_cpp.so" to ""
+[2.523s] Compiling '/home/lee/robot_ws/install/msg_interface_py_test/lib/python3.8/site-packages/msg_interface_py_test/__init__.py'...
+[2.525s] -- Installing: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/msg_interface_py_test__rosidl_generator_cExport.cmake
+[2.526s] -- Installing: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/msg_interface_py_test__rosidl_generator_cExport-noconfig.cmake
+[2.526s] -- Installing: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/msg_interface_py_test__rosidl_typesupport_introspection_cExport.cmake
+[2.526s] -- Installing: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/msg_interface_py_test__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.526s] -- Installing: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/msg_interface_py_test__rosidl_typesupport_cExport.cmake
+[2.526s] -- Installing: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/msg_interface_py_test__rosidl_typesupport_cExport-noconfig.cmake
+[2.526s] -- Installing: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/msg_interface_py_test__rosidl_generator_cppExport.cmake
+[2.526s] -- Installing: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/msg_interface_py_test__rosidl_typesupport_introspection_cppExport.cmake
+[2.526s] -- Installing: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/msg_interface_py_test__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.526s] -- Installing: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/msg_interface_py_test__rosidl_typesupport_cppExport.cmake
+[2.526s] -- Installing: /home/lee/robot_ws/install/msg_interface_py_test/share/msg_interface_py_test/cmake/msg_interface_py_test__rosidl_typesupport_cppExport-noconfig.cmake
+[2.528s] Invoked command in '/home/lee/robot_ws/build/msg_interface_py_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /home/lee/robot_ws/build/msg_interface_py_test

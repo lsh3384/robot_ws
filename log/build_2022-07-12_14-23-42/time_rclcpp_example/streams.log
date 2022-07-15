@@ -1,0 +1,23 @@
+[0.590s] Invoking command in '/home/lee/robot_ws/build/time_rclcpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/lee/robot_ws/build/time_rclcpp_example -- -j12 -l12
+[0.732s] [100%] Built target time_example
+[0.740s] Invoked command in '/home/lee/robot_ws/build/time_rclcpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/lee/robot_ws/build/time_rclcpp_example -- -j12 -l12
+[0.785s] Invoking command in '/home/lee/robot_ws/build/time_rclcpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/lee/robot_ws/build/time_rclcpp_example
+[0.797s] -- Install configuration: ""
+[0.797s] -- Execute custom install script
+[0.797s] -- Symlinking: /home/lee/robot_ws/install/time_rclcpp_example/lib/time_rclcpp_example/time_example
+[0.807s] -- Symlinking: /home/lee/robot_ws/install/time_rclcpp_example/share/ament_index/resource_index/package_run_dependencies/time_rclcpp_example
+[0.815s] -- Symlinking: /home/lee/robot_ws/install/time_rclcpp_example/share/ament_index/resource_index/parent_prefix_path/time_rclcpp_example
+[0.823s] -- Symlinking: /home/lee/robot_ws/install/time_rclcpp_example/share/time_rclcpp_example/environment/ament_prefix_path.sh
+[0.832s] -- Symlinking: /home/lee/robot_ws/install/time_rclcpp_example/share/time_rclcpp_example/environment/ament_prefix_path.dsv
+[0.840s] -- Symlinking: /home/lee/robot_ws/install/time_rclcpp_example/share/time_rclcpp_example/environment/path.sh
+[0.849s] -- Symlinking: /home/lee/robot_ws/install/time_rclcpp_example/share/time_rclcpp_example/environment/path.dsv
+[0.858s] -- Symlinking: /home/lee/robot_ws/install/time_rclcpp_example/share/time_rclcpp_example/local_setup.bash
+[0.866s] -- Symlinking: /home/lee/robot_ws/install/time_rclcpp_example/share/time_rclcpp_example/local_setup.sh
+[0.874s] -- Symlinking: /home/lee/robot_ws/install/time_rclcpp_example/share/time_rclcpp_example/local_setup.zsh
+[0.883s] -- Symlinking: /home/lee/robot_ws/install/time_rclcpp_example/share/time_rclcpp_example/local_setup.dsv
+[0.891s] -- Symlinking: /home/lee/robot_ws/install/time_rclcpp_example/share/time_rclcpp_example/package.dsv
+[0.900s] -- Symlinking: /home/lee/robot_ws/install/time_rclcpp_example/share/ament_index/resource_index/packages/time_rclcpp_example
+[0.908s] -- Symlinking: /home/lee/robot_ws/install/time_rclcpp_example/share/time_rclcpp_example/cmake/time_rclcpp_exampleConfig.cmake
+[0.917s] -- Symlinking: /home/lee/robot_ws/install/time_rclcpp_example/share/time_rclcpp_example/cmake/time_rclcpp_exampleConfig-version.cmake
+[0.926s] -- Symlinking: /home/lee/robot_ws/install/time_rclcpp_example/share/time_rclcpp_example/package.xml
+[0.965s] Invoked command in '/home/lee/robot_ws/build/time_rclcpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/lee/robot_ws/build/time_rclcpp_example

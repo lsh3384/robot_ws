@@ -1,0 +1,32 @@
+[0.397s] Invoking command in '/home/lee/robot_ws/build/topic_service_action_rclpy_example': AMENT_PREFIX_PATH=/home/lee/robot_ws/install/msg_srv_action_interface_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/robot_ws/install/msg_srv_action_interface_example:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/lee/robot_ws/install/msg_srv_action_interface_example/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/robot_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/lee/robot_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/lee/robot_ws/install/topic_service_action_rclpy_example --editable --build-directory /home/lee/robot_ws/build/topic_service_action_rclpy_example/build --no-deps install_data --install-dir /home/lee/robot_ws/install/topic_service_action_rclpy_example
+[0.541s] running develop
+[0.620s] running egg_info
+[0.621s] creating topic_service_action_rclpy_example.egg-info
+[0.621s] writing topic_service_action_rclpy_example.egg-info/PKG-INFO
+[0.621s] writing dependency_links to topic_service_action_rclpy_example.egg-info/dependency_links.txt
+[0.621s] writing entry points to topic_service_action_rclpy_example.egg-info/entry_points.txt
+[0.621s] writing requirements to topic_service_action_rclpy_example.egg-info/requires.txt
+[0.621s] writing top-level names to topic_service_action_rclpy_example.egg-info/top_level.txt
+[0.622s] writing manifest file 'topic_service_action_rclpy_example.egg-info/SOURCES.txt'
+[0.642s] reading manifest file 'topic_service_action_rclpy_example.egg-info/SOURCES.txt'
+[0.643s] writing manifest file 'topic_service_action_rclpy_example.egg-info/SOURCES.txt'
+[0.665s] running build_ext
+[0.665s] Creating /home/lee/robot_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages/site.py
+[0.666s] Creating /home/lee/robot_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages/topic-service-action-rclpy-example.egg-link (link to .)
+[0.666s] Installing argument script to /home/lee/robot_ws/install/topic_service_action_rclpy_example/lib/topic_service_action_rclpy_example
+[0.667s] Installing calculator script to /home/lee/robot_ws/install/topic_service_action_rclpy_example/lib/topic_service_action_rclpy_example
+[0.667s] Installing checker script to /home/lee/robot_ws/install/topic_service_action_rclpy_example/lib/topic_service_action_rclpy_example
+[0.667s] Installing operator script to /home/lee/robot_ws/install/topic_service_action_rclpy_example/lib/topic_service_action_rclpy_example
+[0.667s] 
+[0.667s] Installed /home/lee/robot_ws/build/topic_service_action_rclpy_example
+[0.667s] running install_data
+[0.667s] creating /home/lee/robot_ws/install/topic_service_action_rclpy_example/share/ament_index
+[0.667s] creating /home/lee/robot_ws/install/topic_service_action_rclpy_example/share/ament_index/resource_index
+[0.667s] creating /home/lee/robot_ws/install/topic_service_action_rclpy_example/share/ament_index/resource_index/packages
+[0.667s] copying resource/topic_service_action_rclpy_example -> /home/lee/robot_ws/install/topic_service_action_rclpy_example/share/ament_index/resource_index/packages
+[0.667s] copying package.xml -> /home/lee/robot_ws/install/topic_service_action_rclpy_example/share/topic_service_action_rclpy_example
+[0.667s] creating /home/lee/robot_ws/install/topic_service_action_rclpy_example/share/topic_service_action_rclpy_example/launch
+[0.667s] copying launch/arithmetic.launch.py -> /home/lee/robot_ws/install/topic_service_action_rclpy_example/share/topic_service_action_rclpy_example/launch
+[0.667s] creating /home/lee/robot_ws/install/topic_service_action_rclpy_example/share/topic_service_action_rclpy_example/param
+[0.667s] copying param/arithmetic_config.yaml -> /home/lee/robot_ws/install/topic_service_action_rclpy_example/share/topic_service_action_rclpy_example/param
+[0.688s] Invoked command in '/home/lee/robot_ws/build/topic_service_action_rclpy_example' returned '0': AMENT_PREFIX_PATH=/home/lee/robot_ws/install/msg_srv_action_interface_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/robot_ws/install/msg_srv_action_interface_example:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/lee/robot_ws/install/msg_srv_action_interface_example/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/robot_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/lee/robot_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/lee/robot_ws/install/topic_service_action_rclpy_example --editable --build-directory /home/lee/robot_ws/build/topic_service_action_rclpy_example/build --no-deps install_data --install-dir /home/lee/robot_ws/install/topic_service_action_rclpy_example

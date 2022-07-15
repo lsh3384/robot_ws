@@ -1,0 +1,24 @@
+[1.173s] Invoking command in '/home/lee/robot_ws/build/ros2env': PYTHONPATH=/home/lee/robot_ws/install/ros2env/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/lee/robot_ws/install/ros2env --editable --build-directory /home/lee/robot_ws/build/ros2env/build --no-deps install_data --install-dir /home/lee/robot_ws/install/ros2env
+[1.334s] running develop
+[1.415s] running egg_info
+[1.415s] creating ros2env.egg-info
+[1.415s] writing ros2env.egg-info/PKG-INFO
+[1.415s] writing dependency_links to ros2env.egg-info/dependency_links.txt
+[1.415s] writing entry points to ros2env.egg-info/entry_points.txt
+[1.415s] writing requirements to ros2env.egg-info/requires.txt
+[1.415s] writing top-level names to ros2env.egg-info/top_level.txt
+[1.416s] writing manifest file 'ros2env.egg-info/SOURCES.txt'
+[1.438s] reading manifest file 'ros2env.egg-info/SOURCES.txt'
+[1.439s] writing manifest file 'ros2env.egg-info/SOURCES.txt'
+[1.465s] running build_ext
+[1.466s] Creating /home/lee/robot_ws/install/ros2env/lib/python3.8/site-packages/site.py
+[1.467s] Creating /home/lee/robot_ws/install/ros2env/lib/python3.8/site-packages/ros2env.egg-link (link to .)
+[1.468s] 
+[1.468s] Installed /home/lee/robot_ws/build/ros2env
+[1.468s] running install_data
+[1.468s] creating /home/lee/robot_ws/install/ros2env/share/ament_index
+[1.468s] creating /home/lee/robot_ws/install/ros2env/share/ament_index/resource_index
+[1.469s] creating /home/lee/robot_ws/install/ros2env/share/ament_index/resource_index/packages
+[1.469s] copying resource/ros2env -> /home/lee/robot_ws/install/ros2env/share/ament_index/resource_index/packages
+[1.469s] copying package.xml -> /home/lee/robot_ws/install/ros2env/share/ros2env
+[1.528s] Invoked command in '/home/lee/robot_ws/build/ros2env' returned '0': PYTHONPATH=/home/lee/robot_ws/install/ros2env/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/lee/robot_ws/install/ros2env --editable --build-directory /home/lee/robot_ws/build/ros2env/build --no-deps install_data --install-dir /home/lee/robot_ws/install/ros2env

@@ -1,0 +1,53 @@
+[0.012s] Invoking command in '/home/lee/robot_ws/build/msg_interface_py_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake /home/lee/robot_ws/src/msg_interface_py_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lee/robot_ws/install/msg_interface_py_test
+[0.020s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.040s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.040s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.154s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.158s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.170s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.172s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.244s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.259s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.285s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.401s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.401s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.401s]   msg_interface_py_test --arguments-file
+[0.401s]   /home/lee/robot_ws/build/msg_interface_py_test/rosidl_adapter__arguments__msg_interface_py_test.json
+[0.401s]   --output-dir
+[0.401s]   /home/lee/robot_ws/build/msg_interface_py_test/rosidl_adapter/msg_interface_py_test
+[0.401s]   --output-file
+[0.401s]   /home/lee/robot_ws/build/msg_interface_py_test/rosidl_adapter/msg_interface_py_test.idls)
+[0.401s]   returned error code 1:
+[0.401s] 
+[0.401s]   Traceback (most recent call last):
+[0.401s] 
+[0.401s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.401s]       return _run_code(code, main_globals, None,
+[0.401s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.401s]       exec(code, run_globals)
+[0.401s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.401s]       sys.exit(main())
+[0.402s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.402s]       abs_idl_file = convert_to_idl(
+[0.402s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.402s]       return convert_msg_to_idl(
+[0.402s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.402s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.402s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string
+[0.402s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.402s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__
+[0.402s]       self.base_type = BaseType(
+[0.402s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[0.402s]       raise InvalidResourceName(
+[0.402s] 
+[0.402s]   rosidl_adapter.parser.InvalidResourceName: 'coordinates' is an invalid
+[0.402s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.402s] 
+[0.402s] Call Stack (most recent call first):
+[0.402s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.402s]   CMakeLists.txt:29 (rosidl_generate_interfaces)
+[0.402s] 
+[0.402s] 
+[0.403s] -- Configuring incomplete, errors occurred!
+[0.403s] See also "/home/lee/robot_ws/build/msg_interface_py_test/CMakeFiles/CMakeOutput.log".
+[0.405s] Invoked command in '/home/lee/robot_ws/build/msg_interface_py_test' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake /home/lee/robot_ws/src/msg_interface_py_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lee/robot_ws/install/msg_interface_py_test

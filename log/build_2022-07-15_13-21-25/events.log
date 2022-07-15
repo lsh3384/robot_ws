@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000289] (-) JobUnselected: {'identifier': 'logging_rclpy_example'}
+[0.000376] (-) JobUnselected: {'identifier': 'msg_interface_py_test'}
+[0.000392] (-) JobUnselected: {'identifier': 'msg_srv_action_interface_example'}
+[0.000403] (-) JobUnselected: {'identifier': 'my_first_ros_rclpy_pkg'}
+[0.000413] (-) JobUnselected: {'identifier': 'ros2env'}
+[0.000423] (-) JobUnselected: {'identifier': 'rqt_example'}
+[0.000433] (-) JobUnselected: {'identifier': 'test_lee_rclpy'}
+[0.000443] (-) JobUnselected: {'identifier': 'testbot_description'}
+[0.000452] (-) JobUnselected: {'identifier': 'tf2_rclcpp_example'}
+[0.000461] (-) JobUnselected: {'identifier': 'tf2_rclpy_example'}
+[0.000471] (-) JobUnselected: {'identifier': 'time_rclcpp_example'}
+[0.000480] (-) JobUnselected: {'identifier': 'time_rclpy_example'}
+[0.000489] (-) JobUnselected: {'identifier': 'topic_service_action_rclcpp_example'}
+[0.000499] (-) JobUnselected: {'identifier': 'topic_service_action_rclpy_example'}
+[0.000510] (msg_srv_interface_py_test) JobQueued: {'identifier': 'msg_srv_interface_py_test', 'dependencies': OrderedDict()}
+[0.000524] (msg_srv_interface_py_test) JobStarted: {'identifier': 'msg_srv_interface_py_test'}
+[0.011994] (msg_srv_interface_py_test) JobProgress: {'identifier': 'msg_srv_interface_py_test', 'progress': 'cmake'}
+[0.012160] (msg_srv_interface_py_test) Command: {'cmd': ['/usr/bin/cmake', '/home/lee/robot_ws/src/msg_srv_interface_py_test', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/lee/robot_ws/install/msg_srv_interface_py_test'], 'cwd': '/home/lee/robot_ws/build/msg_srv_interface_py_test', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lee'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1720'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/lee/robot_ws/install/msg_srv_action_interface_example/lib:/home/lee/robot_ws/install/msg_interface_py_test/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lee'), ('OLDPWD', '/home/lee/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1542'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/lee/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lee/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lee'), ('JOURNAL_STREAM', '8:49369'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lee'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/lee/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lee:@/tmp/.ICE-unix/1759,unix/lee:/tmp/.ICE-unix/1759'), ('INVOCATION_ID', '0229e7f35a754adcb952f7d3287a77d0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4179b0fd_6976_46fe_adb1_af2178957515'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.572'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/topic_service_action_rclcpp_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/time_rclcpp_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/tf2_rclcpp_example:/home/lee/robot_ws/install/testbot_description:/home/lee/robot_ws/install/test_lee_rclpy:/home/lee/robot_ws/install/rqt_example:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/my_first_ros_rclcpp_pkg:/home/lee/robot_ws/install/msg_srv_action_interface_example:/home/lee/robot_ws/install/msg_interface_py_test:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/lee/robot_ws/build/msg_srv_interface_py_test'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lee/robot_ws/build/topic_service_action_rclpy_example:/home/lee/robot_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/lee/robot_ws/build/time_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/lee/robot_ws/build/tf2_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/lee/robot_ws/build/test_lee_rclpy:/home/lee/robot_ws/install/test_lee_rclpy/lib/python3.8/site-packages:/home/lee/robot_ws/install/rqt_example/lib/python3.8/site-packages:/home/lee/robot_ws/build/ros2env:/home/lee/robot_ws/install/ros2env/lib/python3.8/site-packages:/home/lee/robot_ws/build/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/lee/robot_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/lee/robot_ws/install/msg_interface_py_test/lib/python3.8/site-packages:/home/lee/robot_ws/build/logging_rclpy_example:/home/lee/robot_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/lee/robot_ws/install/topic_service_action_rclcpp_example:/home/lee/robot_ws/install/time_rclcpp_example:/home/lee/robot_ws/install/tf2_rclcpp_example:/home/lee/robot_ws/install/testbot_description:/home/lee/robot_ws/install/rqt_example:/home/lee/robot_ws/install/my_first_ros_rclcpp_pkg:/home/lee/robot_ws/install/msg_srv_action_interface_example:/home/lee/robot_ws/install/msg_interface_py_test:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/test_lee_rclpy:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy')]), 'shell': False}
+[0.020165] (msg_srv_interface_py_test) StderrLine: {'line': b'CMake Warning (dev) at CMakeLists.txt:26:\n'}
+[0.020346] (msg_srv_interface_py_test) StderrLine: {'line': b'  Syntax Warning in cmake code at column 24\n'}
+[0.020394] (msg_srv_interface_py_test) StderrLine: {'line': b'\n'}
+[0.020435] (msg_srv_interface_py_test) StderrLine: {'line': b'  Argument not separated from preceding token by whitespace.\n'}
+[0.020473] (msg_srv_interface_py_test) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.020511] (msg_srv_interface_py_test) StderrLine: {'line': b'\n'}
+[0.085869] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099847] (-) TimerEvent: {}
+[0.148181] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.153524] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.200009] (-) TimerEvent: {}
+[0.229213] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.230287] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.281239] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.290722] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.291048] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.293104] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.300109] (-) TimerEvent: {}
+[0.350418] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.351046] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400302] (-) TimerEvent: {}
+[0.431918] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.439344] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.439717] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.444741] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.473507] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.473636] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.500405] (-) TimerEvent: {}
+[0.591672] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.600467] (-) TimerEvent: {}
+[0.618082] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[0.642048] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.648667] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.699824] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.700527] (-) TimerEvent: {}
+[0.718360] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.774143] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.795658] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.800589] (-) TimerEvent: {}
+[0.804892] (msg_srv_interface_py_test) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[0.804966] (msg_srv_interface_py_test) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file ',' doesn't exist relative to\n"}
+[0.805009] (msg_srv_interface_py_test) StderrLine: {'line': b'  the CMAKE_CURRENT_SOURCE_DIR\n'}
+[0.805048] (msg_srv_interface_py_test) StderrLine: {'line': b"  '/home/lee/robot_ws/src/msg_srv_interface_py_test'\n"}
+[0.805085] (msg_srv_interface_py_test) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.805121] (msg_srv_interface_py_test) StderrLine: {'line': b'  CMakeLists.txt:33 (rosidl_generate_interfaces)\n'}
+[0.805157] (msg_srv_interface_py_test) StderrLine: {'line': b'\n'}
+[0.805193] (msg_srv_interface_py_test) StderrLine: {'line': b'\n'}
+[0.805705] (msg_srv_interface_py_test) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.805760] (msg_srv_interface_py_test) StdoutLine: {'line': b'See also "/home/lee/robot_ws/build/msg_srv_interface_py_test/CMakeFiles/CMakeOutput.log".\n'}
+[0.809555] (msg_srv_interface_py_test) CommandEnded: {'returncode': 1}
+[0.829170] (msg_srv_interface_py_test) JobEnded: {'identifier': 'msg_srv_interface_py_test', 'rc': 1}
+[0.839843] (-) EventReactorShutdown: {}

@@ -1,0 +1,27 @@
+[1.138s] Invoking command in '/home/lee/robot_ws/build/tf2_rclpy_example': PYTHONPATH=/home/lee/robot_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/lee/robot_ws/install/tf2_rclpy_example --editable --build-directory /home/lee/robot_ws/build/tf2_rclpy_example/build --no-deps install_data --install-dir /home/lee/robot_ws/install/tf2_rclpy_example
+[1.292s] running develop
+[1.375s] running egg_info
+[1.375s] creating tf2_rclpy_example.egg-info
+[1.375s] writing tf2_rclpy_example.egg-info/PKG-INFO
+[1.375s] writing dependency_links to tf2_rclpy_example.egg-info/dependency_links.txt
+[1.375s] writing entry points to tf2_rclpy_example.egg-info/entry_points.txt
+[1.375s] writing requirements to tf2_rclpy_example.egg-info/requires.txt
+[1.375s] writing top-level names to tf2_rclpy_example.egg-info/top_level.txt
+[1.376s] writing manifest file 'tf2_rclpy_example.egg-info/SOURCES.txt'
+[1.399s] reading manifest file 'tf2_rclpy_example.egg-info/SOURCES.txt'
+[1.399s] writing manifest file 'tf2_rclpy_example.egg-info/SOURCES.txt'
+[1.424s] running build_ext
+[1.424s] Creating /home/lee/robot_ws/install/tf2_rclpy_example/lib/python3.8/site-packages/site.py
+[1.426s] Creating /home/lee/robot_ws/install/tf2_rclpy_example/lib/python3.8/site-packages/tf2-rclpy-example.egg-link (link to .)
+[1.427s] Installing broadcaster script to /home/lee/robot_ws/install/tf2_rclpy_example/lib/tf2_rclpy_example
+[1.427s] Installing listener script to /home/lee/robot_ws/install/tf2_rclpy_example/lib/tf2_rclpy_example
+[1.427s] Installing static_broadcaster script to /home/lee/robot_ws/install/tf2_rclpy_example/lib/tf2_rclpy_example
+[1.427s] 
+[1.427s] Installed /home/lee/robot_ws/build/tf2_rclpy_example
+[1.427s] running install_data
+[1.427s] creating /home/lee/robot_ws/install/tf2_rclpy_example/share/ament_index
+[1.427s] creating /home/lee/robot_ws/install/tf2_rclpy_example/share/ament_index/resource_index
+[1.427s] creating /home/lee/robot_ws/install/tf2_rclpy_example/share/ament_index/resource_index/packages
+[1.427s] copying resource/tf2_rclpy_example -> /home/lee/robot_ws/install/tf2_rclpy_example/share/ament_index/resource_index/packages
+[1.427s] copying package.xml -> /home/lee/robot_ws/install/tf2_rclpy_example/share/tf2_rclpy_example
+[1.490s] Invoked command in '/home/lee/robot_ws/build/tf2_rclpy_example' returned '0': PYTHONPATH=/home/lee/robot_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/lee/robot_ws/install/tf2_rclpy_example --editable --build-directory /home/lee/robot_ws/build/tf2_rclpy_example/build --no-deps install_data --install-dir /home/lee/robot_ws/install/tf2_rclpy_example

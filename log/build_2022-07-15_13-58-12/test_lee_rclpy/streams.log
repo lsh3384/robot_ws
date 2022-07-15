@@ -1,0 +1,20 @@
+[0.411s] Invoking command in '/home/lee/robot_ws/build/test_lee_rclpy': AMENT_PREFIX_PATH=/home/lee/robot_ws/install/msg_srv_interface_py_test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/robot_ws/install/msg_srv_interface_py_test:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/lee/robot_ws/install/msg_srv_interface_py_test/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/robot_ws/install/test_lee_rclpy/lib/python3.8/site-packages:/home/lee/robot_ws/install/msg_srv_interface_py_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/lee/robot_ws/install/test_lee_rclpy --editable --build-directory /home/lee/robot_ws/build/test_lee_rclpy/build --no-deps install_data --install-dir /home/lee/robot_ws/install/test_lee_rclpy
+[0.559s] running develop
+[0.639s] running egg_info
+[0.640s] writing test_lee_rclpy.egg-info/PKG-INFO
+[0.640s] writing dependency_links to test_lee_rclpy.egg-info/dependency_links.txt
+[0.640s] writing entry points to test_lee_rclpy.egg-info/entry_points.txt
+[0.640s] writing requirements to test_lee_rclpy.egg-info/requires.txt
+[0.640s] writing top-level names to test_lee_rclpy.egg-info/top_level.txt
+[0.660s] reading manifest file 'test_lee_rclpy.egg-info/SOURCES.txt'
+[0.661s] writing manifest file 'test_lee_rclpy.egg-info/SOURCES.txt'
+[0.682s] running build_ext
+[0.682s] Creating /home/lee/robot_ws/install/test_lee_rclpy/lib/python3.8/site-packages/test-lee-rclpy.egg-link (link to .)
+[0.683s] Installing converter script to /home/lee/robot_ws/install/test_lee_rclpy/lib/test_lee_rclpy
+[0.683s] Installing manager script to /home/lee/robot_ws/install/test_lee_rclpy/lib/test_lee_rclpy
+[0.683s] Installing position script to /home/lee/robot_ws/install/test_lee_rclpy/lib/test_lee_rclpy
+[0.683s] 
+[0.683s] Installed /home/lee/robot_ws/build/test_lee_rclpy
+[0.683s] running install_data
+[0.683s] copying package.xml -> /home/lee/robot_ws/install/test_lee_rclpy/share/test_lee_rclpy
+[0.700s] Invoked command in '/home/lee/robot_ws/build/test_lee_rclpy' returned '0': AMENT_PREFIX_PATH=/home/lee/robot_ws/install/msg_srv_interface_py_test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/robot_ws/install/msg_srv_interface_py_test:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/lee/robot_ws/install/msg_srv_interface_py_test/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/robot_ws/install/test_lee_rclpy/lib/python3.8/site-packages:/home/lee/robot_ws/install/msg_srv_interface_py_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/lee/robot_ws/install/test_lee_rclpy --editable --build-directory /home/lee/robot_ws/build/test_lee_rclpy/build --no-deps install_data --install-dir /home/lee/robot_ws/install/test_lee_rclpy

@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from msg_srv_action_interface_py_test/action/CoordinatesChecker.action
+// generated code does not contain a copyright notice
+
+
+module msg_srv_action_interface_py_test {
+  module action {
+    @verbatim (language="comment", text=
+      " Goal")
+    struct CoordinatesChecker_Goal {
+      sequence<int16> goal_coordinates;
+    };
+    struct CoordinatesChecker_Result {
+      @verbatim (language="comment", text=
+        " Result")
+      sequence<string> all_position;
+
+      sequence<int16> current_coordinates;
+    };
+    struct CoordinatesChecker_Feedback {
+      @verbatim (language="comment", text=
+        " Feedback")
+      sequence<string> position;
+    };
+  };
+};

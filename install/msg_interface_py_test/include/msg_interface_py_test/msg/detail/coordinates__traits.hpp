@@ -1,0 +1,1 @@
+/home/lee/robot_ws/build/msg_interface_py_test/rosidl_generator_cpp/msg_interface_py_test/msg/detail/coordinates__traits.hpp

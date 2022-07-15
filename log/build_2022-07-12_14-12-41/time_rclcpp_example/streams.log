@@ -1,0 +1,50 @@
+[0.611s] Invoking command in '/home/lee/robot_ws/build/time_rclcpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake /home/lee/robot_ws/src/ros2-seminar-examples/time_rclcpp_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lee/robot_ws/install/time_rclcpp_example
+[0.812s] -- The C compiler identification is GNU 9.4.0
+[0.812s] -- The CXX compiler identification is GNU 9.4.0
+[0.812s] -- Check for working C compiler: /usr/bin/cc
+[0.812s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.812s] -- Detecting C compiler ABI info
+[0.812s] -- Detecting C compiler ABI info - done
+[0.812s] -- Detecting C compile features
+[0.813s] -- Detecting C compile features - done
+[0.813s] -- Check for working CXX compiler: /usr/bin/c++
+[0.873s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.874s] -- Detecting CXX compiler ABI info
+[0.952s] -- Detecting CXX compiler ABI info - done
+[0.963s] -- Detecting CXX compile features
+[0.964s] -- Detecting CXX compile features - done
+[0.965s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.989s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.989s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.146s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.168s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.212s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.216s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.260s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.288s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.338s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.374s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.375s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.375s] -- Looking for pthread.h
+[1.419s] -- Looking for pthread.h - found
+[1.419s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.461s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.461s] -- Looking for pthread_create in pthreads
+[1.494s] -- Looking for pthread_create in pthreads - not found
+[1.494s] -- Looking for pthread_create in pthread
+[1.536s] -- Looking for pthread_create in pthread - found
+[1.536s] -- Found Threads: TRUE  
+[1.634s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.683s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.683s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.684s] -- Configured cppcheck include dirs: 
+[1.684s] -- Configured cppcheck exclude dirs and/or files: 
+[1.684s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.684s] -- Configured cpplint exclude dirs and/or files: 
+[1.684s] -- Added test 'lint_cmake' to check CMake code style
+[1.685s] -- Added test 'uncrustify' to check C / C++ code style
+[1.685s] -- Configured uncrustify additional arguments: 
+[1.685s] -- Added test 'xmllint' to check XML markup files
+[1.687s] -- Configuring done
+[1.691s] -- Generating done
+[1.692s] -- Build files have been written to: /home/lee/robot_ws/build/time_rclcpp_example

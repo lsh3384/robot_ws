@@ -1,0 +1,11 @@
+# Goal
+int16 coordinate_x
+int16 coordinate_y
+---
+# Result
+string[] all_position
+int16 coordinate_x
+int16 coordinate_y
+---
+# Feedback
+string[] position

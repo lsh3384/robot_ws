@@ -1,0 +1,28 @@
+[0.471s] Invoking command in '/home/lee/robot_ws/build/rqt_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake /home/lee/robot_ws/src/ros2-seminar-examples/rqt_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lee/robot_ws/install/rqt_example
+[0.831s] -- The C compiler identification is GNU 9.4.0
+[0.831s] -- The CXX compiler identification is GNU 9.4.0
+[0.831s] -- Check for working C compiler: /usr/bin/cc
+[0.831s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.832s] -- Detecting C compiler ABI info
+[0.832s] -- Detecting C compiler ABI info - done
+[0.832s] -- Detecting C compile features
+[0.832s] -- Detecting C compile features - done
+[0.832s] -- Check for working CXX compiler: /usr/bin/c++
+[0.832s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.832s] -- Detecting CXX compiler ABI info
+[0.832s] -- Detecting CXX compiler ABI info - done
+[0.832s] -- Detecting CXX compile features
+[0.832s] -- Detecting CXX compile features - done
+[0.832s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.832s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.832s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.977s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.031s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.114s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.116s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.117s] -- Added test 'lint_cmake' to check CMake code style
+[1.118s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.119s] -- Added test 'xmllint' to check XML markup files
+[1.121s] -- Configuring done
+[1.123s] -- Generating done
+[1.124s] -- Build files have been written to: /home/lee/robot_ws/build/rqt_example

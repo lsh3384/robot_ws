@@ -1,0 +1,29 @@
+[0.468s] Invoking command in '/home/lee/robot_ws/build/testbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake /home/lee/robot_ws/src/ros2-seminar-examples/testbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lee/robot_ws/install/testbot_description
+[0.827s] -- The C compiler identification is GNU 9.4.0
+[0.827s] -- The CXX compiler identification is GNU 9.4.0
+[0.828s] -- Check for working C compiler: /usr/bin/cc
+[0.828s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.828s] -- Detecting C compiler ABI info
+[0.829s] -- Detecting C compiler ABI info - done
+[0.830s] -- Detecting C compile features
+[0.830s] -- Detecting C compile features - done
+[0.830s] -- Check for working CXX compiler: /usr/bin/c++
+[0.830s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.830s] -- Detecting CXX compiler ABI info
+[0.830s] -- Detecting CXX compiler ABI info - done
+[0.830s] -- Detecting CXX compile features
+[0.830s] -- Detecting CXX compile features - done
+[0.830s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.830s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.830s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.966s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.989s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[1.020s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.090s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.092s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.092s] -- Added test 'lint_cmake' to check CMake code style
+[1.093s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.094s] -- Added test 'xmllint' to check XML markup files
+[1.096s] -- Configuring done
+[1.098s] -- Generating done
+[1.099s] -- Build files have been written to: /home/lee/robot_ws/build/testbot_description

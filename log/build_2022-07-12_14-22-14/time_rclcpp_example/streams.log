@@ -1,0 +1,4 @@
+[0.590s] Invoking command in '/home/lee/robot_ws/build/time_rclcpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/lee/robot_ws/build/time_rclcpp_example -- -j12 -l12
+[0.729s] [100%] Built target time_example
+[0.739s] Invoked command in '/home/lee/robot_ws/build/time_rclcpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/lee/robot_ws/build/time_rclcpp_example -- -j12 -l12
+[0.808s] Invoking command in '/home/lee/robot_ws/build/time_rclcpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/lee/robot_ws/build/time_rclcpp_example

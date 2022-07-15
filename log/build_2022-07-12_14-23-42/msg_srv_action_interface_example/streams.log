@@ -1,0 +1,130 @@
+[0.078s] Invoking command in '/home/lee/robot_ws/build/msg_srv_action_interface_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/lee/robot_ws/build/msg_srv_action_interface_example -- -j12 -l12
+[0.790s] [  2%] Built target msg_srv_action_interface_example__cpp
+[0.790s] [ 12%] Built target msg_srv_action_interface_example__rosidl_generator_c
+[0.790s] [ 31%] Built target msg_srv_action_interface_example__rosidl_typesupport_introspection_cpp
+[0.790s] [ 34%] Built target msg_srv_action_interface_example__rosidl_typesupport_cpp
+[0.790s] [ 44%] Built target msg_srv_action_interface_example__rosidl_typesupport_fastrtps_cpp
+[0.790s] [ 65%] Built target msg_srv_action_interface_example__rosidl_typesupport_introspection_c
+[0.790s] [ 65%] Built target msg_srv_action_interface_example__rosidl_typesupport_c
+[0.790s] [ 76%] Built target msg_srv_action_interface_example__rosidl_typesupport_fastrtps_c
+[0.790s] [ 76%] Built target msg_srv_action_interface_example
+[0.790s] [ 78%] Built target msg_srv_action_interface_example__py
+[0.791s] [ 87%] Built target msg_srv_action_interface_example__python
+[0.791s] [100%] Built target msg_srv_action_interface_example__rosidl_typesupport_fastrtps_c__pyext
+[0.791s] [100%] Built target msg_srv_action_interface_example__rosidl_typesupport_c__pyext
+[0.791s] [100%] Built target msg_srv_action_interface_example__rosidl_typesupport_introspection_c__pyext
+[0.793s] Invoked command in '/home/lee/robot_ws/build/msg_srv_action_interface_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/lee/robot_ws/build/msg_srv_action_interface_example -- -j12 -l12
+[0.854s] Invoking command in '/home/lee/robot_ws/build/msg_srv_action_interface_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/lee/robot_ws/build/msg_srv_action_interface_example
+[0.860s] -- Install configuration: ""
+[0.861s] -- Execute custom install script
+[0.861s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/ament_index/resource_index/rosidl_interfaces/msg_srv_action_interface_example
+[0.871s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/action/arithmetic_checker.h
+[0.880s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/action/detail/arithmetic_checker__functions.h
+[0.888s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/action/detail/arithmetic_checker__struct.h
+[0.896s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/action/detail/arithmetic_checker__type_support.h
+[0.905s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg/arithmetic_argument.h
+[0.914s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg/detail/arithmetic_argument__functions.h
+[0.922s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg/detail/arithmetic_argument__struct.h
+[0.930s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg/detail/arithmetic_argument__type_support.h
+[0.937s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg/rosidl_generator_c__visibility_control.h
+[0.944s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/srv/arithmetic_operator.h
+[0.952s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/srv/detail/arithmetic_operator__functions.h
+[0.959s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/srv/detail/arithmetic_operator__struct.h
+[0.968s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/srv/detail/arithmetic_operator__type_support.h
+[0.976s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/environment/library_path.sh
+[0.985s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/environment/library_path.dsv
+[0.993s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/action/detail/arithmetic_checker__rosidl_typesupport_fastrtps_c.h
+[1.001s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg/detail/arithmetic_argument__rosidl_typesupport_fastrtps_c.h
+[1.013s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.018s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/srv/detail/arithmetic_operator__rosidl_typesupport_fastrtps_c.h
+[1.029s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_fastrtps_c.so
+[1.036s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/action/detail/arithmetic_checker__rosidl_typesupport_fastrtps_cpp.hpp
+[1.047s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg/detail/arithmetic_argument__rosidl_typesupport_fastrtps_cpp.hpp
+[1.056s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.070s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/srv/detail/arithmetic_operator__rosidl_typesupport_fastrtps_cpp.hpp
+[1.075s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_fastrtps_cpp.so
+[1.081s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/action/detail/arithmetic_checker__rosidl_typesupport_introspection_c.h
+[1.092s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg/detail/arithmetic_argument__rosidl_typesupport_introspection_c.h
+[1.101s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.110s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/srv/detail/arithmetic_operator__rosidl_typesupport_introspection_c.h
+[1.117s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/action/arithmetic_checker.hpp
+[1.129s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/action/detail/arithmetic_checker__builder.hpp
+[1.150s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/action/detail/arithmetic_checker__struct.hpp
+[1.157s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/action/detail/arithmetic_checker__traits.hpp
+[1.165s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg/arithmetic_argument.hpp
+[1.179s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg/detail/arithmetic_argument__builder.hpp
+[1.185s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg/detail/arithmetic_argument__struct.hpp
+[1.192s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg/detail/arithmetic_argument__traits.hpp
+[1.199s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/srv/arithmetic_operator.hpp
+[1.205s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/srv/detail/arithmetic_operator__builder.hpp
+[1.211s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/srv/detail/arithmetic_operator__struct.hpp
+[1.217s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/srv/detail/arithmetic_operator__traits.hpp
+[1.224s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/action/detail/arithmetic_checker__rosidl_typesupport_introspection_cpp.hpp
+[1.231s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg/detail/arithmetic_argument__rosidl_typesupport_introspection_cpp.hpp
+[1.238s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/srv/detail/arithmetic_operator__rosidl_typesupport_introspection_cpp.hpp
+[1.245s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/environment/pythonpath.sh
+[1.251s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/environment/pythonpath.dsv
+[1.258s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages/msg_srv_action_interface_example/__init__.py
+[1.264s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages/msg_srv_action_interface_example/msg/__init__.py
+[1.270s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages/msg_srv_action_interface_example/msg/_arithmetic_argument.py
+[1.277s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages/msg_srv_action_interface_example/srv/__init__.py
+[1.282s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages/msg_srv_action_interface_example/srv/_arithmetic_operator.py
+[1.288s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages/msg_srv_action_interface_example/action/__init__.py
+[1.294s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages/msg_srv_action_interface_example/action/_arithmetic_checker.py
+[1.300s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages/msg_srv_action_interface_example/msg_srv_action_interface_example_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.306s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages/msg_srv_action_interface_example/msg_srv_action_interface_example_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.313s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages/msg_srv_action_interface_example/msg_srv_action_interface_example_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.320s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__python.so
+[1.327s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/msg/ArithmeticArgument.idl
+[1.333s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/srv/ArithmeticOperator.idl
+[1.340s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/action/ArithmeticChecker.idl
+[1.347s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/msg/ArithmeticArgument.msg
+[1.354s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/srv/ArithmeticOperator.srv
+[1.360s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/srv/ArithmeticOperator_Request.msg
+[1.366s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/srv/ArithmeticOperator_Response.msg
+[1.372s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/action/ArithmeticChecker.action
+[1.378s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/ament_index/resource_index/package_run_dependencies/msg_srv_action_interface_example
+[1.384s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/ament_index/resource_index/parent_prefix_path/msg_srv_action_interface_example
+[1.390s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/environment/ament_prefix_path.sh
+[1.396s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/environment/ament_prefix_path.dsv
+[1.402s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/environment/path.sh
+[1.408s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/environment/path.dsv
+[1.414s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/local_setup.bash
+[1.420s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/local_setup.sh
+[1.426s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/local_setup.zsh
+[1.433s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/local_setup.dsv
+[1.439s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/package.dsv
+[1.445s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/ament_index/resource_index/packages/msg_srv_action_interface_example
+[1.452s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/rosidl_cmake-extras.cmake
+[1.458s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.464s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/ament_cmake_export_libraries-extras.cmake
+[1.471s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/ament_cmake_export_targets-extras.cmake
+[1.477s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.486s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.494s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.506s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_exampleConfig.cmake
+[1.516s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_exampleConfig-version.cmake
+[1.528s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/package.xml
+[1.536s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_generator_c.so
+[1.536s] -- Set runtime path of "/home/lee/robot_ws/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_generator_c.so" to ""
+[1.536s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_introspection_c.so
+[1.536s] -- Set runtime path of "/home/lee/robot_ws/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_introspection_c.so" to ""
+[1.536s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_c.so
+[1.536s] -- Set runtime path of "/home/lee/robot_ws/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_c.so" to ""
+[1.537s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_introspection_cpp.so
+[1.537s] -- Set runtime path of "/home/lee/robot_ws/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_introspection_cpp.so" to ""
+[1.537s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_cpp.so
+[1.537s] -- Set runtime path of "/home/lee/robot_ws/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_cpp.so" to ""
+[1.560s] Compiling '/home/lee/robot_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages/msg_srv_action_interface_example/__init__.py'...
+[1.561s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_generator_cExport.cmake
+[1.564s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_generator_cExport-noconfig.cmake
+[1.564s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_introspection_cExport.cmake
+[1.565s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.565s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_cExport.cmake
+[1.565s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_cExport-noconfig.cmake
+[1.565s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_generator_cppExport.cmake
+[1.565s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_introspection_cppExport.cmake
+[1.565s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.565s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_cppExport.cmake
+[1.565s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_cppExport-noconfig.cmake
+[1.585s] Invoked command in '/home/lee/robot_ws/build/msg_srv_action_interface_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/lee/robot_ws/build/msg_srv_action_interface_example

@@ -1,0 +1,13 @@
+[0.500s] Invoking command in '/home/lee/robot_ws/build/tf2_rclcpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/lee/robot_ws/build/tf2_rclcpp_example -- -j12 -l12
+[1.082s] [35m[1mScanning dependencies of target static_broadcaster[0m
+[1.082s] [35m[1mScanning dependencies of target broadcaster[0m
+[1.082s] [35m[1mScanning dependencies of target listener[0m
+[1.082s] [ 16%] [32mBuilding CXX object CMakeFiles/static_broadcaster.dir/src/static_broadcaster.cpp.o[0m
+[1.082s] [ 33%] [32mBuilding CXX object CMakeFiles/broadcaster.dir/src/broadcaster.cpp.o[0m
+[1.082s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[2.672s] [ 66%] [32m[1mLinking CXX executable listener[0m
+[2.796s] [ 66%] Built target listener
+[3.377s] [ 83%] [32m[1mLinking CXX executable static_broadcaster[0m
+[3.462s] [100%] [32m[1mLinking CXX executable broadcaster[0m
+[3.502s] [100%] Built target static_broadcaster
+[3.596s] [100%] Built target broadcaster

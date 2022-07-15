@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+param/coordinates.config.yaml
+resource/test_lee_rclpy
+test_lee_rclpy/__init__.py
+test_lee_rclpy.egg-info/PKG-INFO
+test_lee_rclpy.egg-info/SOURCES.txt
+test_lee_rclpy.egg-info/dependency_links.txt
+test_lee_rclpy.egg-info/entry_points.txt
+test_lee_rclpy.egg-info/requires.txt
+test_lee_rclpy.egg-info/top_level.txt
+test_lee_rclpy.egg-info/zip-safe

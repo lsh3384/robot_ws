@@ -1,0 +1,6 @@
+{
+  "package_name": "msg_interface_py_test",
+  "non_idl_tuples": [
+    "/home/lee/robot_ws/src/msg_interface_py_test:msg/Coordinates.msg"
+  ]
+}

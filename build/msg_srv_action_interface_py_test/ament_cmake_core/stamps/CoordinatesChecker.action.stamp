@@ -1,0 +1,9 @@
+# Goal
+int16[] goal_coordinates
+---
+# Result
+string[] all_position
+int16[] current_coordinates
+---
+# Feedback
+string[] position

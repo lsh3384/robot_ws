@@ -1,0 +1,17 @@
+[1.302s] Invoking command in '/home/lee/robot_ws/build/logging_rclpy_example': PYTHONPATH=/home/lee/robot_ws/install/logging_rclpy_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/lee/robot_ws/install/logging_rclpy_example --editable --build-directory /home/lee/robot_ws/build/logging_rclpy_example/build --no-deps install_data --install-dir /home/lee/robot_ws/install/logging_rclpy_example
+[1.477s] running develop
+[1.594s] running egg_info
+[1.594s] writing logging_rclpy_example.egg-info/PKG-INFO
+[1.594s] writing dependency_links to logging_rclpy_example.egg-info/dependency_links.txt
+[1.594s] writing entry points to logging_rclpy_example.egg-info/entry_points.txt
+[1.595s] writing requirements to logging_rclpy_example.egg-info/requires.txt
+[1.595s] writing top-level names to logging_rclpy_example.egg-info/top_level.txt
+[1.625s] reading manifest file 'logging_rclpy_example.egg-info/SOURCES.txt'
+[1.626s] writing manifest file 'logging_rclpy_example.egg-info/SOURCES.txt'
+[1.661s] running build_ext
+[1.661s] Creating /home/lee/robot_ws/install/logging_rclpy_example/lib/python3.8/site-packages/logging-rclpy-example.egg-link (link to .)
+[1.661s] Installing logging_example script to /home/lee/robot_ws/install/logging_rclpy_example/lib/logging_rclpy_example
+[1.661s] 
+[1.661s] Installed /home/lee/robot_ws/build/logging_rclpy_example
+[1.661s] running install_data
+[1.772s] Invoked command in '/home/lee/robot_ws/build/logging_rclpy_example' returned '0': PYTHONPATH=/home/lee/robot_ws/install/logging_rclpy_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/lee/robot_ws/install/logging_rclpy_example --editable --build-directory /home/lee/robot_ws/build/logging_rclpy_example/build --no-deps install_data --install-dir /home/lee/robot_ws/install/logging_rclpy_example

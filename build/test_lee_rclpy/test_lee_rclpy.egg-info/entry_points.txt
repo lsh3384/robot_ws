@@ -1,0 +1,5 @@
+[console_scripts]
+converter = test_lee_rclpy.conversion.converter:main
+manager = test_lee_rclpy.coordinates.manager:main
+position = test_lee_rclpy.coordinates.position:main
+

@@ -1,0 +1,1 @@
+/home/lee/robot_ws/build/msg_srv_interface_py_test/rosidl_typesupport_fastrtps_c/msg_srv_interface_py_test/msg/detail/coordinates__rosidl_typesupport_fastrtps_c.h

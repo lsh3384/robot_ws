@@ -1,0 +1,25 @@
+[1.128s] Invoking command in '/home/lee/robot_ws/build/time_rclpy_example': PYTHONPATH=/home/lee/robot_ws/install/time_rclpy_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/lee/robot_ws/install/time_rclpy_example --editable --build-directory /home/lee/robot_ws/build/time_rclpy_example/build --no-deps install_data --install-dir /home/lee/robot_ws/install/time_rclpy_example
+[1.279s] running develop
+[1.360s] running egg_info
+[1.360s] creating time_rclpy_example.egg-info
+[1.360s] writing time_rclpy_example.egg-info/PKG-INFO
+[1.360s] writing dependency_links to time_rclpy_example.egg-info/dependency_links.txt
+[1.360s] writing entry points to time_rclpy_example.egg-info/entry_points.txt
+[1.360s] writing requirements to time_rclpy_example.egg-info/requires.txt
+[1.361s] writing top-level names to time_rclpy_example.egg-info/top_level.txt
+[1.361s] writing manifest file 'time_rclpy_example.egg-info/SOURCES.txt'
+[1.383s] reading manifest file 'time_rclpy_example.egg-info/SOURCES.txt'
+[1.383s] writing manifest file 'time_rclpy_example.egg-info/SOURCES.txt'
+[1.407s] running build_ext
+[1.407s] Creating /home/lee/robot_ws/install/time_rclpy_example/lib/python3.8/site-packages/site.py
+[1.408s] Creating /home/lee/robot_ws/install/time_rclpy_example/lib/python3.8/site-packages/time-rclpy-example.egg-link (link to .)
+[1.409s] Installing time_example script to /home/lee/robot_ws/install/time_rclpy_example/lib/time_rclpy_example
+[1.409s] 
+[1.409s] Installed /home/lee/robot_ws/build/time_rclpy_example
+[1.409s] running install_data
+[1.409s] creating /home/lee/robot_ws/install/time_rclpy_example/share/ament_index
+[1.409s] creating /home/lee/robot_ws/install/time_rclpy_example/share/ament_index/resource_index
+[1.409s] creating /home/lee/robot_ws/install/time_rclpy_example/share/ament_index/resource_index/packages
+[1.409s] copying resource/time_rclpy_example -> /home/lee/robot_ws/install/time_rclpy_example/share/ament_index/resource_index/packages
+[1.409s] copying package.xml -> /home/lee/robot_ws/install/time_rclpy_example/share/time_rclpy_example
+[1.457s] Invoked command in '/home/lee/robot_ws/build/time_rclpy_example' returned '0': PYTHONPATH=/home/lee/robot_ws/install/time_rclpy_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/lee/robot_ws/install/time_rclpy_example --editable --build-directory /home/lee/robot_ws/build/time_rclpy_example/build --no-deps install_data --install-dir /home/lee/robot_ws/install/time_rclpy_example

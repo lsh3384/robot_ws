@@ -1,0 +1,3 @@
+Invoking command in '/home/lee/robot_ws/build/rqt_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/lee/robot_ws/build/rqt_example -- -j12 -l12
+Invoked command in '/home/lee/robot_ws/build/rqt_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/lee/robot_ws/build/rqt_example -- -j12 -l12
+Invoking command in '/home/lee/robot_ws/build/rqt_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/lee/robot_ws/build/rqt_example

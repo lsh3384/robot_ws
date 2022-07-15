@@ -1,0 +1,16 @@
+[1.292s] Invoking command in '/home/lee/robot_ws/build/ros2env': PYTHONPATH=/home/lee/robot_ws/install/ros2env/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/lee/robot_ws/install/ros2env --editable --build-directory /home/lee/robot_ws/build/ros2env/build --no-deps install_data --install-dir /home/lee/robot_ws/install/ros2env
+[1.468s] running develop
+[1.593s] running egg_info
+[1.593s] writing ros2env.egg-info/PKG-INFO
+[1.594s] writing dependency_links to ros2env.egg-info/dependency_links.txt
+[1.594s] writing entry points to ros2env.egg-info/entry_points.txt
+[1.594s] writing requirements to ros2env.egg-info/requires.txt
+[1.594s] writing top-level names to ros2env.egg-info/top_level.txt
+[1.644s] reading manifest file 'ros2env.egg-info/SOURCES.txt'
+[1.644s] writing manifest file 'ros2env.egg-info/SOURCES.txt'
+[1.684s] running build_ext
+[1.685s] Creating /home/lee/robot_ws/install/ros2env/lib/python3.8/site-packages/ros2env.egg-link (link to .)
+[1.686s] 
+[1.686s] Installed /home/lee/robot_ws/build/ros2env
+[1.686s] running install_data
+[1.789s] Invoked command in '/home/lee/robot_ws/build/ros2env' returned '0': PYTHONPATH=/home/lee/robot_ws/install/ros2env/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/lee/robot_ws/install/ros2env --editable --build-directory /home/lee/robot_ws/build/ros2env/build --no-deps install_data --install-dir /home/lee/robot_ws/install/ros2env

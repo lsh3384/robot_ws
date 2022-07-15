@@ -1,0 +1,5 @@
+[0.718s] Invoking command in '/home/lee/robot_ws/build/time_rclcpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/lee/robot_ws/build/time_rclcpp_example -- -j12 -l12
+[1.066s] [35m[1mScanning dependencies of target time_example[0m
+[1.066s] [ 50%] [32mBuilding CXX object CMakeFiles/time_example.dir/src/main.cpp.o[0m
+[3.263s] [100%] [32m[1mLinking CXX executable time_example[0m
+[3.361s] [100%] Built target time_example
