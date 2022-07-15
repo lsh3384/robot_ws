@@ -18,6 +18,7 @@
     "/home/lee/robot_ws/install/test_lee_rclpy/lib/python3.8/site-packages",
     "/home/lee/robot_ws/install/msg_interface_py_test/lib/python3.8/site-packages",
     "/home/lee/robot_ws/install/msg_srv_interface_py_test/lib/python3.8/site-packages",
+    "/home/lee/robot_ws/install/msg_srv_action_interface_py_test/lib/python3.8/site-packages",
   ],
   "python.analysis.extraPaths": [
     "/home/lee/robot_ws/build/topic_service_action_rclpy_example",
@@ -38,5 +39,6 @@
     "/home/lee/robot_ws/install/test_lee_rclpy/lib/python3.8/site-packages",
     "/home/lee/robot_ws/install/msg_interface_py_test/lib/python3.8/site-packages",
     "/home/lee/robot_ws/install/msg_srv_interface_py_test/lib/python3.8/site-packages",
+    "/home/lee/robot_ws/install/msg_srv_action_interface_py_test/lib/python3.8/site-packages",
   ]
 }

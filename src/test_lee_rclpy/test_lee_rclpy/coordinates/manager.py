@@ -1,6 +1,8 @@
 import rclpy
 from msg_srv_interface_py_test.msg import Coordinates
 from msg_srv_interface_py_test.srv import Conversion
+from msg_srv_action_interface_py_test.action import CoordinatesChecker
+from rclpy.action import ActionServer
 from rclpy.callback_groups import ReentrantCallbackGroup
 from rclpy.node import Node
 from rclpy.qos import QoSDurabilityPolicy
@@ -44,6 +46,13 @@ class Manager(Node):
             self.get_inch,
             callback_group=self.callback_group)
 
+        self.arithmetic_action_server = ActionServer(
+            self,
+            CoordinatesChecker,
+            'coordinates_checker',
+            self.execute_coordinates_checker,
+            callback_group=self.callback_group)
+
 
     def get_coordinates(self, msg):
         self.coordinate_x = msg.coordinate_x
@@ -58,6 +67,8 @@ class Manager(Node):
         response.inch = self.inch
         return response
 
+    def execute_coordinates_checker(self):
+        return
 
 def main(args=None):
     rclpy.init(args=args)
