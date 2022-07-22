@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from msg_srv_action_interface_cpp/action/CoordinatesChecker.action
+// generated code does not contain a copyright notice
+
+
+module msg_srv_action_interface_cpp {
+  module action {
+    @verbatim (language="comment", text=
+      " Goal")
+    struct CoordinatesChecker_Goal {
+      int16 coordinate_x;
+
+      int16 coordinate_y;
+    };
+    struct CoordinatesChecker_Result {
+      @verbatim (language="comment", text=
+        " Result")
+      sequence<string> all_position;
+
+      int16 coordinate_x;
+
+      int16 coordinate_y;
+    };
+    struct CoordinatesChecker_Feedback {
+      @verbatim (language="comment", text=
+        " Feedback")
+      sequence<string> position;
+    };
+  };
+};

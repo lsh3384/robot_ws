@@ -9,21 +9,14 @@
 #include <string.h>
 
 
-// Include directives for member types
-// Member `goal_coordinates`
-#include "rosidl_runtime_c/primitives_sequence_functions.h"
-
 bool
 msg_srv_action_interface_py_test__action__CoordinatesChecker_Goal__init(msg_srv_action_interface_py_test__action__CoordinatesChecker_Goal * msg)
 {
   if (!msg) {
     return false;
   }
-  // goal_coordinates
-  if (!rosidl_runtime_c__int16__Sequence__init(&msg->goal_coordinates, 0)) {
-    msg_srv_action_interface_py_test__action__CoordinatesChecker_Goal__fini(msg);
-    return false;
-  }
+  // coordinate_x
+  // coordinate_y
   return true;
 }
 
@@ -33,8 +26,8 @@ msg_srv_action_interface_py_test__action__CoordinatesChecker_Goal__fini(msg_srv_
   if (!msg) {
     return;
   }
-  // goal_coordinates
-  rosidl_runtime_c__int16__Sequence__fini(&msg->goal_coordinates);
+  // coordinate_x
+  // coordinate_y
 }
 
 msg_srv_action_interface_py_test__action__CoordinatesChecker_Goal *
@@ -150,9 +143,6 @@ msg_srv_action_interface_py_test__action__CoordinatesChecker_Goal__Sequence__des
 // Include directives for member types
 // Member `all_position`
 #include "rosidl_runtime_c/string_functions.h"
-// Member `current_coordinates`
-// already included above
-// #include "rosidl_runtime_c/primitives_sequence_functions.h"
 
 bool
 msg_srv_action_interface_py_test__action__CoordinatesChecker_Result__init(msg_srv_action_interface_py_test__action__CoordinatesChecker_Result * msg)
@@ -165,11 +155,8 @@ msg_srv_action_interface_py_test__action__CoordinatesChecker_Result__init(msg_sr
     msg_srv_action_interface_py_test__action__CoordinatesChecker_Result__fini(msg);
     return false;
   }
-  // current_coordinates
-  if (!rosidl_runtime_c__int16__Sequence__init(&msg->current_coordinates, 0)) {
-    msg_srv_action_interface_py_test__action__CoordinatesChecker_Result__fini(msg);
-    return false;
-  }
+  // coordinate_x
+  // coordinate_y
   return true;
 }
 
@@ -181,8 +168,8 @@ msg_srv_action_interface_py_test__action__CoordinatesChecker_Result__fini(msg_sr
   }
   // all_position
   rosidl_runtime_c__String__Sequence__fini(&msg->all_position);
-  // current_coordinates
-  rosidl_runtime_c__int16__Sequence__fini(&msg->current_coordinates);
+  // coordinate_x
+  // coordinate_y
 }
 
 msg_srv_action_interface_py_test__action__CoordinatesChecker_Result *

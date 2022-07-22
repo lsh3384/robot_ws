@@ -16,9 +16,6 @@
 #include "msg_srv_action_interface_py_test/action/detail/coordinates_checker__struct.h"
 #include "msg_srv_action_interface_py_test/action/detail/coordinates_checker__functions.h"
 
-#include "rosidl_runtime_c/primitives_sequence.h"
-#include "rosidl_runtime_c/primitives_sequence_functions.h"
-
 
 ROSIDL_GENERATOR_C_EXPORT
 bool msg_srv_action_interface_py_test__action__coordinates_checker__goal__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -53,66 +50,22 @@ bool msg_srv_action_interface_py_test__action__coordinates_checker__goal__conver
     assert(strncmp("msg_srv_action_interface_py_test.action._coordinates_checker.CoordinatesChecker_Goal", full_classname_dest, 84) == 0);
   }
   msg_srv_action_interface_py_test__action__CoordinatesChecker_Goal * ros_message = _ros_message;
-  {  // goal_coordinates
-    PyObject * field = PyObject_GetAttrString(_pymsg, "goal_coordinates");
+  {  // coordinate_x
+    PyObject * field = PyObject_GetAttrString(_pymsg, "coordinate_x");
     if (!field) {
       return false;
     }
-    if (PyObject_CheckBuffer(field)) {
-      // Optimization for converting arrays of primitives
-      Py_buffer view;
-      int rc = PyObject_GetBuffer(field, &view, PyBUF_SIMPLE);
-      if (rc < 0) {
-        Py_DECREF(field);
-        return false;
-      }
-      Py_ssize_t size = view.len / sizeof(int16_t);
-      if (!rosidl_runtime_c__int16__Sequence__init(&(ros_message->goal_coordinates), size)) {
-        PyErr_SetString(PyExc_RuntimeError, "unable to create int16__Sequence ros_message");
-        PyBuffer_Release(&view);
-        Py_DECREF(field);
-        return false;
-      }
-      int16_t * dest = ros_message->goal_coordinates.data;
-      rc = PyBuffer_ToContiguous(dest, &view, view.len, 'C');
-      if (rc < 0) {
-        PyBuffer_Release(&view);
-        Py_DECREF(field);
-        return false;
-      }
-      PyBuffer_Release(&view);
-    } else {
-      PyObject * seq_field = PySequence_Fast(field, "expected a sequence in 'goal_coordinates'");
-      if (!seq_field) {
-        Py_DECREF(field);
-        return false;
-      }
-      Py_ssize_t size = PySequence_Size(field);
-      if (-1 == size) {
-        Py_DECREF(seq_field);
-        Py_DECREF(field);
-        return false;
-      }
-      if (!rosidl_runtime_c__int16__Sequence__init(&(ros_message->goal_coordinates), size)) {
-        PyErr_SetString(PyExc_RuntimeError, "unable to create int16__Sequence ros_message");
-        Py_DECREF(seq_field);
-        Py_DECREF(field);
-        return false;
-      }
-      int16_t * dest = ros_message->goal_coordinates.data;
-      for (Py_ssize_t i = 0; i < size; ++i) {
-        PyObject * item = PySequence_Fast_GET_ITEM(seq_field, i);
-        if (!item) {
-          Py_DECREF(seq_field);
-          Py_DECREF(field);
-          return false;
-        }
-        assert(PyLong_Check(item));
-        int16_t tmp = (int16_t)PyLong_AsLong(item);
-        memcpy(&dest[i], &tmp, sizeof(int16_t));
-      }
-      Py_DECREF(seq_field);
+    assert(PyLong_Check(field));
+    ros_message->coordinate_x = (int16_t)PyLong_AsLong(field);
+    Py_DECREF(field);
+  }
+  {  // coordinate_y
+    PyObject * field = PyObject_GetAttrString(_pymsg, "coordinate_y");
+    if (!field) {
+      return false;
     }
+    assert(PyLong_Check(field));
+    ros_message->coordinate_y = (int16_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
 
@@ -137,62 +90,27 @@ PyObject * msg_srv_action_interface_py_test__action__coordinates_checker__goal__
     }
   }
   msg_srv_action_interface_py_test__action__CoordinatesChecker_Goal * ros_message = (msg_srv_action_interface_py_test__action__CoordinatesChecker_Goal *)raw_ros_message;
-  {  // goal_coordinates
+  {  // coordinate_x
     PyObject * field = NULL;
-    field = PyObject_GetAttrString(_pymessage, "goal_coordinates");
-    if (!field) {
-      return NULL;
-    }
-    assert(field->ob_type != NULL);
-    assert(field->ob_type->tp_name != NULL);
-    assert(strcmp(field->ob_type->tp_name, "array.array") == 0);
-    // ensure that itemsize matches the sizeof of the ROS message field
-    PyObject * itemsize_attr = PyObject_GetAttrString(field, "itemsize");
-    assert(itemsize_attr != NULL);
-    size_t itemsize = PyLong_AsSize_t(itemsize_attr);
-    Py_DECREF(itemsize_attr);
-    if (itemsize != sizeof(int16_t)) {
-      PyErr_SetString(PyExc_RuntimeError, "itemsize doesn't match expectation");
+    field = PyLong_FromLong(ros_message->coordinate_x);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "coordinate_x", field);
       Py_DECREF(field);
-      return NULL;
-    }
-    // clear the array, poor approach to remove potential default values
-    Py_ssize_t length = PyObject_Length(field);
-    if (-1 == length) {
-      Py_DECREF(field);
-      return NULL;
-    }
-    if (length > 0) {
-      PyObject * pop = PyObject_GetAttrString(field, "pop");
-      assert(pop != NULL);
-      for (Py_ssize_t i = 0; i < length; ++i) {
-        PyObject * ret = PyObject_CallFunctionObjArgs(pop, NULL);
-        if (!ret) {
-          Py_DECREF(pop);
-          Py_DECREF(field);
-          return NULL;
-        }
-        Py_DECREF(ret);
-      }
-      Py_DECREF(pop);
-    }
-    if (ros_message->goal_coordinates.size > 0) {
-      // populating the array.array using the frombytes method
-      PyObject * frombytes = PyObject_GetAttrString(field, "frombytes");
-      assert(frombytes != NULL);
-      int16_t * src = &(ros_message->goal_coordinates.data[0]);
-      PyObject * data = PyBytes_FromStringAndSize((const char *)src, ros_message->goal_coordinates.size * sizeof(int16_t));
-      assert(data != NULL);
-      PyObject * ret = PyObject_CallFunctionObjArgs(frombytes, data, NULL);
-      Py_DECREF(data);
-      Py_DECREF(frombytes);
-      if (!ret) {
-        Py_DECREF(field);
+      if (rc) {
         return NULL;
       }
-      Py_DECREF(ret);
     }
-    Py_DECREF(field);
+  }
+  {  // coordinate_y
+    PyObject * field = NULL;
+    field = PyLong_FromLong(ros_message->coordinate_y);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "coordinate_y", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
   }
 
   // ownership of _pymessage is transferred to the caller
@@ -213,10 +131,8 @@ PyObject * msg_srv_action_interface_py_test__action__coordinates_checker__goal__
 // already included above
 // #include "msg_srv_action_interface_py_test/action/detail/coordinates_checker__functions.h"
 
-// already included above
-// #include "rosidl_runtime_c/primitives_sequence.h"
-// already included above
-// #include "rosidl_runtime_c/primitives_sequence_functions.h"
+#include "rosidl_runtime_c/primitives_sequence.h"
+#include "rosidl_runtime_c/primitives_sequence_functions.h"
 #include "rosidl_runtime_c/string.h"
 #include "rosidl_runtime_c/string_functions.h"
 
@@ -299,66 +215,22 @@ bool msg_srv_action_interface_py_test__action__coordinates_checker__result__conv
     }
     Py_DECREF(field);
   }
-  {  // current_coordinates
-    PyObject * field = PyObject_GetAttrString(_pymsg, "current_coordinates");
+  {  // coordinate_x
+    PyObject * field = PyObject_GetAttrString(_pymsg, "coordinate_x");
     if (!field) {
       return false;
     }
-    if (PyObject_CheckBuffer(field)) {
-      // Optimization for converting arrays of primitives
-      Py_buffer view;
-      int rc = PyObject_GetBuffer(field, &view, PyBUF_SIMPLE);
-      if (rc < 0) {
-        Py_DECREF(field);
-        return false;
-      }
-      Py_ssize_t size = view.len / sizeof(int16_t);
-      if (!rosidl_runtime_c__int16__Sequence__init(&(ros_message->current_coordinates), size)) {
-        PyErr_SetString(PyExc_RuntimeError, "unable to create int16__Sequence ros_message");
-        PyBuffer_Release(&view);
-        Py_DECREF(field);
-        return false;
-      }
-      int16_t * dest = ros_message->current_coordinates.data;
-      rc = PyBuffer_ToContiguous(dest, &view, view.len, 'C');
-      if (rc < 0) {
-        PyBuffer_Release(&view);
-        Py_DECREF(field);
-        return false;
-      }
-      PyBuffer_Release(&view);
-    } else {
-      PyObject * seq_field = PySequence_Fast(field, "expected a sequence in 'current_coordinates'");
-      if (!seq_field) {
-        Py_DECREF(field);
-        return false;
-      }
-      Py_ssize_t size = PySequence_Size(field);
-      if (-1 == size) {
-        Py_DECREF(seq_field);
-        Py_DECREF(field);
-        return false;
-      }
-      if (!rosidl_runtime_c__int16__Sequence__init(&(ros_message->current_coordinates), size)) {
-        PyErr_SetString(PyExc_RuntimeError, "unable to create int16__Sequence ros_message");
-        Py_DECREF(seq_field);
-        Py_DECREF(field);
-        return false;
-      }
-      int16_t * dest = ros_message->current_coordinates.data;
-      for (Py_ssize_t i = 0; i < size; ++i) {
-        PyObject * item = PySequence_Fast_GET_ITEM(seq_field, i);
-        if (!item) {
-          Py_DECREF(seq_field);
-          Py_DECREF(field);
-          return false;
-        }
-        assert(PyLong_Check(item));
-        int16_t tmp = (int16_t)PyLong_AsLong(item);
-        memcpy(&dest[i], &tmp, sizeof(int16_t));
-      }
-      Py_DECREF(seq_field);
+    assert(PyLong_Check(field));
+    ros_message->coordinate_x = (int16_t)PyLong_AsLong(field);
+    Py_DECREF(field);
+  }
+  {  // coordinate_y
+    PyObject * field = PyObject_GetAttrString(_pymsg, "coordinate_y");
+    if (!field) {
+      return false;
     }
+    assert(PyLong_Check(field));
+    ros_message->coordinate_y = (int16_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
 
@@ -409,62 +281,27 @@ PyObject * msg_srv_action_interface_py_test__action__coordinates_checker__result
       }
     }
   }
-  {  // current_coordinates
+  {  // coordinate_x
     PyObject * field = NULL;
-    field = PyObject_GetAttrString(_pymessage, "current_coordinates");
-    if (!field) {
-      return NULL;
-    }
-    assert(field->ob_type != NULL);
-    assert(field->ob_type->tp_name != NULL);
-    assert(strcmp(field->ob_type->tp_name, "array.array") == 0);
-    // ensure that itemsize matches the sizeof of the ROS message field
-    PyObject * itemsize_attr = PyObject_GetAttrString(field, "itemsize");
-    assert(itemsize_attr != NULL);
-    size_t itemsize = PyLong_AsSize_t(itemsize_attr);
-    Py_DECREF(itemsize_attr);
-    if (itemsize != sizeof(int16_t)) {
-      PyErr_SetString(PyExc_RuntimeError, "itemsize doesn't match expectation");
+    field = PyLong_FromLong(ros_message->coordinate_x);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "coordinate_x", field);
       Py_DECREF(field);
-      return NULL;
-    }
-    // clear the array, poor approach to remove potential default values
-    Py_ssize_t length = PyObject_Length(field);
-    if (-1 == length) {
-      Py_DECREF(field);
-      return NULL;
-    }
-    if (length > 0) {
-      PyObject * pop = PyObject_GetAttrString(field, "pop");
-      assert(pop != NULL);
-      for (Py_ssize_t i = 0; i < length; ++i) {
-        PyObject * ret = PyObject_CallFunctionObjArgs(pop, NULL);
-        if (!ret) {
-          Py_DECREF(pop);
-          Py_DECREF(field);
-          return NULL;
-        }
-        Py_DECREF(ret);
-      }
-      Py_DECREF(pop);
-    }
-    if (ros_message->current_coordinates.size > 0) {
-      // populating the array.array using the frombytes method
-      PyObject * frombytes = PyObject_GetAttrString(field, "frombytes");
-      assert(frombytes != NULL);
-      int16_t * src = &(ros_message->current_coordinates.data[0]);
-      PyObject * data = PyBytes_FromStringAndSize((const char *)src, ros_message->current_coordinates.size * sizeof(int16_t));
-      assert(data != NULL);
-      PyObject * ret = PyObject_CallFunctionObjArgs(frombytes, data, NULL);
-      Py_DECREF(data);
-      Py_DECREF(frombytes);
-      if (!ret) {
-        Py_DECREF(field);
+      if (rc) {
         return NULL;
       }
-      Py_DECREF(ret);
     }
-    Py_DECREF(field);
+  }
+  {  // coordinate_y
+    PyObject * field = NULL;
+    field = PyLong_FromLong(ros_message->coordinate_y);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "coordinate_y", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
   }
 
   // ownership of _pymessage is transferred to the caller

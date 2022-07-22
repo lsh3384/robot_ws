@@ -1,0 +1,36 @@
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:57:9:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+   57 |         [01;35m[K'to'[m[K << ' ' <<
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:57:9:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+   57 |         [01;35m[K'to'[m[K << ' ' <<
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:[m[K In lambda function:
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:51:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcm_[m[K’ was not declared in this scope
+   51 |       [01;31m[Kcm_[m[K = request->cm;
+      |       [01;31m[K^~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:52:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kinch_[m[K’ was not declared in this scope
+   52 |       [01;31m[Kinch_[m[K = cm_ / 2.54;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:[m[K In constructor ‘[01m[KManager::Manager(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kconverter_server_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcoordinates_server_[m[K’?
+   63 |   [01;31m[Kconverter_server_[m[K =
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Kcoordinates_server_[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:[m[K In lambda function:
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:51:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcm_[m[K’ was not declared in this scope
+   51 |       [01;31m[Kcm_[m[K = request->cm;
+      |       [01;31m[K^~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:52:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kinch_[m[K’ was not declared in this scope
+   52 |       [01;31m[Kinch_[m[K = cm_ / 2.54;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:[m[K In constructor ‘[01m[KManager::Manager(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kconverter_server_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcoordinates_server_[m[K’?
+   63 |   [01;31m[Kconverter_server_[m[K =
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Kcoordinates_server_[m[K
+make[2]: *** [CMakeFiles/manager.dir/build.make:63: CMakeFiles/manager.dir/src/coordinates/manager.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:150: CMakeFiles/manager.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [test/CMakeFiles/test_manager.dir/build.make:76: test/CMakeFiles/test_manager.dir/__/src/coordinates/manager.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:259: test/CMakeFiles/test_manager.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

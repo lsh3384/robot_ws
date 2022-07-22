@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000265] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000287] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000326] (-) JobUnselected: {'identifier': 'action_tutorials_py'}
+[0.000616] (-) JobUnselected: {'identifier': 'composition'}
+[0.000980] (-) JobUnselected: {'identifier': 'demo_nodes_cpp'}
+[0.001015] (-) JobUnselected: {'identifier': 'demo_nodes_cpp_native'}
+[0.001089] (-) JobUnselected: {'identifier': 'demo_nodes_py'}
+[0.001200] (-) JobUnselected: {'identifier': 'dummy_map_server'}
+[0.001284] (-) JobUnselected: {'identifier': 'dummy_robot_bringup'}
+[0.001303] (-) JobUnselected: {'identifier': 'dummy_sensors'}
+[0.001321] (-) JobUnselected: {'identifier': 'image_tools'}
+[0.001383] (-) JobUnselected: {'identifier': 'intra_process_demo'}
+[0.001395] (-) JobUnselected: {'identifier': 'lifecycle'}
+[0.001411] (-) JobUnselected: {'identifier': 'lifecycle_py_test'}
+[0.001424] (-) JobUnselected: {'identifier': 'logging_demo'}
+[0.001485] (-) JobUnselected: {'identifier': 'logging_rclpy_example'}
+[0.001503] (-) JobUnselected: {'identifier': 'msg_interface_py_test'}
+[0.001518] (-) JobUnselected: {'identifier': 'msg_srv_action_interface_cpp'}
+[0.001532] (-) JobUnselected: {'identifier': 'msg_srv_action_interface_example'}
+[0.001585] (-) JobUnselected: {'identifier': 'msg_srv_action_interface_py_test'}
+[0.001598] (-) JobUnselected: {'identifier': 'msg_srv_interface_py_test'}
+[0.001612] (-) JobUnselected: {'identifier': 'my_first_ros_rclpy_pkg'}
+[0.001625] (-) JobUnselected: {'identifier': 'pendulum_control'}
+[0.001673] (-) JobUnselected: {'identifier': 'pendulum_msgs'}
+[0.001687] (-) JobUnselected: {'identifier': 'quality_of_service_demo_cpp'}
+[0.001706] (-) JobUnselected: {'identifier': 'quality_of_service_demo_py'}
+[0.002067] (-) JobUnselected: {'identifier': 'ros2env'}
+[0.002116] (-) JobUnselected: {'identifier': 'rqt_example'}
+[0.002134] (-) JobUnselected: {'identifier': 'test_lee_rclcpp'}
+[0.002152] (-) JobUnselected: {'identifier': 'test_lee_rclpy'}
+[0.002579] (-) JobUnselected: {'identifier': 'testbot_description'}
+[0.002631] (-) JobUnselected: {'identifier': 'tf2_rclcpp_example'}
+[0.002652] (-) JobUnselected: {'identifier': 'tf2_rclpy_example'}
+[0.002984] (-) JobUnselected: {'identifier': 'time_rclcpp_example'}
+[0.003034] (-) JobUnselected: {'identifier': 'time_rclpy_example'}
+[0.003052] (-) JobUnselected: {'identifier': 'topic_monitor'}
+[0.003069] (-) JobUnselected: {'identifier': 'topic_service_action_rclcpp_example'}
+[0.003160] (-) JobUnselected: {'identifier': 'topic_service_action_rclpy_example'}
+[0.003183] (-) JobUnselected: {'identifier': 'topic_statistics_demo'}
+[0.003202] (lifecycle_py) JobQueued: {'identifier': 'lifecycle_py', 'dependencies': OrderedDict([('lifecycle', '/home/lee/robot_ws/src/install/lifecycle')])}
+[0.003223] (lifecycle_py) JobStarted: {'identifier': 'lifecycle_py'}
+[0.099463] (-) TimerEvent: {}
+[0.199750] (-) TimerEvent: {}
+[0.300028] (-) TimerEvent: {}
+[0.400270] (-) TimerEvent: {}
+[0.406106] (lifecycle_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/lee/robot_ws/src/install/lifecycle_py', '--editable', '--build-directory', '/home/lee/robot_ws/src/build/lifecycle_py/build', '--no-deps', 'install_data', '--install-dir', '/home/lee/robot_ws/src/install/lifecycle_py'], 'cwd': '/home/lee/robot_ws/src/build/lifecycle_py', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lee', 'LC_TIME': 'ko_KR.UTF-8', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1711', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/home/lee/robot_ws/install/msg_srv_interface_py_test/lib:/home/lee/robot_ws/install/msg_srv_action_interface_py_test/lib:/home/lee/robot_ws/install/msg_srv_action_interface_example/lib:/home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib:/home/lee/robot_ws/install/msg_interface_py_test/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/lee', 'OLDPWD': '/home/lee/robot_ws/src/demos', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1537', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/lee/robot_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/lee/robot_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'lee', 'JOURNAL_STREAM': '8:42802', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lee', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/lee/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/lee:@/tmp/.ICE-unix/1749,unix/lee:/tmp/.ICE-unix/1749', 'INVOCATION_ID': 'adfbbc331f0449c29de2da7345f857a3', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/aaeea227_7545_40fd_b08f_3f8d6adde123', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.172', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/topic_service_action_rclcpp_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/time_rclcpp_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/tf2_rclcpp_example:/home/lee/robot_ws/install/testbot_description:/home/lee/robot_ws/install/test_lee_rclpy:/home/lee/robot_ws/install/test_lee_rclcpp:/home/lee/robot_ws/install/rqt_example:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/my_first_ros_rclcpp_pkg:/home/lee/robot_ws/install/msg_srv_interface_py_test:/home/lee/robot_ws/install/msg_srv_action_interface_py_test:/home/lee/robot_ws/install/msg_srv_action_interface_example:/home/lee/robot_ws/install/msg_srv_action_interface_cpp:/home/lee/robot_ws/install/msg_interface_py_test:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/lee/robot_ws/src/build/lifecycle_py', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lee/robot_ws/src/install/lifecycle_py/lib/python3.8/site-packages:/home/lee/robot_ws/build/topic_service_action_rclpy_example:/home/lee/robot_ws/install/topic_service_action_rclpy_example/lib/python3.8/site-packages:/home/lee/robot_ws/build/time_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example/lib/python3.8/site-packages:/home/lee/robot_ws/build/tf2_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example/lib/python3.8/site-packages:/home/lee/robot_ws/build/test_lee_rclpy:/home/lee/robot_ws/install/test_lee_rclpy/lib/python3.8/site-packages:/home/lee/robot_ws/install/rqt_example/lib/python3.8/site-packages:/home/lee/robot_ws/build/ros2env:/home/lee/robot_ws/install/ros2env/lib/python3.8/site-packages:/home/lee/robot_ws/build/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg/lib/python3.8/site-packages:/home/lee/robot_ws/install/msg_srv_interface_py_test/lib/python3.8/site-packages:/home/lee/robot_ws/install/msg_srv_action_interface_py_test/lib/python3.8/site-packages:/home/lee/robot_ws/install/msg_srv_action_interface_example/lib/python3.8/site-packages:/home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/python3.8/site-packages:/home/lee/robot_ws/install/msg_interface_py_test/lib/python3.8/site-packages:/home/lee/robot_ws/build/logging_rclpy_example:/home/lee/robot_ws/install/logging_rclpy_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/lee/robot_ws/install/topic_service_action_rclcpp_example:/home/lee/robot_ws/install/time_rclcpp_example:/home/lee/robot_ws/install/tf2_rclcpp_example:/home/lee/robot_ws/install/testbot_description:/home/lee/robot_ws/install/test_lee_rclcpp:/home/lee/robot_ws/install/rqt_example:/home/lee/robot_ws/install/my_first_ros_rclcpp_pkg:/home/lee/robot_ws/install/msg_srv_interface_py_test:/home/lee/robot_ws/install/msg_srv_action_interface_py_test:/home/lee/robot_ws/install/msg_srv_action_interface_example:/home/lee/robot_ws/install/msg_srv_action_interface_cpp:/home/lee/robot_ws/install/msg_interface_py_test'}, 'shell': False}
+[0.500374] (-) TimerEvent: {}
+[0.559369] (lifecycle_py) StdoutLine: {'line': b'running develop\n'}
+[0.600476] (-) TimerEvent: {}
+[0.641653] (lifecycle_py) StdoutLine: {'line': b'running egg_info\n'}
+[0.641899] (lifecycle_py) StdoutLine: {'line': b'creating lifecycle_py.egg-info\n'}
+[0.641980] (lifecycle_py) StdoutLine: {'line': b'writing lifecycle_py.egg-info/PKG-INFO\n'}
+[0.642172] (lifecycle_py) StdoutLine: {'line': b'writing dependency_links to lifecycle_py.egg-info/dependency_links.txt\n'}
+[0.642261] (lifecycle_py) StdoutLine: {'line': b'writing entry points to lifecycle_py.egg-info/entry_points.txt\n'}
+[0.642313] (lifecycle_py) StdoutLine: {'line': b'writing requirements to lifecycle_py.egg-info/requires.txt\n'}
+[0.642360] (lifecycle_py) StdoutLine: {'line': b'writing top-level names to lifecycle_py.egg-info/top_level.txt\n'}
+[0.643059] (lifecycle_py) StdoutLine: {'line': b"writing manifest file 'lifecycle_py.egg-info/SOURCES.txt'\n"}
+[0.662451] (lifecycle_py) StdoutLine: {'line': b"reading manifest file 'lifecycle_py.egg-info/SOURCES.txt'\n"}
+[0.662867] (lifecycle_py) StdoutLine: {'line': b"writing manifest file 'lifecycle_py.egg-info/SOURCES.txt'\n"}
+[0.683714] (lifecycle_py) StdoutLine: {'line': b'running build_ext\n'}
+[0.683927] (lifecycle_py) StdoutLine: {'line': b'Creating /home/lee/robot_ws/src/install/lifecycle_py/lib/python3.8/site-packages/site.py\n'}
+[0.685129] (lifecycle_py) StdoutLine: {'line': b'Creating /home/lee/robot_ws/src/install/lifecycle_py/lib/python3.8/site-packages/lifecycle-py.egg-link (link to .)\n'}
+[0.685670] (lifecycle_py) StdoutLine: {'line': b'Installing lifecycle_talker script to /home/lee/robot_ws/src/install/lifecycle_py/lib/lifecycle_py\n'}
+[0.685844] (lifecycle_py) StdoutLine: {'line': b'\n'}
+[0.685923] (lifecycle_py) StdoutLine: {'line': b'Installed /home/lee/robot_ws/src/build/lifecycle_py\n'}
+[0.685987] (lifecycle_py) StdoutLine: {'line': b'running install_data\n'}
+[0.686119] (lifecycle_py) StdoutLine: {'line': b'creating /home/lee/robot_ws/src/install/lifecycle_py/share/ament_index\n'}
+[0.686197] (lifecycle_py) StdoutLine: {'line': b'creating /home/lee/robot_ws/src/install/lifecycle_py/share/ament_index/resource_index\n'}
+[0.686250] (lifecycle_py) StdoutLine: {'line': b'creating /home/lee/robot_ws/src/install/lifecycle_py/share/ament_index/resource_index/packages\n'}
+[0.686298] (lifecycle_py) StdoutLine: {'line': b'copying resource/lifecycle_py -> /home/lee/robot_ws/src/install/lifecycle_py/share/ament_index/resource_index/packages\n'}
+[0.686345] (lifecycle_py) StdoutLine: {'line': b'copying package.xml -> /home/lee/robot_ws/src/install/lifecycle_py/share/lifecycle_py\n'}
+[0.700610] (-) TimerEvent: {}
+[0.703815] (lifecycle_py) CommandEnded: {'returncode': 0}
+[0.716253] (lifecycle_py) JobEnded: {'identifier': 'lifecycle_py', 'rc': 0}
+[0.716670] (-) EventReactorShutdown: {}

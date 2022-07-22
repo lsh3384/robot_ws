@@ -1,0 +1,3 @@
+/home/lee/robot_ws/build/msg_srv_action_interface_cpp/rosidl_adapter/msg_srv_action_interface_cpp:msg/Coordinates.idl
+/home/lee/robot_ws/build/msg_srv_action_interface_cpp/rosidl_adapter/msg_srv_action_interface_cpp:srv/Conversion.idl
+/home/lee/robot_ws/build/msg_srv_action_interface_cpp/rosidl_adapter/msg_srv_action_interface_cpp:action/CoordinatesChecker.idl

@@ -1,0 +1,6 @@
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:57:9:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+   57 |         [01;35m[K'to'[m[K << ' ' <<
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:57:9:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+   57 |         [01;35m[K'to'[m[K << ' ' <<
+      |         [01;35m[K^~~~[m[K

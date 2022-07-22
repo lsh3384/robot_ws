@@ -1,0 +1,12 @@
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:56:15:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   56 |       oss <<  [01;35m[K'result: '[m[K << std::to_string(cm_) << ' to ' <<
+      |               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:56:52:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+   56 |       oss <<  'result: ' << std::to_string(cm_) << [01;35m[K' to '[m[K <<
+      |                                                    [01;35m[K^~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:56:15:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   56 |       oss <<  [01;35m[K'result: '[m[K << std::to_string(cm_) << ' to ' <<
+      |               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:56:52:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+   56 |       oss <<  'result: ' << std::to_string(cm_) << [01;35m[K' to '[m[K <<
+      |                                                    [01;35m[K^~~~~~[m[K

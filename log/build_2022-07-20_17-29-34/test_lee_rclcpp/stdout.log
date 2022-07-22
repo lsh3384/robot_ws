@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target checker[0m
+[35m[1mScanning dependencies of target manager[0m
+[ 26%] Built target gtest_main
+[ 26%] Built target gtest
+[ 40%] Built target converter
+[ 53%] Built target position
+[35m[1mScanning dependencies of target test_manager[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/checker.dir/src/checker/checker.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/manager.dir/src/coordinates/manager.cpp.o[0m
+[ 80%] [32mBuilding CXX object test/CMakeFiles/test_manager.dir/__/src/coordinates/manager.cpp.o[0m
+[ 80%] [32mBuilding CXX object test/CMakeFiles/test_manager.dir/test_manager.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable checker[0m
+[ 86%] Built target checker

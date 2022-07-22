@@ -5,9 +5,6 @@
 
 # Import statements for member types
 
-# Member 'goal_coordinates'
-import array  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -56,22 +53,26 @@ class CoordinatesChecker_Goal(metaclass=Metaclass_CoordinatesChecker_Goal):
     """Message class 'CoordinatesChecker_Goal'."""
 
     __slots__ = [
-        '_goal_coordinates',
+        '_coordinate_x',
+        '_coordinate_y',
     ]
 
     _fields_and_field_types = {
-        'goal_coordinates': 'sequence<int16>',
+        'coordinate_x': 'int16',
+        'coordinate_y': 'int16',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.BasicType('int16')),  # noqa: E501
+        rosidl_parser.definition.BasicType('int16'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int16'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.goal_coordinates = array.array('h', kwargs.get('goal_coordinates', []))
+        self.coordinate_x = kwargs.get('coordinate_x', int())
+        self.coordinate_y = kwargs.get('coordinate_y', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -102,7 +103,9 @@ class CoordinatesChecker_Goal(metaclass=Metaclass_CoordinatesChecker_Goal):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.goal_coordinates != other.goal_coordinates:
+        if self.coordinate_x != other.coordinate_x:
+            return False
+        if self.coordinate_y != other.coordinate_y:
             return False
         return True
 
@@ -112,39 +115,37 @@ class CoordinatesChecker_Goal(metaclass=Metaclass_CoordinatesChecker_Goal):
         return copy(cls._fields_and_field_types)
 
     @property
-    def goal_coordinates(self):
-        """Message field 'goal_coordinates'."""
-        return self._goal_coordinates
+    def coordinate_x(self):
+        """Message field 'coordinate_x'."""
+        return self._coordinate_x
 
-    @goal_coordinates.setter
-    def goal_coordinates(self, value):
-        if isinstance(value, array.array):
-            assert value.typecode == 'h', \
-                "The 'goal_coordinates' array.array() must have the type code of 'h'"
-            self._goal_coordinates = value
-            return
+    @coordinate_x.setter
+    def coordinate_x(self, value):
         if __debug__:
-            from collections.abc import Sequence
-            from collections.abc import Set
-            from collections import UserList
-            from collections import UserString
             assert \
-                ((isinstance(value, Sequence) or
-                  isinstance(value, Set) or
-                  isinstance(value, UserList)) and
-                 not isinstance(value, str) and
-                 not isinstance(value, UserString) and
-                 all(isinstance(v, int) for v in value) and
-                 all(val >= -32768 and val < 32768 for val in value)), \
-                "The 'goal_coordinates' field must be a set or sequence and each value of type 'int' and each integer in [-32768, 32767]"
-        self._goal_coordinates = array.array('h', value)
+                isinstance(value, int), \
+                "The 'coordinate_x' field must be of type 'int'"
+            assert value >= -32768 and value < 32768, \
+                "The 'coordinate_x' field must be an integer in [-32768, 32767]"
+        self._coordinate_x = value
+
+    @property
+    def coordinate_y(self):
+        """Message field 'coordinate_y'."""
+        return self._coordinate_y
+
+    @coordinate_y.setter
+    def coordinate_y(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'coordinate_y' field must be of type 'int'"
+            assert value >= -32768 and value < 32768, \
+                "The 'coordinate_y' field must be an integer in [-32768, 32767]"
+        self._coordinate_y = value
 
 
 # Import statements for member types
-
-# Member 'current_coordinates'
-# already imported above
-# import array
 
 # already imported above
 # import rosidl_parser.definition
@@ -196,17 +197,20 @@ class CoordinatesChecker_Result(metaclass=Metaclass_CoordinatesChecker_Result):
 
     __slots__ = [
         '_all_position',
-        '_current_coordinates',
+        '_coordinate_x',
+        '_coordinate_y',
     ]
 
     _fields_and_field_types = {
         'all_position': 'sequence<string>',
-        'current_coordinates': 'sequence<int16>',
+        'coordinate_x': 'int16',
+        'coordinate_y': 'int16',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.UnboundedString()),  # noqa: E501
-        rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.BasicType('int16')),  # noqa: E501
+        rosidl_parser.definition.BasicType('int16'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int16'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -214,7 +218,8 @@ class CoordinatesChecker_Result(metaclass=Metaclass_CoordinatesChecker_Result):
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.all_position = kwargs.get('all_position', [])
-        self.current_coordinates = array.array('h', kwargs.get('current_coordinates', []))
+        self.coordinate_x = kwargs.get('coordinate_x', int())
+        self.coordinate_y = kwargs.get('coordinate_y', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -247,7 +252,9 @@ class CoordinatesChecker_Result(metaclass=Metaclass_CoordinatesChecker_Result):
             return False
         if self.all_position != other.all_position:
             return False
-        if self.current_coordinates != other.current_coordinates:
+        if self.coordinate_x != other.coordinate_x:
+            return False
+        if self.coordinate_y != other.coordinate_y:
             return False
         return True
 
@@ -280,32 +287,34 @@ class CoordinatesChecker_Result(metaclass=Metaclass_CoordinatesChecker_Result):
         self._all_position = value
 
     @property
-    def current_coordinates(self):
-        """Message field 'current_coordinates'."""
-        return self._current_coordinates
+    def coordinate_x(self):
+        """Message field 'coordinate_x'."""
+        return self._coordinate_x
 
-    @current_coordinates.setter
-    def current_coordinates(self, value):
-        if isinstance(value, array.array):
-            assert value.typecode == 'h', \
-                "The 'current_coordinates' array.array() must have the type code of 'h'"
-            self._current_coordinates = value
-            return
+    @coordinate_x.setter
+    def coordinate_x(self, value):
         if __debug__:
-            from collections.abc import Sequence
-            from collections.abc import Set
-            from collections import UserList
-            from collections import UserString
             assert \
-                ((isinstance(value, Sequence) or
-                  isinstance(value, Set) or
-                  isinstance(value, UserList)) and
-                 not isinstance(value, str) and
-                 not isinstance(value, UserString) and
-                 all(isinstance(v, int) for v in value) and
-                 all(val >= -32768 and val < 32768 for val in value)), \
-                "The 'current_coordinates' field must be a set or sequence and each value of type 'int' and each integer in [-32768, 32767]"
-        self._current_coordinates = array.array('h', value)
+                isinstance(value, int), \
+                "The 'coordinate_x' field must be of type 'int'"
+            assert value >= -32768 and value < 32768, \
+                "The 'coordinate_x' field must be an integer in [-32768, 32767]"
+        self._coordinate_x = value
+
+    @property
+    def coordinate_y(self):
+        """Message field 'coordinate_y'."""
+        return self._coordinate_y
+
+    @coordinate_y.setter
+    def coordinate_y(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'coordinate_y' field must be of type 'int'"
+            assert value >= -32768 and value < 32768, \
+                "The 'coordinate_y' field must be an integer in [-32768, 32767]"
+        self._coordinate_y = value
 
 
 # Import statements for member types

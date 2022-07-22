@@ -44,7 +44,6 @@ CMakeFiles/msg_srv_action_interface_py_test__rosidl_typesupport_fastrtps_c.dir/r
  /opt/ros/foxy/include/rosidl_runtime_c/action_type_support_struct.h
  /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
  /opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h
- /opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence_functions.h
  /opt/ros/foxy/include/rosidl_runtime_c/service_type_support_struct.h
  /opt/ros/foxy/include/rosidl_runtime_c/string.h
  /opt/ros/foxy/include/rosidl_runtime_c/string_functions.h

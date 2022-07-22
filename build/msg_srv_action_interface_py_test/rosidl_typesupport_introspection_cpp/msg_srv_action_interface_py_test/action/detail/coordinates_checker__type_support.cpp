@@ -37,55 +37,43 @@ void CoordinatesChecker_Goal_fini_function(void * message_memory)
   typed_message->~CoordinatesChecker_Goal();
 }
 
-size_t size_function__CoordinatesChecker_Goal__goal_coordinates(const void * untyped_member)
-{
-  const auto * member = reinterpret_cast<const std::vector<int16_t> *>(untyped_member);
-  return member->size();
-}
-
-const void * get_const_function__CoordinatesChecker_Goal__goal_coordinates(const void * untyped_member, size_t index)
-{
-  const auto & member =
-    *reinterpret_cast<const std::vector<int16_t> *>(untyped_member);
-  return &member[index];
-}
-
-void * get_function__CoordinatesChecker_Goal__goal_coordinates(void * untyped_member, size_t index)
-{
-  auto & member =
-    *reinterpret_cast<std::vector<int16_t> *>(untyped_member);
-  return &member[index];
-}
-
-void resize_function__CoordinatesChecker_Goal__goal_coordinates(void * untyped_member, size_t size)
-{
-  auto * member =
-    reinterpret_cast<std::vector<int16_t> *>(untyped_member);
-  member->resize(size);
-}
-
-static const ::rosidl_typesupport_introspection_cpp::MessageMember CoordinatesChecker_Goal_message_member_array[1] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember CoordinatesChecker_Goal_message_member_array[2] = {
   {
-    "goal_coordinates",  // name
+    "coordinate_x",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT16,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
-    true,  // is array
+    false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(msg_srv_action_interface_py_test::action::CoordinatesChecker_Goal, goal_coordinates),  // bytes offset in struct
+    offsetof(msg_srv_action_interface_py_test::action::CoordinatesChecker_Goal, coordinate_x),  // bytes offset in struct
     nullptr,  // default value
-    size_function__CoordinatesChecker_Goal__goal_coordinates,  // size() function pointer
-    get_const_function__CoordinatesChecker_Goal__goal_coordinates,  // get_const(index) function pointer
-    get_function__CoordinatesChecker_Goal__goal_coordinates,  // get(index) function pointer
-    resize_function__CoordinatesChecker_Goal__goal_coordinates  // resize(index) function pointer
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "coordinate_y",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT16,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(msg_srv_action_interface_py_test::action::CoordinatesChecker_Goal, coordinate_y),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers CoordinatesChecker_Goal_message_members = {
   "msg_srv_action_interface_py_test::action",  // message namespace
   "CoordinatesChecker_Goal",  // message name
-  1,  // number of fields
+  2,  // number of fields
   sizeof(msg_srv_action_interface_py_test::action::CoordinatesChecker_Goal),
   CoordinatesChecker_Goal_message_member_array,  // message members
   CoordinatesChecker_Goal_init_function,  // function to initialize message memory (memory has to be allocated)
@@ -208,34 +196,7 @@ void resize_function__CoordinatesChecker_Result__all_position(void * untyped_mem
   member->resize(size);
 }
 
-size_t size_function__CoordinatesChecker_Result__current_coordinates(const void * untyped_member)
-{
-  const auto * member = reinterpret_cast<const std::vector<int16_t> *>(untyped_member);
-  return member->size();
-}
-
-const void * get_const_function__CoordinatesChecker_Result__current_coordinates(const void * untyped_member, size_t index)
-{
-  const auto & member =
-    *reinterpret_cast<const std::vector<int16_t> *>(untyped_member);
-  return &member[index];
-}
-
-void * get_function__CoordinatesChecker_Result__current_coordinates(void * untyped_member, size_t index)
-{
-  auto & member =
-    *reinterpret_cast<std::vector<int16_t> *>(untyped_member);
-  return &member[index];
-}
-
-void resize_function__CoordinatesChecker_Result__current_coordinates(void * untyped_member, size_t size)
-{
-  auto * member =
-    reinterpret_cast<std::vector<int16_t> *>(untyped_member);
-  member->resize(size);
-}
-
-static const ::rosidl_typesupport_introspection_cpp::MessageMember CoordinatesChecker_Result_message_member_array[2] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember CoordinatesChecker_Result_message_member_array[3] = {
   {
     "all_position",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
@@ -252,26 +213,41 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember CoordinatesCh
     resize_function__CoordinatesChecker_Result__all_position  // resize(index) function pointer
   },
   {
-    "current_coordinates",  // name
+    "coordinate_x",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT16,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
-    true,  // is array
+    false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(msg_srv_action_interface_py_test::action::CoordinatesChecker_Result, current_coordinates),  // bytes offset in struct
+    offsetof(msg_srv_action_interface_py_test::action::CoordinatesChecker_Result, coordinate_x),  // bytes offset in struct
     nullptr,  // default value
-    size_function__CoordinatesChecker_Result__current_coordinates,  // size() function pointer
-    get_const_function__CoordinatesChecker_Result__current_coordinates,  // get_const(index) function pointer
-    get_function__CoordinatesChecker_Result__current_coordinates,  // get(index) function pointer
-    resize_function__CoordinatesChecker_Result__current_coordinates  // resize(index) function pointer
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "coordinate_y",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT16,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(msg_srv_action_interface_py_test::action::CoordinatesChecker_Result, coordinate_y),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers CoordinatesChecker_Result_message_members = {
   "msg_srv_action_interface_py_test::action",  // message namespace
   "CoordinatesChecker_Result",  // message name
-  2,  // number of fields
+  3,  // number of fields
   sizeof(msg_srv_action_interface_py_test::action::CoordinatesChecker_Result),
   CoordinatesChecker_Result_message_member_array,  // message members
   CoordinatesChecker_Result_init_function,  // function to initialize message memory (memory has to be allocated)

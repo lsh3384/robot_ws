@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>test_lee_rclcpp</name>
+  <version>0.6.0</version>
+  <description>ROS2 test_lee_rclcpp</description>
+  <maintainer email="lsh3384@gmail.com">Lee</maintainer>
+  <license>Apache License 2.0</license>
+  <author email="lsh3384@gmail.com">Lee</author>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_action</depend>
+  <depend>msg_srv_action_interface_cpp</depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,5 +1,5 @@
 import random
-from msg_srv_interface_py_test.srv import Conversion
+from msg_srv_action_interface_py_test.srv import Conversion
 import rclpy
 from rclpy.node import Node
 

@@ -1,0 +1,232 @@
+[0.012s] Invoking command in '/home/lee/robot_ws/build/msg_srv_action_interface_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/test_lee_rclpy:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake /home/lee/robot_ws/src/msg_srv_action_interface_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lee/robot_ws/install/msg_srv_action_interface_cpp
+[0.101s] -- The C compiler identification is GNU 9.4.0
+[0.179s] -- The CXX compiler identification is GNU 9.4.0
+[0.185s] -- Check for working C compiler: /usr/bin/cc
+[0.253s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.253s] -- Detecting C compiler ABI info
+[0.326s] -- Detecting C compiler ABI info - done
+[0.335s] -- Detecting C compile features
+[0.335s] -- Detecting C compile features - done
+[0.337s] -- Check for working CXX compiler: /usr/bin/c++
+[0.385s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.386s] -- Detecting CXX compiler ABI info
+[0.442s] -- Detecting CXX compiler ABI info - done
+[0.449s] -- Detecting CXX compile features
+[0.449s] -- Detecting CXX compile features - done
+[0.453s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.480s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.480s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.601s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.628s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.652s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.659s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.714s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.732s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.788s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.810s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.841s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.981s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.068s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.087s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.112s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.113s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.139s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.139s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.139s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.139s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.163s] -- Found PythonExtra: .so  
+[1.217s] -- Configuring done
+[1.251s] -- Generating done
+[1.252s] -- Build files have been written to: /home/lee/robot_ws/build/msg_srv_action_interface_cpp
+[1.257s] Invoked command in '/home/lee/robot_ws/build/msg_srv_action_interface_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/test_lee_rclpy:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake /home/lee/robot_ws/src/msg_srv_action_interface_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lee/robot_ws/install/msg_srv_action_interface_cpp
+[1.259s] Invoking command in '/home/lee/robot_ws/build/msg_srv_action_interface_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/test_lee_rclpy:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/lee/robot_ws/build/msg_srv_action_interface_cpp -- -j12 -l12
+[1.285s] [35m[1mScanning dependencies of target msg_srv_action_interface_cpp__cpp[0m
+[1.285s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.293s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.621s] [35m[1mScanning dependencies of target msg_srv_action_interface_cpp__rosidl_generator_c[0m
+[1.629s] [  4%] Built target msg_srv_action_interface_cpp__cpp
+[1.631s] [ 10%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_cpp__rosidl_generator_c.dir/rosidl_generator_c/msg_srv_action_interface_cpp/action/detail/coordinates_checker__functions.c.o[0m
+[1.631s] [ 10%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_cpp__rosidl_generator_c.dir/rosidl_generator_c/msg_srv_action_interface_cpp/srv/detail/conversion__functions.c.o[0m
+[1.631s] [ 10%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_cpp__rosidl_generator_c.dir/rosidl_generator_c/msg_srv_action_interface_cpp/msg/detail/coordinates__functions.c.o[0m
+[1.637s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.637s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.637s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.685s] [ 19%] [32m[1mLinking C shared library libmsg_srv_action_interface_cpp__rosidl_generator_c.so[0m
+[1.712s] [ 19%] Built target msg_srv_action_interface_cpp__rosidl_generator_c
+[1.719s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.719s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.880s] [35m[1mScanning dependencies of target msg_srv_action_interface_cpp__rosidl_typesupport_cpp[0m
+[1.890s] [ 25%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_srv_action_interface_cpp/msg/coordinates__type_support.cpp.o[0m
+[1.890s] [ 27%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_srv_action_interface_cpp/action/coordinates_checker__type_support.cpp.o[0m
+[1.891s] [ 29%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_srv_action_interface_cpp/srv/conversion__type_support.cpp.o[0m
+[1.919s] [35m[1mScanning dependencies of target msg_srv_action_interface_cpp__rosidl_typesupport_introspection_cpp[0m
+[1.930s] [ 31%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_srv_action_interface_cpp/action/detail/coordinates_checker__type_support.cpp.o[0m
+[1.931s] [ 36%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_srv_action_interface_cpp/msg/detail/coordinates__type_support.cpp.o[0m
+[1.931s] [ 36%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_srv_action_interface_cpp/srv/detail/conversion__type_support.cpp.o[0m
+[1.967s] [35m[1mScanning dependencies of target msg_srv_action_interface_cpp__rosidl_typesupport_c[0m
+[1.978s] [ 38%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_srv_action_interface_cpp/action/coordinates_checker__type_support.cpp.o[0m
+[1.980s] [ 40%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_srv_action_interface_cpp/srv/conversion__type_support.cpp.o[0m
+[1.980s] [ 42%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_srv_action_interface_cpp/msg/coordinates__type_support.cpp.o[0m
+[2.020s] [ 44%] [32m[1mLinking CXX shared library libmsg_srv_action_interface_cpp__rosidl_typesupport_c.so[0m
+[2.021s] [35m[1mScanning dependencies of target msg_srv_action_interface_cpp__rosidl_typesupport_fastrtps_cpp[0m
+[2.044s] [ 46%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_srv_action_interface_cpp/srv/detail/dds_fastrtps/conversion__type_support.cpp.o[0m
+[2.044s] [ 48%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_srv_action_interface_cpp/msg/detail/dds_fastrtps/coordinates__type_support.cpp.o[0m
+[2.050s] [ 51%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_srv_action_interface_cpp/action/detail/dds_fastrtps/coordinates_checker__type_support.cpp.o[0m
+[2.059s] [ 51%] Built target msg_srv_action_interface_cpp__rosidl_typesupport_c
+[2.088s] [35m[1mScanning dependencies of target msg_srv_action_interface_cpp__rosidl_typesupport_introspection_c[0m
+[2.101s] [ 53%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_srv_action_interface_cpp/msg/detail/coordinates__type_support.c.o[0m
+[2.104s] [ 55%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_srv_action_interface_cpp/action/detail/coordinates_checker__type_support.c.o[0m
+[2.121s] [ 57%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_srv_action_interface_cpp/srv/detail/conversion__type_support.c.o[0m
+[2.150s] [ 59%] [32m[1mLinking C shared library libmsg_srv_action_interface_cpp__rosidl_typesupport_introspection_c.so[0m
+[2.176s] [ 59%] Built target msg_srv_action_interface_cpp__rosidl_typesupport_introspection_c
+[2.185s] [ 61%] [32m[1mLinking CXX shared library libmsg_srv_action_interface_cpp__rosidl_typesupport_cpp.so[0m
+[2.212s] [ 61%] Built target msg_srv_action_interface_cpp__rosidl_typesupport_cpp
+[2.286s] [ 63%] [32m[1mLinking CXX shared library libmsg_srv_action_interface_cpp__rosidl_typesupport_introspection_cpp.so[0m
+[2.336s] [ 63%] Built target msg_srv_action_interface_cpp__rosidl_typesupport_introspection_cpp
+[2.441s] [ 65%] [32m[1mLinking CXX shared library libmsg_srv_action_interface_cpp__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.498s] [ 65%] Built target msg_srv_action_interface_cpp__rosidl_typesupport_fastrtps_cpp
+[2.504s] [ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.805s] [35m[1mScanning dependencies of target msg_srv_action_interface_cpp__rosidl_typesupport_fastrtps_c[0m
+[2.818s] [ 70%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_srv_action_interface_cpp/msg/detail/coordinates__type_support_c.cpp.o[0m
+[2.818s] [ 74%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_srv_action_interface_cpp/srv/detail/conversion__type_support_c.cpp.o[0m
+[2.818s] [ 74%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_srv_action_interface_cpp/action/detail/coordinates_checker__type_support_c.cpp.o[0m
+[3.066s] [ 76%] [32m[1mLinking CXX shared library libmsg_srv_action_interface_cpp__rosidl_typesupport_fastrtps_c.so[0m
+[3.119s] [ 76%] Built target msg_srv_action_interface_cpp__rosidl_typesupport_fastrtps_c
+[3.125s] [35m[1mScanning dependencies of target msg_srv_action_interface_cpp[0m
+[3.131s] [ 76%] Built target msg_srv_action_interface_cpp
+[3.141s] [35m[1mScanning dependencies of target msg_srv_action_interface_cpp__py[0m
+[3.157s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.873s] [ 78%] Built target msg_srv_action_interface_cpp__py
+[3.879s] [35m[1mScanning dependencies of target msg_srv_action_interface_cpp__python[0m
+[3.906s] [ 85%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_cpp__python.dir/rosidl_generator_py/msg_srv_action_interface_cpp/srv/_conversion_s.c.o[0m
+[3.906s] [ 85%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_cpp__python.dir/rosidl_generator_py/msg_srv_action_interface_cpp/action/_coordinates_checker_s.c.o[0m
+[3.906s] [ 85%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_cpp__python.dir/rosidl_generator_py/msg_srv_action_interface_cpp/msg/_coordinates_s.c.o[0m
+[3.994s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/msg_srv_action_interface_cpp/libmsg_srv_action_interface_cpp__python.so[0m
+[4.025s] [ 87%] Built target msg_srv_action_interface_cpp__python
+[4.032s] [35m[1mScanning dependencies of target msg_srv_action_interface_cpp__rosidl_typesupport_c__pyext[0m
+[4.032s] [35m[1mScanning dependencies of target msg_srv_action_interface_cpp__rosidl_typesupport_introspection_c__pyext[0m
+[4.032s] [35m[1mScanning dependencies of target msg_srv_action_interface_cpp__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.043s] [ 93%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msg_srv_action_interface_cpp/_msg_srv_action_interface_cpp_s.ep.rosidl_typesupport_c.c.o[0m
+[4.043s] [ 93%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msg_srv_action_interface_cpp/_msg_srv_action_interface_cpp_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.043s] [ 93%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_cpp__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msg_srv_action_interface_cpp/_msg_srv_action_interface_cpp_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.113s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/msg_srv_action_interface_cpp/msg_srv_action_interface_cpp_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.113s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/msg_srv_action_interface_cpp/msg_srv_action_interface_cpp_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.116s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/msg_srv_action_interface_cpp/msg_srv_action_interface_cpp_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.138s] [100%] Built target msg_srv_action_interface_cpp__rosidl_typesupport_c__pyext
+[4.138s] [100%] Built target msg_srv_action_interface_cpp__rosidl_typesupport_introspection_c__pyext
+[4.160s] [100%] Built target msg_srv_action_interface_cpp__rosidl_typesupport_fastrtps_c__pyext
+[4.167s] Invoked command in '/home/lee/robot_ws/build/msg_srv_action_interface_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/test_lee_rclpy:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --build /home/lee/robot_ws/build/msg_srv_action_interface_cpp -- -j12 -l12
+[4.221s] Invoking command in '/home/lee/robot_ws/build/msg_srv_action_interface_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/test_lee_rclpy:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /home/lee/robot_ws/build/msg_srv_action_interface_cpp
+[4.226s] -- Install configuration: ""
+[4.227s] -- Execute custom install script
+[4.227s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/ament_index/resource_index/rosidl_interfaces/msg_srv_action_interface_cpp
+[4.234s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/action/coordinates_checker.h
+[4.246s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/action/detail/coordinates_checker__functions.h
+[4.260s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/action/detail/coordinates_checker__struct.h
+[4.273s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/action/detail/coordinates_checker__type_support.h
+[4.283s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/msg/coordinates.h
+[4.290s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/msg/detail/coordinates__functions.h
+[4.295s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/msg/detail/coordinates__struct.h
+[4.300s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/msg/detail/coordinates__type_support.h
+[4.305s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/msg/rosidl_generator_c__visibility_control.h
+[4.310s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/srv/conversion.h
+[4.315s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/srv/detail/conversion__functions.h
+[4.320s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/srv/detail/conversion__struct.h
+[4.325s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/srv/detail/conversion__type_support.h
+[4.331s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/environment/library_path.sh
+[4.336s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/environment/library_path.dsv
+[4.343s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/action/detail/coordinates_checker__rosidl_typesupport_fastrtps_c.h
+[4.349s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/msg/detail/coordinates__rosidl_typesupport_fastrtps_c.h
+[4.354s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.360s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/srv/detail/conversion__rosidl_typesupport_fastrtps_c.h
+[4.365s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/libmsg_srv_action_interface_cpp__rosidl_typesupport_fastrtps_c.so
+[4.371s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/action/detail/coordinates_checker__rosidl_typesupport_fastrtps_cpp.hpp
+[4.376s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/msg/detail/coordinates__rosidl_typesupport_fastrtps_cpp.hpp
+[4.381s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.386s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/srv/detail/conversion__rosidl_typesupport_fastrtps_cpp.hpp
+[4.391s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/libmsg_srv_action_interface_cpp__rosidl_typesupport_fastrtps_cpp.so
+[4.396s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/action/detail/coordinates_checker__rosidl_typesupport_introspection_c.h
+[4.401s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/msg/detail/coordinates__rosidl_typesupport_introspection_c.h
+[4.406s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.411s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/srv/detail/conversion__rosidl_typesupport_introspection_c.h
+[4.416s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/action/coordinates_checker.hpp
+[4.421s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/action/detail/coordinates_checker__builder.hpp
+[4.425s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/action/detail/coordinates_checker__struct.hpp
+[4.430s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/action/detail/coordinates_checker__traits.hpp
+[4.436s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/msg/coordinates.hpp
+[4.441s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/msg/detail/coordinates__builder.hpp
+[4.446s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/msg/detail/coordinates__struct.hpp
+[4.450s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/msg/detail/coordinates__traits.hpp
+[4.456s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/srv/conversion.hpp
+[4.460s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/srv/detail/conversion__builder.hpp
+[4.465s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/srv/detail/conversion__struct.hpp
+[4.471s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/srv/detail/conversion__traits.hpp
+[4.476s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/action/detail/coordinates_checker__rosidl_typesupport_introspection_cpp.hpp
+[4.481s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/msg/detail/coordinates__rosidl_typesupport_introspection_cpp.hpp
+[4.486s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/msg_srv_action_interface_cpp/srv/detail/conversion__rosidl_typesupport_introspection_cpp.hpp
+[4.491s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/environment/pythonpath.sh
+[4.496s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/environment/pythonpath.dsv
+[4.501s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/python3.8/site-packages/msg_srv_action_interface_cpp/__init__.py
+[4.506s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/python3.8/site-packages/msg_srv_action_interface_cpp/msg/__init__.py
+[4.511s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/python3.8/site-packages/msg_srv_action_interface_cpp/msg/_coordinates.py
+[4.516s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/python3.8/site-packages/msg_srv_action_interface_cpp/srv/__init__.py
+[4.521s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/python3.8/site-packages/msg_srv_action_interface_cpp/srv/_conversion.py
+[4.527s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/python3.8/site-packages/msg_srv_action_interface_cpp/action/__init__.py
+[4.532s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/python3.8/site-packages/msg_srv_action_interface_cpp/action/_coordinates_checker.py
+[4.537s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/python3.8/site-packages/msg_srv_action_interface_cpp/msg_srv_action_interface_cpp_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.542s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/python3.8/site-packages/msg_srv_action_interface_cpp/msg_srv_action_interface_cpp_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.547s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/python3.8/site-packages/msg_srv_action_interface_cpp/msg_srv_action_interface_cpp_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.552s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/libmsg_srv_action_interface_cpp__python.so
+[4.558s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/msg/Coordinates.idl
+[4.563s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/srv/Conversion.idl
+[4.568s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/action/CoordinatesChecker.idl
+[4.573s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/msg/Coordinates.msg
+[4.578s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/srv/Conversion.srv
+[4.583s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/srv/Conversion_Request.msg
+[4.588s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/srv/Conversion_Response.msg
+[4.592s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/action/CoordinatesChecker.action
+[4.598s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/ament_index/resource_index/package_run_dependencies/msg_srv_action_interface_cpp
+[4.603s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/ament_index/resource_index/parent_prefix_path/msg_srv_action_interface_cpp
+[4.608s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/environment/ament_prefix_path.sh
+[4.613s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/environment/ament_prefix_path.dsv
+[4.618s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/environment/path.sh
+[4.623s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/environment/path.dsv
+[4.628s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/local_setup.bash
+[4.633s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/local_setup.sh
+[4.638s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/local_setup.zsh
+[4.643s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/local_setup.dsv
+[4.648s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/package.dsv
+[4.653s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/ament_index/resource_index/packages/msg_srv_action_interface_cpp
+[4.658s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/rosidl_cmake-extras.cmake
+[4.663s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.669s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/ament_cmake_export_libraries-extras.cmake
+[4.674s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/ament_cmake_export_targets-extras.cmake
+[4.679s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.685s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.690s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.695s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/msg_srv_action_interface_cppConfig.cmake
+[4.700s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/msg_srv_action_interface_cppConfig-version.cmake
+[4.705s] -- Symlinking: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/package.xml
+[4.710s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/libmsg_srv_action_interface_cpp__rosidl_generator_c.so
+[4.710s] -- Set runtime path of "/home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/libmsg_srv_action_interface_cpp__rosidl_generator_c.so" to ""
+[4.710s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/libmsg_srv_action_interface_cpp__rosidl_typesupport_introspection_c.so
+[4.710s] -- Set runtime path of "/home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/libmsg_srv_action_interface_cpp__rosidl_typesupport_introspection_c.so" to ""
+[4.710s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/libmsg_srv_action_interface_cpp__rosidl_typesupport_c.so
+[4.711s] -- Set runtime path of "/home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/libmsg_srv_action_interface_cpp__rosidl_typesupport_c.so" to ""
+[4.711s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/libmsg_srv_action_interface_cpp__rosidl_typesupport_introspection_cpp.so
+[4.711s] -- Set runtime path of "/home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/libmsg_srv_action_interface_cpp__rosidl_typesupport_introspection_cpp.so" to ""
+[4.711s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/libmsg_srv_action_interface_cpp__rosidl_typesupport_cpp.so
+[4.711s] -- Set runtime path of "/home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/libmsg_srv_action_interface_cpp__rosidl_typesupport_cpp.so" to ""
+[4.738s] Compiling '/home/lee/robot_ws/install/msg_srv_action_interface_cpp/lib/python3.8/site-packages/msg_srv_action_interface_cpp/__init__.py'...
+[4.740s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/msg_srv_action_interface_cpp__rosidl_generator_cExport.cmake
+[4.740s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/msg_srv_action_interface_cpp__rosidl_generator_cExport-noconfig.cmake
+[4.741s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/msg_srv_action_interface_cpp__rosidl_typesupport_introspection_cExport.cmake
+[4.741s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/msg_srv_action_interface_cpp__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.741s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/msg_srv_action_interface_cpp__rosidl_typesupport_cExport.cmake
+[4.741s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/msg_srv_action_interface_cpp__rosidl_typesupport_cExport-noconfig.cmake
+[4.741s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/msg_srv_action_interface_cpp__rosidl_generator_cppExport.cmake
+[4.741s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/msg_srv_action_interface_cpp__rosidl_typesupport_introspection_cppExport.cmake
+[4.741s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/msg_srv_action_interface_cpp__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.741s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/msg_srv_action_interface_cpp__rosidl_typesupport_cppExport.cmake
+[4.741s] -- Installing: /home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake/msg_srv_action_interface_cpp__rosidl_typesupport_cppExport-noconfig.cmake
+[4.743s] Invoked command in '/home/lee/robot_ws/build/msg_srv_action_interface_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/robot_ws/install/topic_service_action_rclpy_example:/home/lee/robot_ws/install/time_rclpy_example:/home/lee/robot_ws/install/tf2_rclpy_example:/home/lee/robot_ws/install/test_lee_rclpy:/home/lee/robot_ws/install/ros2env:/home/lee/robot_ws/install/my_first_ros_rclpy_pkg:/home/lee/robot_ws/install/logging_rclpy_example:/opt/ros/foxy /usr/bin/cmake --install /home/lee/robot_ws/build/msg_srv_action_interface_cpp

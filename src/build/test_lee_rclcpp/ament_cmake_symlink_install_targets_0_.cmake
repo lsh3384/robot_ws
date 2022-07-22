@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/lee/robot_ws/src/build/test_lee_rclcpp/position" "/home/lee/robot_ws/src/build/test_lee_rclcpp/manager" "/home/lee/robot_ws/src/build/test_lee_rclcpp/converter" "TARGETS" "position" "manager" "converter" "DESTINATION" "lib/test_lee_rclcpp")

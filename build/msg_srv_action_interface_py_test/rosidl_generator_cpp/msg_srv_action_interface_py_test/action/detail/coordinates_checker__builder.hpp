@@ -20,16 +20,32 @@ namespace action
 namespace builder
 {
 
-class Init_CoordinatesChecker_Goal_goal_coordinates
+class Init_CoordinatesChecker_Goal_coordinate_y
 {
 public:
-  Init_CoordinatesChecker_Goal_goal_coordinates()
+  explicit Init_CoordinatesChecker_Goal_coordinate_y(::msg_srv_action_interface_py_test::action::CoordinatesChecker_Goal & msg)
+  : msg_(msg)
+  {}
+  ::msg_srv_action_interface_py_test::action::CoordinatesChecker_Goal coordinate_y(::msg_srv_action_interface_py_test::action::CoordinatesChecker_Goal::_coordinate_y_type arg)
+  {
+    msg_.coordinate_y = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::msg_srv_action_interface_py_test::action::CoordinatesChecker_Goal msg_;
+};
+
+class Init_CoordinatesChecker_Goal_coordinate_x
+{
+public:
+  Init_CoordinatesChecker_Goal_coordinate_x()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::msg_srv_action_interface_py_test::action::CoordinatesChecker_Goal goal_coordinates(::msg_srv_action_interface_py_test::action::CoordinatesChecker_Goal::_goal_coordinates_type arg)
+  Init_CoordinatesChecker_Goal_coordinate_y coordinate_x(::msg_srv_action_interface_py_test::action::CoordinatesChecker_Goal::_coordinate_x_type arg)
   {
-    msg_.goal_coordinates = std::move(arg);
-    return std::move(msg_);
+    msg_.coordinate_x = std::move(arg);
+    return Init_CoordinatesChecker_Goal_coordinate_y(msg_);
   }
 
 private:
@@ -47,7 +63,7 @@ template<>
 inline
 auto build<::msg_srv_action_interface_py_test::action::CoordinatesChecker_Goal>()
 {
-  return msg_srv_action_interface_py_test::action::builder::Init_CoordinatesChecker_Goal_goal_coordinates();
+  return msg_srv_action_interface_py_test::action::builder::Init_CoordinatesChecker_Goal_coordinate_x();
 }
 
 }  // namespace msg_srv_action_interface_py_test
@@ -62,16 +78,32 @@ namespace action
 namespace builder
 {
 
-class Init_CoordinatesChecker_Result_current_coordinates
+class Init_CoordinatesChecker_Result_coordinate_y
 {
 public:
-  explicit Init_CoordinatesChecker_Result_current_coordinates(::msg_srv_action_interface_py_test::action::CoordinatesChecker_Result & msg)
+  explicit Init_CoordinatesChecker_Result_coordinate_y(::msg_srv_action_interface_py_test::action::CoordinatesChecker_Result & msg)
   : msg_(msg)
   {}
-  ::msg_srv_action_interface_py_test::action::CoordinatesChecker_Result current_coordinates(::msg_srv_action_interface_py_test::action::CoordinatesChecker_Result::_current_coordinates_type arg)
+  ::msg_srv_action_interface_py_test::action::CoordinatesChecker_Result coordinate_y(::msg_srv_action_interface_py_test::action::CoordinatesChecker_Result::_coordinate_y_type arg)
   {
-    msg_.current_coordinates = std::move(arg);
+    msg_.coordinate_y = std::move(arg);
     return std::move(msg_);
+  }
+
+private:
+  ::msg_srv_action_interface_py_test::action::CoordinatesChecker_Result msg_;
+};
+
+class Init_CoordinatesChecker_Result_coordinate_x
+{
+public:
+  explicit Init_CoordinatesChecker_Result_coordinate_x(::msg_srv_action_interface_py_test::action::CoordinatesChecker_Result & msg)
+  : msg_(msg)
+  {}
+  Init_CoordinatesChecker_Result_coordinate_y coordinate_x(::msg_srv_action_interface_py_test::action::CoordinatesChecker_Result::_coordinate_x_type arg)
+  {
+    msg_.coordinate_x = std::move(arg);
+    return Init_CoordinatesChecker_Result_coordinate_y(msg_);
   }
 
 private:
@@ -84,10 +116,10 @@ public:
   Init_CoordinatesChecker_Result_all_position()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_CoordinatesChecker_Result_current_coordinates all_position(::msg_srv_action_interface_py_test::action::CoordinatesChecker_Result::_all_position_type arg)
+  Init_CoordinatesChecker_Result_coordinate_x all_position(::msg_srv_action_interface_py_test::action::CoordinatesChecker_Result::_all_position_type arg)
   {
     msg_.all_position = std::move(arg);
-    return Init_CoordinatesChecker_Result_current_coordinates(msg_);
+    return Init_CoordinatesChecker_Result_coordinate_x(msg_);
   }
 
 private:

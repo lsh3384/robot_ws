@@ -1,0 +1,76 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found msg_srv_action_interface_cpp: 0.0.0 (/home/lee/robot_ws/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/lee/robot_ws/src/test_lee_rclcpp/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lee/robot_ws/build/test_lee_rclcpp
+[35m[1mScanning dependencies of target converter[0m
+[35m[1mScanning dependencies of target manager[0m
+[ 15%] Built target gtest_main
+[ 30%] Built target gtest
+[ 46%] Built target position
+[35m[1mScanning dependencies of target test_manager[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/converter.dir/src/conversion/converter.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/manager.dir/src/coordinates/manager.cpp.o[0m
+[ 69%] [32mBuilding CXX object test/CMakeFiles/test_manager.dir/__/src/coordinates/manager.cpp.o[0m
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:57:9:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+   57 |         [01;35m[K'to'[m[K << ' ' <<
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:57:9:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+   57 |         [01;35m[K'to'[m[K << ' ' <<
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:[m[K In lambda function:
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:51:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcm_[m[K’ was not declared in this scope
+   51 |       [01;31m[Kcm_[m[K = request->cm;
+      |       [01;31m[K^~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:52:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kinch_[m[K’ was not declared in this scope
+   52 |       [01;31m[Kinch_[m[K = cm_ / 2.54;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:[m[K In constructor ‘[01m[KManager::Manager(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kconverter_server_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcoordinates_server_[m[K’?
+   63 |   [01;31m[Kconverter_server_[m[K =
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Kcoordinates_server_[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:[m[K In lambda function:
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:51:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcm_[m[K’ was not declared in this scope
+   51 |       [01;31m[Kcm_[m[K = request->cm;
+      |       [01;31m[K^~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:52:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kinch_[m[K’ was not declared in this scope
+   52 |       [01;31m[Kinch_[m[K = cm_ / 2.54;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:[m[K In constructor ‘[01m[KManager::Manager(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kconverter_server_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcoordinates_server_[m[K’?
+   63 |   [01;31m[Kconverter_server_[m[K =
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Kcoordinates_server_[m[K
+[ 76%] [32m[1mLinking CXX executable converter[0m
+[ 76%] Built target converter
+make[2]: *** [CMakeFiles/manager.dir/build.make:63: CMakeFiles/manager.dir/src/coordinates/manager.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:150: CMakeFiles/manager.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [test/CMakeFiles/test_manager.dir/build.make:76: test/CMakeFiles/test_manager.dir/__/src/coordinates/manager.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:259: test/CMakeFiles/test_manager.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

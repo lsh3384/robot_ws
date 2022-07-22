@@ -1,0 +1,8 @@
+CMake Error at CMakeLists.txt:46 (add_subdirectory):
+  The source directory
+
+    /home/lee/robot_ws/src/test_lee_rclcpp/test
+
+  does not contain a CMakeLists.txt file.
+
+

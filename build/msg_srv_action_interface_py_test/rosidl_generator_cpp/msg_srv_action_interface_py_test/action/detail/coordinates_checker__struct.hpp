@@ -34,25 +34,44 @@ struct CoordinatesChecker_Goal_
 
   explicit CoordinatesChecker_Goal_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   {
-    (void)_init;
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->coordinate_x = 0;
+      this->coordinate_y = 0;
+    }
   }
 
   explicit CoordinatesChecker_Goal_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   {
-    (void)_init;
     (void)_alloc;
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->coordinate_x = 0;
+      this->coordinate_y = 0;
+    }
   }
 
   // field types and members
-  using _goal_coordinates_type =
-    std::vector<int16_t, typename ContainerAllocator::template rebind<int16_t>::other>;
-  _goal_coordinates_type goal_coordinates;
+  using _coordinate_x_type =
+    int16_t;
+  _coordinate_x_type coordinate_x;
+  using _coordinate_y_type =
+    int16_t;
+  _coordinate_y_type coordinate_y;
 
   // setters for named parameter idiom
-  Type & set__goal_coordinates(
-    const std::vector<int16_t, typename ContainerAllocator::template rebind<int16_t>::other> & _arg)
+  Type & set__coordinate_x(
+    const int16_t & _arg)
   {
-    this->goal_coordinates = _arg;
+    this->coordinate_x = _arg;
+    return *this;
+  }
+  Type & set__coordinate_y(
+    const int16_t & _arg)
+  {
+    this->coordinate_y = _arg;
     return *this;
   }
 
@@ -98,7 +117,10 @@ struct CoordinatesChecker_Goal_
   // comparison operators
   bool operator==(const CoordinatesChecker_Goal_ & other) const
   {
-    if (this->goal_coordinates != other.goal_coordinates) {
+    if (this->coordinate_x != other.coordinate_x) {
+      return false;
+    }
+    if (this->coordinate_y != other.coordinate_y) {
       return false;
     }
     return true;
@@ -140,22 +162,35 @@ struct CoordinatesChecker_Result_
 
   explicit CoordinatesChecker_Result_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   {
-    (void)_init;
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->coordinate_x = 0;
+      this->coordinate_y = 0;
+    }
   }
 
   explicit CoordinatesChecker_Result_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   {
-    (void)_init;
     (void)_alloc;
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->coordinate_x = 0;
+      this->coordinate_y = 0;
+    }
   }
 
   // field types and members
   using _all_position_type =
     std::vector<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>, typename ContainerAllocator::template rebind<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>>::other>;
   _all_position_type all_position;
-  using _current_coordinates_type =
-    std::vector<int16_t, typename ContainerAllocator::template rebind<int16_t>::other>;
-  _current_coordinates_type current_coordinates;
+  using _coordinate_x_type =
+    int16_t;
+  _coordinate_x_type coordinate_x;
+  using _coordinate_y_type =
+    int16_t;
+  _coordinate_y_type coordinate_y;
 
   // setters for named parameter idiom
   Type & set__all_position(
@@ -164,10 +199,16 @@ struct CoordinatesChecker_Result_
     this->all_position = _arg;
     return *this;
   }
-  Type & set__current_coordinates(
-    const std::vector<int16_t, typename ContainerAllocator::template rebind<int16_t>::other> & _arg)
+  Type & set__coordinate_x(
+    const int16_t & _arg)
   {
-    this->current_coordinates = _arg;
+    this->coordinate_x = _arg;
+    return *this;
+  }
+  Type & set__coordinate_y(
+    const int16_t & _arg)
+  {
+    this->coordinate_y = _arg;
     return *this;
   }
 
@@ -216,7 +257,10 @@ struct CoordinatesChecker_Result_
     if (this->all_position != other.all_position) {
       return false;
     }
-    if (this->current_coordinates != other.current_coordinates) {
+    if (this->coordinate_x != other.coordinate_x) {
+      return false;
+    }
+    if (this->coordinate_y != other.coordinate_y) {
       return false;
     }
     return true;

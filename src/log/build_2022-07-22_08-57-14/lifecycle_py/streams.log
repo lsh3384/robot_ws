@@ -1,0 +1,25 @@
+[0.404s] Invoking command in '/home/lee/robot_ws/src/build/lifecycle_py': PYTHONPATH=/home/lee/robot_ws/src/install/lifecycle_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/lee/robot_ws/src/install/lifecycle_py --editable --build-directory /home/lee/robot_ws/src/build/lifecycle_py/build --no-deps install_data --install-dir /home/lee/robot_ws/src/install/lifecycle_py
+[0.556s] running develop
+[0.639s] running egg_info
+[0.639s] creating lifecycle_py.egg-info
+[0.639s] writing lifecycle_py.egg-info/PKG-INFO
+[0.639s] writing dependency_links to lifecycle_py.egg-info/dependency_links.txt
+[0.639s] writing entry points to lifecycle_py.egg-info/entry_points.txt
+[0.639s] writing requirements to lifecycle_py.egg-info/requires.txt
+[0.639s] writing top-level names to lifecycle_py.egg-info/top_level.txt
+[0.640s] writing manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+[0.659s] reading manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+[0.660s] writing manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+[0.681s] running build_ext
+[0.681s] Creating /home/lee/robot_ws/src/install/lifecycle_py/lib/python3.8/site-packages/site.py
+[0.682s] Creating /home/lee/robot_ws/src/install/lifecycle_py/lib/python3.8/site-packages/lifecycle-py.egg-link (link to .)
+[0.683s] Installing lifecycle_talker script to /home/lee/robot_ws/src/install/lifecycle_py/lib/lifecycle_py
+[0.683s] 
+[0.683s] Installed /home/lee/robot_ws/src/build/lifecycle_py
+[0.683s] running install_data
+[0.683s] creating /home/lee/robot_ws/src/install/lifecycle_py/share/ament_index
+[0.683s] creating /home/lee/robot_ws/src/install/lifecycle_py/share/ament_index/resource_index
+[0.683s] creating /home/lee/robot_ws/src/install/lifecycle_py/share/ament_index/resource_index/packages
+[0.683s] copying resource/lifecycle_py -> /home/lee/robot_ws/src/install/lifecycle_py/share/ament_index/resource_index/packages
+[0.683s] copying package.xml -> /home/lee/robot_ws/src/install/lifecycle_py/share/lifecycle_py
+[0.701s] Invoked command in '/home/lee/robot_ws/src/build/lifecycle_py' returned '0': PYTHONPATH=/home/lee/robot_ws/src/install/lifecycle_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/lee/robot_ws/src/install/lifecycle_py --editable --build-directory /home/lee/robot_ws/src/build/lifecycle_py/build --no-deps install_data --install-dir /home/lee/robot_ws/src/install/lifecycle_py

@@ -1,0 +1,11 @@
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/checker/checker.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/checker/checker.cpp:133:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kchar* cli_option[m[K’
+  133 |   char * [01;31m[Kcli_option[m[K = rcutils_cli_get_option(argv, argv + argc, "-x");
+      |          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/checker/checker.cpp:127:10:[m[K [01;36m[Knote: [m[K‘[01m[Kchar* cli_option[m[K’ previously declared here
+  127 |   char * [01;36m[Kcli_option[m[K = rcutils_cli_get_option(argv, argv + argc, "-x");
+      |          [01;36m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/checker.dir/build.make:63: CMakeFiles/checker.dir/src/checker/checker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/checker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

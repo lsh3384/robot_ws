@@ -17,14 +17,11 @@ extern "C"
 
 // Constants defined in the message
 
-// Include directives for member types
-// Member 'goal_coordinates'
-#include "rosidl_runtime_c/primitives_sequence.h"
-
 // Struct defined in action/CoordinatesChecker in the package msg_srv_action_interface_py_test.
 typedef struct msg_srv_action_interface_py_test__action__CoordinatesChecker_Goal
 {
-  rosidl_runtime_c__int16__Sequence goal_coordinates;
+  int16_t coordinate_x;
+  int16_t coordinate_y;
 } msg_srv_action_interface_py_test__action__CoordinatesChecker_Goal;
 
 // Struct for a sequence of msg_srv_action_interface_py_test__action__CoordinatesChecker_Goal.
@@ -43,15 +40,13 @@ typedef struct msg_srv_action_interface_py_test__action__CoordinatesChecker_Goal
 // Include directives for member types
 // Member 'all_position'
 #include "rosidl_runtime_c/string.h"
-// Member 'current_coordinates'
-// already included above
-// #include "rosidl_runtime_c/primitives_sequence.h"
 
 // Struct defined in action/CoordinatesChecker in the package msg_srv_action_interface_py_test.
 typedef struct msg_srv_action_interface_py_test__action__CoordinatesChecker_Result
 {
   rosidl_runtime_c__String__Sequence all_position;
-  rosidl_runtime_c__int16__Sequence current_coordinates;
+  int16_t coordinate_x;
+  int16_t coordinate_y;
 } msg_srv_action_interface_py_test__action__CoordinatesChecker_Result;
 
 // Struct for a sequence of msg_srv_action_interface_py_test__action__CoordinatesChecker_Result.

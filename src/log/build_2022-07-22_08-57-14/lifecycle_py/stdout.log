@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating lifecycle_py.egg-info
+writing lifecycle_py.egg-info/PKG-INFO
+writing dependency_links to lifecycle_py.egg-info/dependency_links.txt
+writing entry points to lifecycle_py.egg-info/entry_points.txt
+writing requirements to lifecycle_py.egg-info/requires.txt
+writing top-level names to lifecycle_py.egg-info/top_level.txt
+writing manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+reading manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+writing manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/lee/robot_ws/src/install/lifecycle_py/lib/python3.8/site-packages/site.py
+Creating /home/lee/robot_ws/src/install/lifecycle_py/lib/python3.8/site-packages/lifecycle-py.egg-link (link to .)
+Installing lifecycle_talker script to /home/lee/robot_ws/src/install/lifecycle_py/lib/lifecycle_py
+
+Installed /home/lee/robot_ws/src/build/lifecycle_py
+running install_data
+creating /home/lee/robot_ws/src/install/lifecycle_py/share/ament_index
+creating /home/lee/robot_ws/src/install/lifecycle_py/share/ament_index/resource_index
+creating /home/lee/robot_ws/src/install/lifecycle_py/share/ament_index/resource_index/packages
+copying resource/lifecycle_py -> /home/lee/robot_ws/src/install/lifecycle_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/lee/robot_ws/src/install/lifecycle_py/share/lifecycle_py

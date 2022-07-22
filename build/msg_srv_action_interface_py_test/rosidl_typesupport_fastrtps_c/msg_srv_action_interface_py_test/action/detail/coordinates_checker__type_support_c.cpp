@@ -34,8 +34,6 @@ extern "C"
 {
 #endif
 
-#include "rosidl_runtime_c/primitives_sequence.h"  // goal_coordinates
-#include "rosidl_runtime_c/primitives_sequence_functions.h"  // goal_coordinates
 
 // forward declare type support functions
 
@@ -51,12 +49,14 @@ static bool _CoordinatesChecker_Goal__cdr_serialize(
     return false;
   }
   const _CoordinatesChecker_Goal__ros_msg_type * ros_message = static_cast<const _CoordinatesChecker_Goal__ros_msg_type *>(untyped_ros_message);
-  // Field name: goal_coordinates
+  // Field name: coordinate_x
   {
-    size_t size = ros_message->goal_coordinates.size;
-    auto array_ptr = ros_message->goal_coordinates.data;
-    cdr << static_cast<uint32_t>(size);
-    cdr.serializeArray(array_ptr, size);
+    cdr << ros_message->coordinate_x;
+  }
+
+  // Field name: coordinate_y
+  {
+    cdr << ros_message->coordinate_y;
   }
 
   return true;
@@ -71,19 +71,14 @@ static bool _CoordinatesChecker_Goal__cdr_deserialize(
     return false;
   }
   _CoordinatesChecker_Goal__ros_msg_type * ros_message = static_cast<_CoordinatesChecker_Goal__ros_msg_type *>(untyped_ros_message);
-  // Field name: goal_coordinates
+  // Field name: coordinate_x
   {
-    uint32_t cdrSize;
-    cdr >> cdrSize;
-    size_t size = static_cast<size_t>(cdrSize);
-    if (ros_message->goal_coordinates.data) {
-      rosidl_runtime_c__int16__Sequence__fini(&ros_message->goal_coordinates);
-    }
-    if (!rosidl_runtime_c__int16__Sequence__init(&ros_message->goal_coordinates, size)) {
-      return "failed to create array for field 'goal_coordinates'";
-    }
-    auto array_ptr = ros_message->goal_coordinates.data;
-    cdr.deserializeArray(array_ptr, size);
+    cdr >> ros_message->coordinate_x;
+  }
+
+  // Field name: coordinate_y
+  {
+    cdr >> ros_message->coordinate_y;
   }
 
   return true;
@@ -103,15 +98,16 @@ size_t get_serialized_size_msg_srv_action_interface_py_test__action__Coordinates
   (void)padding;
   (void)wchar_size;
 
-  // field.name goal_coordinates
+  // field.name coordinate_x
   {
-    size_t array_size = ros_message->goal_coordinates.size;
-    auto array_ptr = ros_message->goal_coordinates.data;
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-    (void)array_ptr;
-    size_t item_size = sizeof(array_ptr[0]);
-    current_alignment += array_size * item_size +
+    size_t item_size = sizeof(ros_message->coordinate_x);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name coordinate_y
+  {
+    size_t item_size = sizeof(ros_message->coordinate_y);
+    current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -138,12 +134,16 @@ size_t max_serialized_size_msg_srv_action_interface_py_test__action__Coordinates
   (void)wchar_size;
   (void)full_bounded;
 
-  // member: goal_coordinates
+  // member: coordinate_x
   {
-    size_t array_size = 0;
-    full_bounded = false;
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint16_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));
+  }
+  // member: coordinate_y
+  {
+    size_t array_size = 1;
 
     current_alignment += array_size * sizeof(uint16_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));
@@ -223,10 +223,6 @@ extern "C"
 {
 #endif
 
-// already included above
-// #include "rosidl_runtime_c/primitives_sequence.h"  // current_coordinates
-// already included above
-// #include "rosidl_runtime_c/primitives_sequence_functions.h"  // current_coordinates
 #include "rosidl_runtime_c/string.h"  // all_position
 #include "rosidl_runtime_c/string_functions.h"  // all_position
 
@@ -263,12 +259,14 @@ static bool _CoordinatesChecker_Result__cdr_serialize(
     }
   }
 
-  // Field name: current_coordinates
+  // Field name: coordinate_x
   {
-    size_t size = ros_message->current_coordinates.size;
-    auto array_ptr = ros_message->current_coordinates.data;
-    cdr << static_cast<uint32_t>(size);
-    cdr.serializeArray(array_ptr, size);
+    cdr << ros_message->coordinate_x;
+  }
+
+  // Field name: coordinate_y
+  {
+    cdr << ros_message->coordinate_y;
   }
 
   return true;
@@ -312,19 +310,14 @@ static bool _CoordinatesChecker_Result__cdr_deserialize(
     }
   }
 
-  // Field name: current_coordinates
+  // Field name: coordinate_x
   {
-    uint32_t cdrSize;
-    cdr >> cdrSize;
-    size_t size = static_cast<size_t>(cdrSize);
-    if (ros_message->current_coordinates.data) {
-      rosidl_runtime_c__int16__Sequence__fini(&ros_message->current_coordinates);
-    }
-    if (!rosidl_runtime_c__int16__Sequence__init(&ros_message->current_coordinates, size)) {
-      return "failed to create array for field 'current_coordinates'";
-    }
-    auto array_ptr = ros_message->current_coordinates.data;
-    cdr.deserializeArray(array_ptr, size);
+    cdr >> ros_message->coordinate_x;
+  }
+
+  // Field name: coordinate_y
+  {
+    cdr >> ros_message->coordinate_y;
   }
 
   return true;
@@ -356,15 +349,16 @@ size_t get_serialized_size_msg_srv_action_interface_py_test__action__Coordinates
         (array_ptr[index].size + 1);
     }
   }
-  // field.name current_coordinates
+  // field.name coordinate_x
   {
-    size_t array_size = ros_message->current_coordinates.size;
-    auto array_ptr = ros_message->current_coordinates.data;
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-    (void)array_ptr;
-    size_t item_size = sizeof(array_ptr[0]);
-    current_alignment += array_size * item_size +
+    size_t item_size = sizeof(ros_message->coordinate_x);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name coordinate_y
+  {
+    size_t item_size = sizeof(ros_message->coordinate_y);
+    current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -405,12 +399,16 @@ size_t max_serialized_size_msg_srv_action_interface_py_test__action__Coordinates
         1;
     }
   }
-  // member: current_coordinates
+  // member: coordinate_x
   {
-    size_t array_size = 0;
-    full_bounded = false;
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint16_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));
+  }
+  // member: coordinate_y
+  {
+    size_t array_size = 1;
 
     current_alignment += array_size * sizeof(uint16_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));

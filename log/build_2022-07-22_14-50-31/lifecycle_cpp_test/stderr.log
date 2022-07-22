@@ -1,0 +1,7 @@
+make[2]: *** [CMakeFiles/lifecycle_listener.dir/build.make:63: CMakeFiles/lifecycle_listener.dir/src/lifecycle_listener.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/lifecycle_service_client.dir/build.make:63: CMakeFiles/lifecycle_service_client.dir/src/lifecycle_service_client.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/lifecycle_talker.dir/build.make:63: CMakeFiles/lifecycle_talker.dir/src/lifecycle_talker.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/lifecycle_listener.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/lifecycle_talker.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/lifecycle_service_client.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

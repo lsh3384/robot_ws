@@ -1,4 +1,5 @@
 [console_scripts]
+checker = test_lee_rclpy.checker.checker:main
 converter = test_lee_rclpy.conversion.converter:main
 manager = test_lee_rclpy.coordinates.manager:main
 position = test_lee_rclpy.coordinates.position:main

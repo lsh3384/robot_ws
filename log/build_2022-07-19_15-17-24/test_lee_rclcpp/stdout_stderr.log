@@ -1,0 +1,26 @@
+[ 36%] Built target gtest
+[ 36%] Built target gtest_main
+[ 72%] Built target position
+[ 72%] Built target manager
+[100%] Built target test_manager
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/lib/test_lee_rclcpp/position
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/lib/test_lee_rclcpp/manager
+-- Symlinking: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/launch/arithmetic.launch.py
+-- Symlinking: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/param/position_config.yaml
+-- Symlinking: /home/lee/robot_ws/install/test_lee_rclcpp/share/ament_index/resource_index/package_run_dependencies/test_lee_rclcpp
+-- Symlinking: /home/lee/robot_ws/install/test_lee_rclcpp/share/ament_index/resource_index/parent_prefix_path/test_lee_rclcpp
+-- Symlinking: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/environment/ament_prefix_path.sh
+-- Symlinking: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/environment/ament_prefix_path.dsv
+-- Symlinking: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/environment/path.sh
+-- Symlinking: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/environment/path.dsv
+-- Symlinking: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/local_setup.bash
+-- Symlinking: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/local_setup.sh
+-- Symlinking: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/local_setup.zsh
+-- Symlinking: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/local_setup.dsv
+-- Symlinking: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/package.dsv
+-- Symlinking: /home/lee/robot_ws/install/test_lee_rclcpp/share/ament_index/resource_index/packages/test_lee_rclcpp
+-- Symlinking: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/cmake/test_lee_rclcppConfig.cmake
+-- Symlinking: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/cmake/test_lee_rclcppConfig-version.cmake
+-- Symlinking: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/package.xml

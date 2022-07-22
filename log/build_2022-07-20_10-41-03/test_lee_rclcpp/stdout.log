@@ -1,0 +1,34 @@
+[35m[1mScanning dependencies of target manager[0m
+[ 30%] Built target gtest_main
+[ 30%] Built target gtest
+[ 46%] Built target converter
+[ 61%] Built target position
+[35m[1mScanning dependencies of target test_manager[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/manager.dir/src/coordinates/manager.cpp.o[0m
+[ 76%] [32mBuilding CXX object test/CMakeFiles/test_manager.dir/__/src/coordinates/manager.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable manager[0m
+[ 92%] [32m[1mLinking CXX executable test_manager[0m
+[ 92%] Built target manager
+[100%] Built target test_manager
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/lib/test_lee_rclcpp/position
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/lib/test_lee_rclcpp/manager
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/lib/test_lee_rclcpp/converter
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/launch/coordinates.launch.py
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/param/position_config.yaml
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/share/ament_index/resource_index/package_run_dependencies/test_lee_rclcpp
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/share/ament_index/resource_index/parent_prefix_path/test_lee_rclcpp
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/environment/path.sh
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/environment/path.dsv
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/local_setup.bash
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/local_setup.sh
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/local_setup.zsh
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/local_setup.dsv
+-- Symlinking: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/package.dsv
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/share/ament_index/resource_index/packages/test_lee_rclcpp
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/cmake/test_lee_rclcppConfig.cmake
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/cmake/test_lee_rclcppConfig-version.cmake
+-- Up-to-date symlink: /home/lee/robot_ws/install/test_lee_rclcpp/share/test_lee_rclcpp/package.xml

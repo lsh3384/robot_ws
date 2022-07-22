@@ -1,0 +1,104 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found msg_srv_action_interface_cpp: 0.0.0 (/home/lee/robot_ws/src/install/msg_srv_action_interface_cpp/share/msg_srv_action_interface_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/lee/robot_ws/src/test_lee_rclcpp/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lee/robot_ws/src/build/test_lee_rclcpp
+[35m[1mScanning dependencies of target gtest[0m
+[35m[1mScanning dependencies of target position[0m
+[35m[1mScanning dependencies of target gtest_main[0m
+[35m[1mScanning dependencies of target manager[0m
+[35m[1mScanning dependencies of target converter[0m
+[  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/converter.dir/src/conversion/converter.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/position.dir/src/coordinates/position.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/manager.dir/src/coordinates/manager.cpp.o[0m
+[ 46%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 46%] Built target gtest_main
+[ 53%] [32m[1mLinking CXX executable converter[0m
+[ 53%] Built target converter
+[ 61%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 61%] Built target gtest
+[35m[1mScanning dependencies of target test_manager[0m
+[ 76%] [32mBuilding CXX object test/CMakeFiles/test_manager.dir/__/src/coordinates/manager.cpp.o[0m
+[ 76%] [32mBuilding CXX object test/CMakeFiles/test_manager.dir/test_manager.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable manager[0m
+[ 84%] Built target manager
+[ 92%] [32m[1mLinking CXX executable position[0m
+[ 92%] Built target position
+[100%] [32m[1mLinking CXX executable test_manager[0m
+[100%] Built target test_manager
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/lib/test_lee_rclcpp/position
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/lib/test_lee_rclcpp/manager
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/lib/test_lee_rclcpp/converter
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/share/test_lee_rclcpp/launch/coordinates.launch.py
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/share/test_lee_rclcpp/param/position_config.yaml
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/share/ament_index/resource_index/package_run_dependencies/test_lee_rclcpp
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/share/ament_index/resource_index/parent_prefix_path/test_lee_rclcpp
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/share/test_lee_rclcpp/environment/ament_prefix_path.sh
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/share/test_lee_rclcpp/environment/ament_prefix_path.dsv
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/share/test_lee_rclcpp/environment/path.sh
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/share/test_lee_rclcpp/environment/path.dsv
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/share/test_lee_rclcpp/local_setup.bash
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/share/test_lee_rclcpp/local_setup.sh
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/share/test_lee_rclcpp/local_setup.zsh
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/share/test_lee_rclcpp/local_setup.dsv
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/share/test_lee_rclcpp/package.dsv
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/share/ament_index/resource_index/packages/test_lee_rclcpp
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/share/test_lee_rclcpp/cmake/test_lee_rclcppConfig.cmake
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/share/test_lee_rclcpp/cmake/test_lee_rclcppConfig-version.cmake
+-- Symlinking: /home/lee/robot_ws/src/install/test_lee_rclcpp/share/test_lee_rclcpp/package.xml

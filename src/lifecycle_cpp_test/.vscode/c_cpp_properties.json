@@ -1,0 +1,43 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/lee/robot_ws/install/msg_srv_interface_py_test/include/**",
+        "/home/lee/robot_ws/install/msg_srv_action_interface_py_test/include/**",
+        "/home/lee/robot_ws/install/msg_srv_action_interface_example/include/**",
+        "/home/lee/robot_ws/install/msg_srv_action_interface_cpp/include/**",
+        "/home/lee/robot_ws/install/msg_interface_py_test/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/lee/robot_ws/src/demos/action_tutorials/action_tutorials_cpp/include/**",
+        "/home/lee/robot_ws/src/demos/composition/include/**",
+        "/home/lee/robot_ws/src/demos/demo_nodes_cpp/include/**",
+        "/home/lee/robot_ws/src/demos/demo_nodes_cpp_native/include/**",
+        "/home/lee/robot_ws/src/demos/image_tools/include/**",
+        "/home/lee/robot_ws/src/demos/intra_process_demo/include/**",
+        "/home/lee/robot_ws/src/demos/logging_demo/include/**",
+        "/home/lee/robot_ws/src/demos/pendulum_control/include/**",
+        "/home/lee/robot_ws/src/demos/quality_of_service_demo/rclcpp/include/**",
+        "/home/lee/robot_ws/src/demos/topic_statistics_demo/include/**",
+        "/home/lee/robot_ws/src/lifecycle_cpp_test/include/**",
+        "/home/lee/robot_ws/src/msg_interface_py_test/include/**",
+        "/home/lee/robot_ws/src/msg_srv_action_interface_cpp/include/**",
+        "/home/lee/robot_ws/src/msg_srv_action_interface_py_test/include/**",
+        "/home/lee/robot_ws/src/msg_srv_interface_py_test/include/**",
+        "/home/lee/robot_ws/src/ros2-seminar-examples/tf2_rclcpp_example/include/**",
+        "/home/lee/robot_ws/src/ros2-seminar-examples/topic_service_action_rclcpp_example/include/**",
+        "/home/lee/robot_ws/src/test_lee_rclcpp/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

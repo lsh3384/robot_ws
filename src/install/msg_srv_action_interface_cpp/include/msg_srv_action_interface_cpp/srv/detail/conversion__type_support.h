@@ -1,0 +1,1 @@
+/home/lee/robot_ws/src/build/msg_srv_action_interface_cpp/rosidl_generator_c/msg_srv_action_interface_cpp/srv/detail/conversion__type_support.h

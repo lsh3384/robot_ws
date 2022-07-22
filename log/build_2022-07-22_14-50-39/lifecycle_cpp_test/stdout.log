@@ -1,0 +1,30 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/lifecycle_talker.dir/src/lifecycle_talker.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lifecycle_listener.dir/src/lifecycle_listener.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lifecycle_service_client.dir/src/lifecycle_service_client.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable lifecycle_talker[0m
+[ 83%] [32m[1mLinking CXX executable lifecycle_service_client[0m
+[ 83%] Built target lifecycle_talker
+[ 83%] Built target lifecycle_service_client
+[100%] [32m[1mLinking CXX executable lifecycle_listener[0m
+[100%] Built target lifecycle_listener
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/lib/lifecycle_cpp_test/lifecycle_talker
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/lib/lifecycle_cpp_test/lifecycle_listener
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/lib/lifecycle_cpp_test/lifecycle_service_client
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/share/lifecycle_cpp_test//launch/lifecycle_demo.launch.py
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/share/ament_index/resource_index/package_run_dependencies/lifecycle_cpp_test
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/share/ament_index/resource_index/parent_prefix_path/lifecycle_cpp_test
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/share/lifecycle_cpp_test/environment/ament_prefix_path.sh
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/share/lifecycle_cpp_test/environment/ament_prefix_path.dsv
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/share/lifecycle_cpp_test/environment/path.sh
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/share/lifecycle_cpp_test/environment/path.dsv
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/share/lifecycle_cpp_test/local_setup.bash
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/share/lifecycle_cpp_test/local_setup.sh
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/share/lifecycle_cpp_test/local_setup.zsh
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/share/lifecycle_cpp_test/local_setup.dsv
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/share/lifecycle_cpp_test/package.dsv
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/share/ament_index/resource_index/packages/lifecycle_cpp_test
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/share/lifecycle_cpp_test/cmake/lifecycle_cpp_testConfig.cmake
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/share/lifecycle_cpp_test/cmake/lifecycle_cpp_testConfig-version.cmake
+-- Symlinking: /home/lee/robot_ws/install/lifecycle_cpp_test/share/lifecycle_cpp_test/package.xml

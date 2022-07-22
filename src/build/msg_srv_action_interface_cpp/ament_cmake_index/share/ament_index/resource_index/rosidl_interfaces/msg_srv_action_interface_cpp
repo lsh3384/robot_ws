@@ -1,0 +1,8 @@
+action/CoordinatesChecker.action
+action/CoordinatesChecker.idl
+msg/Coordinates.idl
+msg/Coordinates.msg
+srv/Conversion.idl
+srv/Conversion.srv
+srv/Conversion_Request.msg
+srv/Conversion_Response.msg

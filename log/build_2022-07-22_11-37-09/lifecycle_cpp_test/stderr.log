@@ -1,0 +1,15 @@
+[01m[K/home/lee/robot_ws/src/lifecycle_cpp_test/src/lifecycle_service_client.cpp:[m[K In member function ‘[01m[Kunsigned int LifecycleServiceClient::get_state(std::chrono::seconds)[m[K’:
+[01m[K/home/lee/robot_ws/src/lifecycle_cpp_test/src/lifecycle_service_client.cpp:109:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedFuture = class std::shared_future<std::shared_ptr<lifecycle_msgs::srv::GetState_Response_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_future<std::shared_ptr<lifecycle_msgs::srv::GetState_Response_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kfuture[m[K’
+  109 |     auto future_result = client_get_state_->async_send_request(request).[01;31m[Kfuture[m[K.share();
+      |                                                                         [01;31m[K^~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/lifecycle_cpp_test/src/lifecycle_service_client.cpp:[m[K In member function ‘[01m[Kbool LifecycleServiceClient::change_state(uint8_t, std::chrono::seconds)[m[K’:
+[01m[K/home/lee/robot_ws/src/lifecycle_cpp_test/src/lifecycle_service_client.cpp:165:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedFuture = class std::shared_future<std::shared_ptr<lifecycle_msgs::srv::ChangeState_Response_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_future<std::shared_ptr<lifecycle_msgs::srv::ChangeState_Response_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kfuture[m[K’
+  165 |     auto future_result = client_change_state_->async_send_request(request).[01;31m[Kfuture[m[K.share();
+      |                                                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/lifecycle_cpp_test/src/lifecycle_service_client.cpp:187:3:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  187 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/lifecycle_service_client.dir/build.make:63: CMakeFiles/lifecycle_service_client.dir/src/lifecycle_service_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/lifecycle_service_client.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

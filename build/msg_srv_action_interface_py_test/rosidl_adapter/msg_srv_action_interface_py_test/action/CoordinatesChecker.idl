@@ -8,14 +8,18 @@ module msg_srv_action_interface_py_test {
     @verbatim (language="comment", text=
       " Goal")
     struct CoordinatesChecker_Goal {
-      sequence<int16> goal_coordinates;
+      int16 coordinate_x;
+
+      int16 coordinate_y;
     };
     struct CoordinatesChecker_Result {
       @verbatim (language="comment", text=
         " Result")
       sequence<string> all_position;
 
-      sequence<int16> current_coordinates;
+      int16 coordinate_x;
+
+      int16 coordinate_y;
     };
     struct CoordinatesChecker_Feedback {
       @verbatim (language="comment", text=

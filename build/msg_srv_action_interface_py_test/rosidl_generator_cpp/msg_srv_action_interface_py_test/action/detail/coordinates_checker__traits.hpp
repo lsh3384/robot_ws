@@ -27,11 +27,11 @@ inline const char * name<msg_srv_action_interface_py_test::action::CoordinatesCh
 
 template<>
 struct has_fixed_size<msg_srv_action_interface_py_test::action::CoordinatesChecker_Goal>
-  : std::integral_constant<bool, false> {};
+  : std::integral_constant<bool, true> {};
 
 template<>
 struct has_bounded_size<msg_srv_action_interface_py_test::action::CoordinatesChecker_Goal>
-  : std::integral_constant<bool, false> {};
+  : std::integral_constant<bool, true> {};
 
 template<>
 struct is_message<msg_srv_action_interface_py_test::action::CoordinatesChecker_Goal>

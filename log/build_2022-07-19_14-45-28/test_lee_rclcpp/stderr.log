@@ -1,0 +1,19 @@
+CMake Error at CMakeLists.txt:22 (find_package):
+  By not providing "Findmsg_srv_action_interface_cpp.cmake" in
+  CMAKE_MODULE_PATH this project has asked CMake to find a package
+  configuration file provided by "msg_srv_action_interface_cpp", but CMake
+  did not find one.
+
+  Could not find a package configuration file provided by
+  "msg_srv_action_interface_cpp" with any of the following names:
+
+    msg_srv_action_interface_cppConfig.cmake
+    msg_srv_action_interface_cpp-config.cmake
+
+  Add the installation prefix of "msg_srv_action_interface_cpp" to
+  CMAKE_PREFIX_PATH or set "msg_srv_action_interface_cpp_DIR" to a directory
+  containing one of the above files.  If "msg_srv_action_interface_cpp"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+

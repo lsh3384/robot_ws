@@ -1,0 +1,23 @@
+[35m[1mScanning dependencies of target position[0m
+[ 36%] Built target gtest
+[ 36%] Built target gtest_main
+[ 54%] Built target manager
+[ 63%] [32mBuilding CXX object CMakeFiles/position.dir/src/coordinates/position.cpp.o[0m
+[ 90%] Built target test_manager
+In file included from [01m[K/usr/include/c++/9/random:49[m[K,
+                 from [01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/position.cpp:5[m[K:
+/usr/include/c++/9/bits/random.h: In instantiation of ‘[01m[Kclass std::uniform_real_distribution<short int>[m[K’:
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/position.cpp:45:56:[m[K   required from here
+[01m[K/usr/include/c++/9/bits/random.h:1736:56:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: result_type must be a floating point type
+ 1736 |       static_assert(std::is_floating_point<_RealType>::[01;31m[Kvalue[m[K,
+      |                                                        [01;31m[K^~~~~[m[K
+/usr/include/c++/9/bits/random.h: In instantiation of ‘[01m[Kstruct std::__detail::_Adaptor<std::mersenne_twister_engine<long unsigned int, 32, 624, 397, 31, 2567483615, 11, 4294967295, 7, 2636928640, 15, 4022730752, 18, 1812433253>, short int>[m[K’:
+[01m[K/usr/include/c++/9/bits/random.h:1861:6:[m[K   required from ‘[01m[Kstd::uniform_real_distribution<_RealType>::result_type std::uniform_real_distribution<_RealType>::operator()(_UniformRandomNumberGenerator&, const std::uniform_real_distribution<_RealType>::param_type&) [with _UniformRandomNumberGenerator = std::mersenne_twister_engine<long unsigned int, 32, 624, 397, 31, 2567483615, 11, 4294967295, 7, 2636928640, 15, 4022730752, 18, 1812433253>; _RealType = short int; std::uniform_real_distribution<_RealType>::result_type = short int][m[K’
+[01m[K/usr/include/c++/9/bits/random.h:1853:51:[m[K   required from ‘[01m[Kstd::uniform_real_distribution<_RealType>::result_type std::uniform_real_distribution<_RealType>::operator()(_UniformRandomNumberGenerator&) [with _UniformRandomNumberGenerator = std::mersenne_twister_engine<long unsigned int, 32, 624, 397, 31, 2567483615, 11, 4294967295, 7, 2636928640, 15, 4022730752, 18, 1812433253>; _RealType = short int; std::uniform_real_distribution<_RealType>::result_type = short int][m[K’
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/position.cpp:49:38:[m[K   required from here
+[01m[K/usr/include/c++/9/bits/random.h:156:53:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: template argument must be a floating point type
+  156 |  static_assert(std::is_floating_point<_DInputType>::[01;31m[Kvalue[m[K,
+      |                                                     [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/position.dir/build.make:63: CMakeFiles/position.dir/src/coordinates/position.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:148: CMakeFiles/position.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

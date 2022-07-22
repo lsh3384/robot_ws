@@ -200,22 +200,6 @@ stdexcept
 calculator/calculator.hpp
 /home/lee/robot_ws/src/ros2-seminar-examples/topic_service_action_rclcpp_example/src/calculator/calculator/calculator.hpp
 
-/home/lee/robot_ws/src/ros2-seminar-examples/topic_service_action_rclcpp_example/src/calculator/main.cpp
-cstdio
--
-memory
--
-string
--
-utility
--
-rclcpp/rclcpp.hpp
-/home/lee/robot_ws/src/ros2-seminar-examples/topic_service_action_rclcpp_example/src/calculator/rclcpp/rclcpp.hpp
-rcutils/cmdline_parser.h
-/home/lee/robot_ws/src/ros2-seminar-examples/topic_service_action_rclcpp_example/src/calculator/rcutils/cmdline_parser.h
-calculator/calculator.hpp
-/home/lee/robot_ws/src/ros2-seminar-examples/topic_service_action_rclcpp_example/src/calculator/calculator/calculator.hpp
-
 /opt/ros/foxy/include/action_msgs/msg/detail/goal_info__builder.hpp
 action_msgs/msg/detail/goal_info__struct.hpp
 /opt/ros/foxy/include/action_msgs/msg/detail/action_msgs/msg/detail/goal_info__struct.hpp
@@ -4199,12 +4183,6 @@ rcutils/macros.h
 /opt/ros/foxy/include/rcutils/rcutils/macros.h
 rcutils/types/rcutils_ret.h
 /opt/ros/foxy/include/rcutils/rcutils/types/rcutils_ret.h
-rcutils/visibility_control.h
-/opt/ros/foxy/include/rcutils/rcutils/visibility_control.h
-
-/opt/ros/foxy/include/rcutils/cmdline_parser.h
-stdbool.h
--
 rcutils/visibility_control.h
 /opt/ros/foxy/include/rcutils/rcutils/visibility_control.h
 

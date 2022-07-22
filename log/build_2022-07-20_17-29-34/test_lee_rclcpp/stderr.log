@@ -1,0 +1,65 @@
+In file included from [01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:8[m[K:
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/include/coordinates/manager.hpp:68:31:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action::GoalResponse Manager::handle_goal(const GoalUUID&, std::shared_ptr<const msg_srv_action_interface_cpp::action::CoordinatesChecker_Goal_<std::allocator<void> > >)[m[K’ cannot be overloaded with ‘[01m[Krclcpp_action::GoalResponse Manager::handle_goal(const GoalUUID&, std::shared_ptr<const msg_srv_action_interface_cpp::action::CoordinatesChecker_Goal_<std::allocator<void> > >)[m[K’
+   68 |   rclcpp_action::GoalResponse [01;31m[Khandle_goal[m[K(
+      |                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/include/coordinates/manager.hpp:31:31:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp_action::GoalResponse Manager::handle_goal(const GoalUUID&, std::shared_ptr<const msg_srv_action_interface_cpp::action::CoordinatesChecker_Goal_<std::allocator<void> > >)[m[K’
+   31 |   rclcpp_action::GoalResponse [01;36m[Khandle_goal[m[K(
+      |                               [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/include/coordinates/manager.hpp:71:33:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action::CancelResponse Manager::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<msg_srv_action_interface_cpp::action::CoordinatesChecker> >)[m[K’ cannot be overloaded with ‘[01m[Krclcpp_action::CancelResponse Manager::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<msg_srv_action_interface_cpp::action::CoordinatesChecker> >)[m[K’
+   71 |   rclcpp_action::CancelResponse [01;31m[Khandle_cancel[m[K(
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/include/coordinates/manager.hpp:34:33:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp_action::CancelResponse Manager::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<msg_srv_action_interface_cpp::action::CoordinatesChecker> >)[m[K’
+   34 |   rclcpp_action::CancelResponse [01;36m[Khandle_cancel[m[K(
+      |                                 [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/include/coordinates/manager.hpp:73:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Manager::execute_checker(std::shared_ptr<rclcpp_action::ServerGoalHandle<msg_srv_action_interface_cpp::action::CoordinatesChecker> >)[m[K’ cannot be overloaded with ‘[01m[Kvoid Manager::execute_checker(std::shared_ptr<rclcpp_action::ServerGoalHandle<msg_srv_action_interface_cpp::action::CoordinatesChecker> >)[m[K’
+   73 |   void [01;31m[Kexecute_checker[m[K(const std::shared_ptr<GoalHandleCoordinatesChecker> goal_handle);
+      |        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/include/coordinates/manager.hpp:37:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid Manager::execute_checker(std::shared_ptr<rclcpp_action::ServerGoalHandle<msg_srv_action_interface_cpp::action::CoordinatesChecker> >)[m[K’
+   37 |   void [01;36m[Kexecute_checker[m[K(const std::shared_ptr<GoalHandleCoordinatesChecker> goal_handle);
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/lee/robot_ws/src/test_lee_rclcpp/src/coordinates/manager.cpp:8[m[K:
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/include/coordinates/manager.hpp:68:31:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action::GoalResponse Manager::handle_goal(const GoalUUID&, std::shared_ptr<const msg_srv_action_interface_cpp::action::CoordinatesChecker_Goal_<std::allocator<void> > >)[m[K’ cannot be overloaded with ‘[01m[Krclcpp_action::GoalResponse Manager::handle_goal(const GoalUUID&, std::shared_ptr<const msg_srv_action_interface_cpp::action::CoordinatesChecker_Goal_<std::allocator<void> > >)[m[K’
+   68 |   rclcpp_action::GoalResponse [01;31m[Khandle_goal[m[K(
+      |                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/include/coordinates/manager.hpp:31:31:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp_action::GoalResponse Manager::handle_goal(const GoalUUID&, std::shared_ptr<const msg_srv_action_interface_cpp::action::CoordinatesChecker_Goal_<std::allocator<void> > >)[m[K’
+   31 |   rclcpp_action::GoalResponse [01;36m[Khandle_goal[m[K(
+      |                               [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/include/coordinates/manager.hpp:71:33:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action::CancelResponse Manager::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<msg_srv_action_interface_cpp::action::CoordinatesChecker> >)[m[K’ cannot be overloaded with ‘[01m[Krclcpp_action::CancelResponse Manager::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<msg_srv_action_interface_cpp::action::CoordinatesChecker> >)[m[K’
+   71 |   rclcpp_action::CancelResponse [01;31m[Khandle_cancel[m[K(
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/include/coordinates/manager.hpp:34:33:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp_action::CancelResponse Manager::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<msg_srv_action_interface_cpp::action::CoordinatesChecker> >)[m[K’
+   34 |   rclcpp_action::CancelResponse [01;36m[Khandle_cancel[m[K(
+      |                                 [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/include/coordinates/manager.hpp:73:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Manager::execute_checker(std::shared_ptr<rclcpp_action::ServerGoalHandle<msg_srv_action_interface_cpp::action::CoordinatesChecker> >)[m[K’ cannot be overloaded with ‘[01m[Kvoid Manager::execute_checker(std::shared_ptr<rclcpp_action::ServerGoalHandle<msg_srv_action_interface_cpp::action::CoordinatesChecker> >)[m[K’
+   73 |   void [01;31m[Kexecute_checker[m[K(const std::shared_ptr<GoalHandleCoordinatesChecker> goal_handle);
+      |        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/include/coordinates/manager.hpp:37:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid Manager::execute_checker(std::shared_ptr<rclcpp_action::ServerGoalHandle<msg_srv_action_interface_cpp::action::CoordinatesChecker> >)[m[K’
+   37 |   void [01;36m[Kexecute_checker[m[K(const std::shared_ptr<GoalHandleCoordinatesChecker> goal_handle);
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/lee/robot_ws/src/test_lee_rclcpp/test/test_manager.cpp:20[m[K:
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/include/coordinates/manager.hpp:68:31:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action::GoalResponse Manager::handle_goal(const GoalUUID&, std::shared_ptr<const msg_srv_action_interface_cpp::action::CoordinatesChecker_Goal_<std::allocator<void> > >)[m[K’ cannot be overloaded with ‘[01m[Krclcpp_action::GoalResponse Manager::handle_goal(const GoalUUID&, std::shared_ptr<const msg_srv_action_interface_cpp::action::CoordinatesChecker_Goal_<std::allocator<void> > >)[m[K’
+   68 |   rclcpp_action::GoalResponse [01;31m[Khandle_goal[m[K(
+      |                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/include/coordinates/manager.hpp:31:31:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp_action::GoalResponse Manager::handle_goal(const GoalUUID&, std::shared_ptr<const msg_srv_action_interface_cpp::action::CoordinatesChecker_Goal_<std::allocator<void> > >)[m[K’
+   31 |   rclcpp_action::GoalResponse [01;36m[Khandle_goal[m[K(
+      |                               [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/include/coordinates/manager.hpp:71:33:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action::CancelResponse Manager::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<msg_srv_action_interface_cpp::action::CoordinatesChecker> >)[m[K’ cannot be overloaded with ‘[01m[Krclcpp_action::CancelResponse Manager::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<msg_srv_action_interface_cpp::action::CoordinatesChecker> >)[m[K’
+   71 |   rclcpp_action::CancelResponse [01;31m[Khandle_cancel[m[K(
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/include/coordinates/manager.hpp:34:33:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp_action::CancelResponse Manager::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<msg_srv_action_interface_cpp::action::CoordinatesChecker> >)[m[K’
+   34 |   rclcpp_action::CancelResponse [01;36m[Khandle_cancel[m[K(
+      |                                 [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/include/coordinates/manager.hpp:73:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Manager::execute_checker(std::shared_ptr<rclcpp_action::ServerGoalHandle<msg_srv_action_interface_cpp::action::CoordinatesChecker> >)[m[K’ cannot be overloaded with ‘[01m[Kvoid Manager::execute_checker(std::shared_ptr<rclcpp_action::ServerGoalHandle<msg_srv_action_interface_cpp::action::CoordinatesChecker> >)[m[K’
+   73 |   void [01;31m[Kexecute_checker[m[K(const std::shared_ptr<GoalHandleCoordinatesChecker> goal_handle);
+      |        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/lee/robot_ws/src/test_lee_rclcpp/include/coordinates/manager.hpp:37:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid Manager::execute_checker(std::shared_ptr<rclcpp_action::ServerGoalHandle<msg_srv_action_interface_cpp::action::CoordinatesChecker> >)[m[K’
+   37 |   void [01;36m[Kexecute_checker[m[K(const std::shared_ptr<GoalHandleCoordinatesChecker> goal_handle);
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [test/CMakeFiles/test_manager.dir/build.make:63: test/CMakeFiles/test_manager.dir/test_manager.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/manager.dir/build.make:63: CMakeFiles/manager.dir/src/coordinates/manager.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:179: CMakeFiles/manager.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [test/CMakeFiles/test_manager.dir/build.make:76: test/CMakeFiles/test_manager.dir/__/src/coordinates/manager.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:288: test/CMakeFiles/test_manager.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -697,8 +697,6 @@ stddef.h
 -
 stdint.h
 -
-rosidl_runtime_c/primitives_sequence.h
-rosidl_generator_c/msg_srv_action_interface_py_test/action/detail/rosidl_runtime_c/primitives_sequence.h
 rosidl_runtime_c/string.h
 rosidl_generator_c/msg_srv_action_interface_py_test/action/detail/rosidl_runtime_c/string.h
 unique_identifier_msgs/msg/detail/uuid__struct.h

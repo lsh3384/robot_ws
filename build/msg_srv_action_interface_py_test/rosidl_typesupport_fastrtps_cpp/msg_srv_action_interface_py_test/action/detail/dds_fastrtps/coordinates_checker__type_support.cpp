@@ -32,10 +32,10 @@ cdr_serialize(
   const msg_srv_action_interface_py_test::action::CoordinatesChecker_Goal & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: goal_coordinates
-  {
-    cdr << ros_message.goal_coordinates;
-  }
+  // Member: coordinate_x
+  cdr << ros_message.coordinate_x;
+  // Member: coordinate_y
+  cdr << ros_message.coordinate_y;
   return true;
 }
 
@@ -45,10 +45,11 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   msg_srv_action_interface_py_test::action::CoordinatesChecker_Goal & ros_message)
 {
-  // Member: goal_coordinates
-  {
-    cdr >> ros_message.goal_coordinates;
-  }
+  // Member: coordinate_x
+  cdr >> ros_message.coordinate_x;
+
+  // Member: coordinate_y
+  cdr >> ros_message.coordinate_y;
 
   return true;
 }
@@ -66,14 +67,16 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: goal_coordinates
+  // Member: coordinate_x
   {
-    size_t array_size = ros_message.goal_coordinates.size();
-
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-    size_t item_size = sizeof(ros_message.goal_coordinates[0]);
-    current_alignment += array_size * item_size +
+    size_t item_size = sizeof(ros_message.coordinate_x);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: coordinate_y
+  {
+    size_t item_size = sizeof(ros_message.coordinate_y);
+    current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -95,12 +98,17 @@ max_serialized_size_CoordinatesChecker_Goal(
   (void)full_bounded;
 
 
-  // Member: goal_coordinates
+  // Member: coordinate_x
   {
-    size_t array_size = 0;
-    full_bounded = false;
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint16_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));
+  }
+
+  // Member: coordinate_y
+  {
+    size_t array_size = 1;
 
     current_alignment += array_size * sizeof(uint16_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));
@@ -231,10 +239,10 @@ cdr_serialize(
   {
     cdr << ros_message.all_position;
   }
-  // Member: current_coordinates
-  {
-    cdr << ros_message.current_coordinates;
-  }
+  // Member: coordinate_x
+  cdr << ros_message.coordinate_x;
+  // Member: coordinate_y
+  cdr << ros_message.coordinate_y;
   return true;
 }
 
@@ -249,10 +257,11 @@ cdr_deserialize(
     cdr >> ros_message.all_position;
   }
 
-  // Member: current_coordinates
-  {
-    cdr >> ros_message.current_coordinates;
-  }
+  // Member: coordinate_x
+  cdr >> ros_message.coordinate_x;
+
+  // Member: coordinate_y
+  cdr >> ros_message.coordinate_y;
 
   return true;
 }
@@ -282,14 +291,16 @@ get_serialized_size(
         (ros_message.all_position[index].size() + 1);
     }
   }
-  // Member: current_coordinates
+  // Member: coordinate_x
   {
-    size_t array_size = ros_message.current_coordinates.size();
-
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-    size_t item_size = sizeof(ros_message.current_coordinates[0]);
-    current_alignment += array_size * item_size +
+    size_t item_size = sizeof(ros_message.coordinate_x);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: coordinate_y
+  {
+    size_t item_size = sizeof(ros_message.coordinate_y);
+    current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -326,12 +337,17 @@ max_serialized_size_CoordinatesChecker_Result(
     }
   }
 
-  // Member: current_coordinates
+  // Member: coordinate_x
   {
-    size_t array_size = 0;
-    full_bounded = false;
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint16_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));
+  }
+
+  // Member: coordinate_y
+  {
+    size_t array_size = 1;
 
     current_alignment += array_size * sizeof(uint16_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint16_t));

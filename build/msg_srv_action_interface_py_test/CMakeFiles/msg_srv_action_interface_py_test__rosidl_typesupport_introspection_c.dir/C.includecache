@@ -23,8 +23,6 @@ msg_srv_action_interface_py_test/action/detail/coordinates_checker__functions.h
 /home/lee/robot_ws/build/msg_srv_action_interface_py_test/rosidl_typesupport_introspection_c/msg_srv_action_interface_py_test/action/detail/msg_srv_action_interface_py_test/action/detail/coordinates_checker__functions.h
 msg_srv_action_interface_py_test/action/detail/coordinates_checker__struct.h
 /home/lee/robot_ws/build/msg_srv_action_interface_py_test/rosidl_typesupport_introspection_c/msg_srv_action_interface_py_test/action/detail/msg_srv_action_interface_py_test/action/detail/coordinates_checker__struct.h
-rosidl_runtime_c/primitives_sequence_functions.h
-/home/lee/robot_ws/build/msg_srv_action_interface_py_test/rosidl_typesupport_introspection_c/msg_srv_action_interface_py_test/action/detail/rosidl_runtime_c/primitives_sequence_functions.h
 rosidl_runtime_c/string_functions.h
 /home/lee/robot_ws/build/msg_srv_action_interface_py_test/rosidl_typesupport_introspection_c/msg_srv_action_interface_py_test/action/detail/rosidl_runtime_c/string_functions.h
 unique_identifier_msgs/msg/uuid.h
@@ -159,16 +157,6 @@ stddef.h
 -
 stdint.h
 -
-
-/opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence_functions.h
-stdbool.h
--
-stddef.h
--
-rosidl_runtime_c/primitives_sequence.h
-/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
-rosidl_runtime_c/visibility_control.h
-/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
 
 /opt/ros/foxy/include/rosidl_runtime_c/service_type_support_struct.h
 rosidl_runtime_c/visibility_control.h
@@ -305,8 +293,6 @@ stddef.h
 -
 stdint.h
 -
-rosidl_runtime_c/primitives_sequence.h
-rosidl_generator_c/msg_srv_action_interface_py_test/action/detail/rosidl_runtime_c/primitives_sequence.h
 rosidl_runtime_c/string.h
 rosidl_generator_c/msg_srv_action_interface_py_test/action/detail/rosidl_runtime_c/string.h
 unique_identifier_msgs/msg/detail/uuid__struct.h

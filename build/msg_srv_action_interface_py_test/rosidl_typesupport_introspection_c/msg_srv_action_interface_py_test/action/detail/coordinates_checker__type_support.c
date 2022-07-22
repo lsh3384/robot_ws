@@ -12,10 +12,6 @@
 #include "msg_srv_action_interface_py_test/action/detail/coordinates_checker__struct.h"
 
 
-// Include directives for member types
-// Member `goal_coordinates`
-#include "rosidl_runtime_c/primitives_sequence_functions.h"
-
 #ifdef __cplusplus
 extern "C"
 {
@@ -35,16 +31,31 @@ void CoordinatesChecker_Goal__rosidl_typesupport_introspection_c__CoordinatesChe
   msg_srv_action_interface_py_test__action__CoordinatesChecker_Goal__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember CoordinatesChecker_Goal__rosidl_typesupport_introspection_c__CoordinatesChecker_Goal_message_member_array[1] = {
+static rosidl_typesupport_introspection_c__MessageMember CoordinatesChecker_Goal__rosidl_typesupport_introspection_c__CoordinatesChecker_Goal_message_member_array[2] = {
   {
-    "goal_coordinates",  // name
+    "coordinate_x",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT16,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    true,  // is array
+    false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(msg_srv_action_interface_py_test__action__CoordinatesChecker_Goal, goal_coordinates),  // bytes offset in struct
+    offsetof(msg_srv_action_interface_py_test__action__CoordinatesChecker_Goal, coordinate_x),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "coordinate_y",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT16,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(msg_srv_action_interface_py_test__action__CoordinatesChecker_Goal, coordinate_y),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -56,7 +67,7 @@ static rosidl_typesupport_introspection_c__MessageMember CoordinatesChecker_Goal
 static const rosidl_typesupport_introspection_c__MessageMembers CoordinatesChecker_Goal__rosidl_typesupport_introspection_c__CoordinatesChecker_Goal_message_members = {
   "msg_srv_action_interface_py_test__action",  // message namespace
   "CoordinatesChecker_Goal",  // message name
-  1,  // number of fields
+  2,  // number of fields
   sizeof(msg_srv_action_interface_py_test__action__CoordinatesChecker_Goal),
   CoordinatesChecker_Goal__rosidl_typesupport_introspection_c__CoordinatesChecker_Goal_message_member_array,  // message members
   CoordinatesChecker_Goal__rosidl_typesupport_introspection_c__CoordinatesChecker_Goal_init_function,  // function to initialize message memory (memory has to be allocated)
@@ -105,9 +116,6 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 // Include directives for member types
 // Member `all_position`
 #include "rosidl_runtime_c/string_functions.h"
-// Member `current_coordinates`
-// already included above
-// #include "rosidl_runtime_c/primitives_sequence_functions.h"
 
 #ifdef __cplusplus
 extern "C"
@@ -128,7 +136,7 @@ void CoordinatesChecker_Result__rosidl_typesupport_introspection_c__CoordinatesC
   msg_srv_action_interface_py_test__action__CoordinatesChecker_Result__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember CoordinatesChecker_Result__rosidl_typesupport_introspection_c__CoordinatesChecker_Result_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember CoordinatesChecker_Result__rosidl_typesupport_introspection_c__CoordinatesChecker_Result_message_member_array[3] = {
   {
     "all_position",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
@@ -145,14 +153,29 @@ static rosidl_typesupport_introspection_c__MessageMember CoordinatesChecker_Resu
     NULL  // resize(index) function pointer
   },
   {
-    "current_coordinates",  // name
+    "coordinate_x",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT16,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    true,  // is array
+    false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(msg_srv_action_interface_py_test__action__CoordinatesChecker_Result, current_coordinates),  // bytes offset in struct
+    offsetof(msg_srv_action_interface_py_test__action__CoordinatesChecker_Result, coordinate_x),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "coordinate_y",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT16,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(msg_srv_action_interface_py_test__action__CoordinatesChecker_Result, coordinate_y),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -164,7 +187,7 @@ static rosidl_typesupport_introspection_c__MessageMember CoordinatesChecker_Resu
 static const rosidl_typesupport_introspection_c__MessageMembers CoordinatesChecker_Result__rosidl_typesupport_introspection_c__CoordinatesChecker_Result_message_members = {
   "msg_srv_action_interface_py_test__action",  // message namespace
   "CoordinatesChecker_Result",  // message name
-  2,  // number of fields
+  3,  // number of fields
   sizeof(msg_srv_action_interface_py_test__action__CoordinatesChecker_Result),
   CoordinatesChecker_Result__rosidl_typesupport_introspection_c__CoordinatesChecker_Result_message_member_array,  // message members
   CoordinatesChecker_Result__rosidl_typesupport_introspection_c__CoordinatesChecker_Result_init_function,  // function to initialize message memory (memory has to be allocated)

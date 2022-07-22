@@ -40,6 +40,7 @@ setup(
             'position = test_lee_rclpy.coordinates.position:main',
             'manager = test_lee_rclpy.coordinates.manager:main',
             'converter = test_lee_rclpy.conversion.converter:main',
+            'checker = test_lee_rclpy.checker.checker:main',
         ],
     },
 )

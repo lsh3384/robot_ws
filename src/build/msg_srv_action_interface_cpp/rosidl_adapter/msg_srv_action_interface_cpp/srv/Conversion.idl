@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from msg_srv_action_interface_cpp/srv/Conversion.srv
+// generated code does not contain a copyright notice
+
+
+module msg_srv_action_interface_cpp {
+  module srv {
+    @verbatim (language="comment", text=
+      " Request")
+    struct Conversion_Request {
+      float cm;
+    };
+    @verbatim (language="comment", text=
+      " Response")
+    struct Conversion_Response {
+      float inch;
+    };
+  };
+};

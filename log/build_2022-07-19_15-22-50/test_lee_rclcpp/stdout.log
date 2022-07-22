@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target position[0m
+[ 18%] Built target gtest
+[ 36%] Built target gtest_main
+[ 54%] Built target manager
+[ 63%] [32mBuilding CXX object CMakeFiles/position.dir/src/coordinates/position.cpp.o[0m
+[ 90%] Built target test_manager
